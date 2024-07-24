@@ -1,0 +1,133 @@
+# Design Document for DrugNcoin Project
+
+## Overview
+
+This document outlines the design and implementation plan for the DrugNcoin project, a mem-coin based on the TON blockchain. The project includes the development of tokenomics, a website with pre-sale options, payment integrations, and smart contracts for the token.
+
+## Table of Contents
+1. [Tokenomics](#tokenomics)
+2. [Website](#website)
+   - [Home Page](#home-page)
+   - [Tokenomics Page](#tokenomics-page)
+   - [Roadmap Page](#roadmap-page)
+   - [Pre-Sale Page](#pre-sale-page)
+   - [Contact Page](#contact-page)
+3. [Payment Integration](#payment-integration)
+4. [Smart Contracts](#smart-contracts)
+   - [Token Contract](#token-contract)
+   - [Pre-Sale Contract](#pre-sale-contract)
+5. [Deployment](#deployment)
+6. [Security Considerations](#security-considerations)
+7. [Testing](#testing)
+8. [Documentation](#documentation)
+
+## Tokenomics
+
+### Specifications
+- **Total Supply**: 1 billion tokens
+- **Reserved for Team**: 100 million tokens (held by the project owner)
+
+### Distribution
+- **Public**: 900 million tokens
+- **Team**: 100 million tokens
+
+## Website
+
+The website will have a simple and intuitive design similar to standard mem-coin advertisement websites. It will include the following pages:
+
+### Home Page
+- **Introduction**: Brief description of DrugNcoin.
+- **Features**: Key features of the token.
+- **Call to Action**: Links to pre-sale and tokenomics pages.
+
+### Tokenomics Page
+- **Total Supply**: Display the total supply of tokens.
+- **Distribution**: Detailed breakdown of token distribution.
+- **Reserve**: Information about the reserved tokens for the team.
+
+### Roadmap Page
+- **Project Phases**: Timeline of the project development stages.
+- **Milestones**: Key milestones and goals.
+
+### Pre-Sale Page
+- **Round Information**: Details of the three pre-sale rounds.
+  - **First Round**: 15 cents per token
+  - **Second Round**: 20 cents per token
+  - **Third Round**: 30 cents per token
+- **Payment Options**: PayPal and Adyen integrations.
+- **Purchase Form**: Form for users to buy tokens.
+
+### Contact Page
+- **Contact Form**: Form for users to contact the team.
+- **Social Media Links**: Links to social media profiles.
+
+## Payment Integration
+
+Integrate PayPal API and Adyen for handling payments. This will allow users to purchase tokens using various payment methods including credit/debit cards and native bank payments.
+
+### PayPal API
+- **Integration**: Use PayPal REST API for transactions.
+- **Features**: Handle payments, refunds, and transaction history.
+
+### Adyen
+- **Integration**: Use Adyen's API for card payments and bank transfers.
+- **Features**: Secure payment processing, multi-currency support.
+
+## Smart Contracts
+
+### Token Contract
+
+Develop a smart contract on the TON blockchain for the DrugNcoin token.
+
+#### Features
+- **Minting**: Mint a total of 1 billion tokens.
+- **Transfer**: Enable token transfers between addresses.
+- **Reserve**: Allocate 100 million tokens to the project owner’s address.
+
+### Pre-Sale Contract
+
+Develop a pre-sale smart contract to handle the three rounds of token sales.
+
+#### Features
+- **Round Management**: Manage the three pre-sale rounds with specified prices.
+- **Token Allocation**: Allocate tokens to purchasers based on the round prices.
+- **Funds Collection**: Collect funds from token sales and handle payment verification.
+
+## Deployment
+
+### Blockchain
+- **Platform**: TON blockchain
+- **Deployment Tools**: Use TON Labs tools for deploying smart contracts.
+
+### Website
+- **Hosting**: Use a reliable web hosting service (e.g., AWS, DigitalOcean).
+- **Domain**: Register a suitable domain name for the website.
+
+## Security Considerations
+
+- **Smart Contract Security**: Conduct thorough testing and audits of the smart contracts.
+- **Website Security**: Implement HTTPS, secure payment gateways, and data encryption.
+- **Payment Security**: Ensure secure handling of payment information through PayPal and Adyen APIs.
+
+## Testing
+
+### Unit Testing
+- **Smart Contracts**: Write unit tests for all smart contract functionalities.
+- **Website**: Perform unit tests for website functionalities, especially payment processing and form submissions.
+
+### Integration Testing
+- **End-to-End Testing**: Test the entire workflow from token purchase to allocation.
+- **Payment Testing**: Test payment integrations with sandbox environments of PayPal and Adyen.
+
+### User Testing
+- **Beta Testing**: Conduct beta testing with a group of users to gather feedback and identify issues.
+
+## Documentation
+
+- **Technical Documentation**: Document the smart contracts, API integrations, and website architecture.
+- **User Guide**: Provide a guide for users on how to purchase tokens and use the website.
+- **Developer Guide**: Include setup instructions and code documentation for future developers.
+
+---
+
+This design document provides a comprehensive plan for developing the DrugNcoin project. Each section outlines the necessary steps and considerations for successful implementation, ensuring that GPT-Engineer can create a usable and runnable project.

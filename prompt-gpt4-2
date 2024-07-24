@@ -1,0 +1,133 @@
+# DrugNcoin Design Document
+
+## Overview
+
+This document outlines the design for the "DrugNcoin" mem-coin project on the TON blockchain. It includes the tokenomics, website requirements, payment systems, and smart contract development.
+
+## Tokenomics
+
+- **Total Supply:** 1,000,000,000 (1 billion) tokens
+- **Team Reserve:** 100,000,000 (100 million) tokens, owned by the project team
+
+### Distribution
+
+- **Pre-sale Rounds:**
+  1. **First Round:**
+     - **Price:** $0.15 per token
+     - **End Date:** 10 August 2024
+  2. **Second Round:**
+     - **Price:** $0.20 per token
+     - **End Date:** 30 August 2024
+  3. **Third Round:**
+     - **Price:** $0.30 per token
+     - **End Date:** 30 September 2024
+
+## Website Requirements
+
+### General Requirements
+
+- The website should be similar to standard mem-coin advertisement sites.
+- It should include a homepage, tokenomics page, roadmap, and other standard information.
+- A section for pre-sale with options to purchase tokens.
+- Payment integrations for PayPal API and Adyen.
+
+### Pages
+
+1. **Homepage:**
+   - Introduction to DrugNcoin
+   - Key features and benefits
+   - Call-to-action buttons for pre-sale
+
+2. **Tokenomics Page:**
+   - Detailed breakdown of token distribution
+   - Information on the total supply and team reserve
+
+3. **Roadmap:**
+   - Timeline of the project's development stages
+   - Key milestones and future plans
+
+4. **Pre-Sale Page:**
+   - Details of the pre-sale rounds
+   - Prices and end dates for each round
+   - Payment options integration (PayPal and Adyen)
+   - Purchase form and instructions
+
+5. **Standard Info:**
+   - FAQ section
+   - Contact information
+   - Social media links
+
+## Payment System Integration
+
+### PayPal API
+
+- Integrate PayPal for processing payments.
+- Ensure secure handling of payment transactions.
+- Provide options for users to pay via PayPal.
+
+### Adyen
+
+- Integrate Adyen for processing card payments and native bank payments.
+- Ensure compliance with Adyen's security and operational standards.
+- Provide a seamless payment experience for users.
+
+## Smart Contract Development
+
+### TON Blockchain Smart Contracts
+
+1. **Token Contract:**
+   - Define the total supply of 1,000,000,000 tokens.
+   - Allocate 100,000,000 tokens to the team reserve.
+   - Implement functionality for transferring tokens between users.
+   - Ensure the contract is compliant with TON blockchain standards.
+
+2. **Pre-Sale Contract:**
+   - Implement the three pre-sale rounds with respective prices and end dates.
+   - Manage the allocation of tokens sold during each round.
+   - Ensure secure handling of funds received from the pre-sale.
+   - Integrate with the website to reflect real-time token availability and prices.
+
+### Security Considerations
+
+- Implement thorough testing for all smart contracts.
+- Conduct security audits to identify and mitigate potential vulnerabilities.
+- Ensure compliance with TON blockchain security standards.
+
+## Development Plan
+
+### Phase 1: Planning
+
+- Finalize requirements and gather necessary resources.
+- Create detailed project timeline and milestones.
+
+### Phase 2: Design
+
+- Design website wireframes and user interface.
+- Draft smart contract structures and functions.
+
+### Phase 3: Development
+
+- Develop and test smart contracts on the TON blockchain.
+- Build and integrate the website with pre-sale functionality.
+- Implement payment systems (PayPal and Adyen).
+
+### Phase 4: Testing
+
+- Conduct comprehensive testing of the website and smart contracts.
+- Perform security audits and address any identified issues.
+- Test payment integrations to ensure seamless transactions.
+
+### Phase 5: Deployment
+
+- Deploy smart contracts to the TON mainnet.
+- Launch the website and open pre-sale rounds.
+- Monitor performance and make necessary adjustments.
+
+### Phase 6: Post-Launch
+
+- Provide ongoing support and maintenance.
+- Implement future updates and enhancements based on user feedback and roadmap milestones.
+
+## Conclusion
+
+This design document provides a comprehensive guide for the development of the DrugNcoin mem-coin project on the TON blockchain. By following this document, the gpt-engineer can create a usable and runnable project, ensuring all required sources and functionalities are implemented effectively.
