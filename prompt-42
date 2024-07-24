@@ -9,16 +9,16 @@
 **Token Details:**
 - **Token Name:** DrugNcoin
 - **Total Supply:** 100 billion tokens
-- **Reserved for Team:** 1 billion tokens (owned by the team)
-- **Circulating Supply:** 99 billion tokens
+- **Reserved for Team:** 10 billion tokens (owned by the team)
+- **Circulating Supply:** 90 billion tokens
 
 ## Tokenomics
 
 **Maximum Amount of Tokens:** 100 billion
 
-**Team Reserve:** 1 billion tokens (1% of total supply)
+**Team Reserve:** 10 billion tokens (10% of total supply)
 
-**Public Circulating Supply:** 99 billion tokens (99% of total supply)
+**Public Circulating Supply:** 90 billion tokens (90% of total supply)
 
 ## Pre-Sale Details
 
@@ -96,7 +96,7 @@
 
 **Token Contract:**
 - **Supply Management:** Handle the total supply of 100 billion tokens.
-- **Team Reserve Allocation:** Allocate 1 billion tokens to the team.
+- **Team Reserve Allocation:** Allocate 10 billion tokens to the team.
 - **Token Distribution:** Manage token transfers during pre-sale and referral rewards.
 
 **Referral Contract:**

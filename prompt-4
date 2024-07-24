@@ -10,7 +10,7 @@ This document outlines the comprehensive design specifications for the developme
 - **Maximum Supply:** 100 billion tokens
 
 ### Team Allocation
-- **Reserved for Team:** 1 billion tokens (exclusively owned by the team)
+- **Reserved for Team:** 10 billion tokens (exclusively owned by the team)
 
 ## Pre-Sale Rounds
 
@@ -49,7 +49,7 @@ The pre-sale will occur in three distinct rounds with the following price struct
 
 ### Token Contract
 - Develop a smart contract on the TON blockchain to handle the creation and distribution of DrugNcoin tokens.
-- Ensure the contract enforces the maximum supply of 100 billion tokens and the reserved 1 billion tokens for the team.
+- Ensure the contract enforces the maximum supply of 100 billion tokens and the reserved 10 billion tokens for the team.
 
 ### Referral System
 
