@@ -3,8 +3,9 @@ Generate a high quality design document that can be used by gpt-engineer to desi
 --
 
 I develop "DrugNcoin" mem-coin using TON blockchain. Develop for me tokenomics (maximum amount of tokens - 1 billion). Reserve 100 millions of tokens for my team (i will own these tokens).
-I need website. Simple website with options to pre-sale tokens in 3 rounds. first round price: 15 cents for token; second round price: 20 cents; third round price: 30 cents;
+I need website. Simple website with options to pre-sale tokens in 3 rounds. first round price: 15 cents for token (ends at 10 August 2024); second round price: 20 cents (end at 30 August 2024); third round price: 30 cents (ends 30 September 2024);
 website should be a standart one like other mem-coin advertisement websites, with tokenomics page, roadmap, and other standart info.
 As payment system I want to use paypal api and adyen (for card payments and native bank payments.
 create smart contracts for my token on TON blockchain.
 
+give answer as markdown source
