@@ -1,0 +1,87 @@
+# DrugNcoin Mem-Coin Project Design Document
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Tokenomics](#tokenomics)
+3. [Website Requirements](#website-requirements)
+    - [Features](#features)
+    - [Technology Stack](#technology-stack)
+4. [TON Blockchain Integration](#ton-blockchain-integration)
+    - [Smart Contracts](#smart-contracts)
+5. [Payment Integration](#payment-integration)
+6. [Server-Side Requirements](#server-side-requirements)
+7. [Deployment](#deployment)
+8. [Roadmap](#roadmap)
+
+## Introduction
+DrugNcoin is a mem-coin developed on the TON blockchain. The project aims to create a cryptocurrency with a total supply of 1 billion tokens, of which 100 million tokens are reserved for the team. A website will facilitate the pre-sale of these tokens across three rounds with varying prices.
+
+## Tokenomics
+- **Total Supply**: 1 billion tokens
+- **Reserved for Team**: 100 million tokens (owned by the project team)
+- **Pre-Sale Rounds**:
+  - **First Round**: 15 cents per token, ends on 10 August 2024
+  - **Second Round**: 20 cents per token, ends on 30 August 2024
+  - **Third Round**: 30 cents per token, ends on 30 September 2024
+
+## Website Requirements
+
+### Features
+1. **Homepage**: Overview of DrugNcoin and its unique selling points.
+2. **Tokenomics Page**: Detailed explanation of the tokenomics.
+3. **Roadmap**: Timeline of the project development and milestones.
+4. **Pre-Sale Functionality**: 
+    - Connect to TON wallet
+    - Display current pre-sale round and price
+    - Accept payments via PayPal and Adyen
+    - Calculate and transfer tokens to the user's TON wallet upon successful payment
+5. **Wallet Integration**: Users must connect their TON wallet to participate in the pre-sale.
+
+### Technology Stack
+- **Frontend Framework**: Vue.js (preferable due to better integration with TON wallet/blockchain)
+- **Payment Systems**: PayPal API and Adyen
+- **Blockchain**: TON blockchain for token transactions
+
+## TON Blockchain Integration
+
+### Smart Contracts
+Develop smart contracts for the DrugNcoin token on the TON blockchain. The contracts should handle:
+- Token creation and distribution
+- Pre-sale round management
+- Token transfer upon successful payment
+
+## Payment Integration
+- **PayPal API**: For handling payments via PayPal.
+- **Adyen**: For handling card payments and native bank payments.
+- **Payment Flow**:
+  1. User connects their TON wallet.
+  2. User selects the number of tokens to purchase.
+  3. Payment is processed via PayPal or Adyen.
+  4. Upon successful payment, tokens are transferred to the user's TON wallet based on the current pre-sale price.
+
+## Server-Side Requirements
+- **Serverless Architecture**: Utilize AWS Lambda for any server-side logic if necessary.
+- **Serverless Framework**: For deployment and management of AWS Lambda functions.
+- **Functions**:
+  - Payment verification and processing
+  - Token transfer upon successful payment
+
+## Deployment
+- **Hosting**: Host the website on a reliable platform (e.g., AWS S3 for static hosting).
+- **Serverless Deployment**: Deploy server-side functions using the Serverless Framework on AWS Lambda.
+- **Continuous Integration/Continuous Deployment (CI/CD)**: Set up a CI/CD pipeline for automated testing and deployment.
+
+## Roadmap
+1. **Q3 2024**: 
+    - Develop and deploy the smart contracts on the TON blockchain.
+    - Develop the website and integrate with TON wallet.
+    - Implement payment systems (PayPal and Adyen).
+    - Launch the first round of pre-sale.
+2. **Q4 2024**:
+    - Monitor and support the pre-sale rounds.
+    - Continue development based on community feedback and market conditions.
+    - Plan post-pre-sale development and potential exchange listings.
+
+---
+
+**Note**: This design document provides the necessary specifications to develop the DrugNcoin project. It includes details on tokenomics, website features, blockchain integration, payment systems, server-side requirements, and deployment strategy.
