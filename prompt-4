@@ -1,102 +1,93 @@
-# DrugNcoin Design Document
+# DrugNcoin: Tokenomics and Website Development Design Document
 
-## Project Overview
-**DrugNcoin** is a mem-coin developed on the TON blockchain with a total supply of 100 billion tokens. A simple website is needed to facilitate the pre-sale of tokens in three rounds. The website should integrate with the TON wallet for token transactions and use PayPal and Adyen for payments. Additionally, a referral system will be implemented to motivate users to invite others.
+## Overview
+
+This document outlines the comprehensive design specifications for the development of "DrugNcoin," a meme-coin utilizing the TON blockchain. It encompasses the tokenomics structure, website functionality, smart contract requirements, payment integration, and referral system necessary for a successful launch and user engagement.
 
 ## Tokenomics
-- **Total Supply**: 100 billion tokens
-- **Team Reserve**: 1 billion tokens (owned by the team)
+
+### Total Supply
+- **Maximum Supply:** 100 billion tokens
+
+### Team Allocation
+- **Reserved for Team:** 1 billion tokens (exclusively owned by the team)
 
 ## Pre-Sale Rounds
-- **Round 1**: Price: $0.0015 per token, Ends: August 10, 2024
-- **Round 2**: Price: $0.0020 per token, Ends: August 30, 2024
-- **Round 3**: Price: $0.0030 per token, Ends: September 30, 2024
+
+The pre-sale will occur in three distinct rounds with the following price structure:
+- **First Round:** $0.0015 per token, ending on August 10, 2024
+- **Second Round:** $0.0020 per token, ending on August 30, 2024
+- **Third Round:** $0.0030 per token, ending on September 30, 2024
 
 ## Website Requirements
-- **Framework**: Preferably Vue.js (or React if better integration with TON wallet/blockchain is determined)
-- **Pages**: 
-  - Home
-  - Tokenomics
-  - Roadmap
-  - Pre-Sale
-  - Referral System
-  - Standard info pages (About, Contact, etc.)
-- **Integration**: TON wallet connection for user identification and transactions
-- **Payment Systems**: PayPal API and Adyen for card and bank payments
-- **Hosting**: Preferably serverless using AWS Lambda
 
-## Functional Requirements
-1. **TON Wallet Integration**: 
-   - Users must connect their TON wallet to participate in the pre-sale and referral system.
-2. **Payment Processing**: 
-   - Integrate PayPal API and Adyen for handling payments in USD.
-   - Tokens are transferred to the user's TON wallet upon successful payment, calculated based on the current pre-sale price.
-3. **Referral System**:
-   - Use TON wallet ID as the referral ID.
-   - Reward structure:
-     - 1-5 invited users: 5 tokens per user
-     - 6-10 invited users: 7 tokens per user
-     - 11+ invited users: 10 tokens per user
-     - Every 50th user: 100 tokens
-   - Increment referral count for each new unique TON wallet ID connected.
+### General Specifications
+- **Framework:** Vue.js (chosen for its robust integration capabilities with TON wallet/blockchain)
+- **Hosting:** AWS Lambda (serverless architecture)
 
-## Smart Contract Requirements
-- Develop smart contracts on the TON blockchain for:
-  - Token creation and management
-  - Handling pre-sale transactions
-  - Managing the referral system rewards
+### Functional Pages
+1. **Home Page:** Introduction and key information about DrugNcoin.
+2. **Tokenomics Page:** Detailed breakdown of token distribution and usage.
+3. **Roadmap Page:** Project milestones and future plans.
+4. **Pre-Sale Page:** Information and interface for purchasing tokens.
+5. **Referral Program Page:** Details and tracking of referral incentives.
 
-## Technical Specifications
-### Frontend
-- **Framework**: Vue.js (preferred) or React
-- **TON Wallet Integration**: 
-  - Use TON wallet API for connecting and identifying users.
-- **Payment Integration**:
-  - PayPal API for PayPal payments
-  - Adyen API for card and bank payments
-- **Token Transfer Logic**:
-  - Calculate the number of tokens based on the current pre-sale price.
-  - Transfer tokens to the user's TON wallet upon payment confirmation.
+### Core Functionalities
+- **TON Wallet Integration:** Users must connect their TON wallet to interact with the site and make purchases.
+- **Payment Integration:** 
+  - **PayPal API:** For standard payments.
+  - **Adyen API:** For card and native bank payments.
+- **Token Distribution:** Automatic transfer of tokens to user's TON wallet upon successful payment. The amount of tokens is calculated based on the current pre-sale round price.
 
-### Backend (if needed)
-- **Serverless Framework**: AWS Lambda
-- **Functions**:
-  - Handle payment confirmation and token distribution
-  - Manage referral system logic and rewards
-- **Database**: Use AWS DynamoDB or another serverless database for storing user, payment, and referral data.
+### Pre-Sale Workflow
+1. User connects their TON wallet.
+2. User initiates payment via PayPal or Adyen.
+3. System verifies payment and calculates the number of tokens based on the pre-sale price.
+4. Tokens are transferred to the user's connected TON wallet.
 
-## User Flow
-1. **Pre-Sale Participation**:
-   - User visits the website and connects their TON wallet.
-   - User selects the pre-sale round and enters the amount they wish to purchase.
-   - User completes the payment using PayPal or Adyen.
-   - Upon payment confirmation, tokens are transferred to the user's TON wallet.
+## Smart Contracts
 
-2. **Referral System**:
-   - User receives a unique referral link with their TON wallet ID.
-   - New users sign up using the referral link and connect their TON wallet.
-   - The referrer receives tokens based on the referral reward structure.
-   - The system updates the referrer's count and rewards accordingly.
+### Token Contract
+- Develop a smart contract on the TON blockchain to handle the creation and distribution of DrugNcoin tokens.
+- Ensure the contract enforces the maximum supply of 100 billion tokens and the reserved 1 billion tokens for the team.
 
-## Development and Deployment
-### Frontend
-- Develop using Vue.js with appropriate TON wallet integration.
-- Ensure responsive design and user-friendly interface.
+### Referral System
 
-### Backend
-- Implement using AWS Lambda for serverless architecture.
-- Integrate with PayPal and Adyen APIs for payment processing.
-- Develop smart contracts for token management on the TON blockchain.
+#### Referral Logic
+- Use the TON wallet ID as the unique referral identifier.
+- Upon a new TON wallet ID connecting with a referral ID:
+  - The referral ID receives tokens based on the following progressive reward table:
+    - **1-5 Users:** 5 tokens per referral
+    - **6-10 Users:** 7 tokens per referral
+    - **11+ Users:** 10 tokens per referral
+    - **Every 50 Users:** 100 tokens additional bonus
+- Update the referral count each time a new wallet is connected.
 
-### Testing
-- Thoroughly test wallet integration, payment processing, and referral system.
-- Conduct security audits on smart contracts and payment flows.
+## Implementation Plan
 
-### Deployment
-- Host the website on a scalable platform (e.g., AWS).
-- Deploy smart contracts on the TON blockchain.
-- Set up monitoring and maintenance for ongoing support.
+### Phase 1: Tokenomics and Smart Contracts
+1. Design and deploy the token smart contract on the TON blockchain.
+2. Ensure secure and verifiable token distribution.
+
+### Phase 2: Website Development
+1. Set up the Vue.js framework and integrate TON wallet connectivity.
+2. Develop the pre-sale interface with PayPal and Adyen payment systems.
+3. Create and deploy the standard informational pages (Home, Tokenomics, Roadmap, Referral Program).
+
+### Phase 3: Testing and Security
+1. Conduct thorough testing of the smart contracts and payment integration.
+2. Implement security measures to protect user data and transactions.
+3. Perform usability testing to ensure a seamless user experience.
+
+### Phase 4: Launch and Monitoring
+1. Launch the pre-sale website and initiate marketing campaigns.
+2. Monitor the system for performance and security issues.
+3. Provide ongoing support and updates based on user feedback and system performance.
+
+## Conclusion
+
+This document serves as the blueprint for developing the DrugNcoin project, ensuring a structured approach to token distribution, website functionality, and user engagement through referral incentives. By adhering to these specifications, the project aims to achieve a successful launch and sustained user growth.
 
 ---
 
-This design document provides a comprehensive guide for developing the DrugNcoin project, including frontend and backend requirements, user flows, and technical specifications.
+This design document should be used by the gpt-engineer team to create a fully functional and secure DrugNcoin platform, ensuring compliance with all outlined requirements and industry standards.

@@ -1,0 +1,126 @@
+# DrugNcoin Design Document
+
+## Project Overview
+
+**Project Name:** DrugNcoin
+
+**Blockchain:** TON Blockchain
+
+**Token Details:**
+- **Token Name:** DrugNcoin
+- **Total Supply:** 100 billion tokens
+- **Reserved for Team:** 1 billion tokens (owned by the team)
+- **Circulating Supply:** 99 billion tokens
+
+## Tokenomics
+
+**Maximum Amount of Tokens:** 100 billion
+
+**Team Reserve:** 1 billion tokens (1% of total supply)
+
+**Public Circulating Supply:** 99 billion tokens (99% of total supply)
+
+## Pre-Sale Details
+
+**Pre-Sale Rounds:**
+1. **First Round:**
+   - **Price:** $0.0015 per token
+   - **End Date:** 10 August 2024
+2. **Second Round:**
+   - **Price:** $0.002 per token
+   - **End Date:** 30 August 2024
+3. **Third Round:**
+   - **Price:** $0.003 per token
+   - **End Date:** 30 September 2024
+
+## Website Requirements
+
+**Framework Choice:** Vue.js (better integration with TON wallet/blockchain)
+
+**Pages:**
+1. **Home Page**
+2. **Tokenomics Page**
+3. **Roadmap Page**
+4. **Pre-Sale Page**
+5. **Referral Program Page**
+6. **Standard Info Page (FAQ, Contact, etc.)**
+
+**Functionality:**
+- **TON Wallet Integration:** 
+  - Users must connect their TON wallet to participate in the pre-sale.
+  - Wallet ID identifies users in the system.
+- **Payment System Integration:**
+  - PayPal API for payments.
+  - Adyen for card payments and native bank payments.
+  - Payments only in USD.
+  - Tokens are transferred to the user's TON wallet upon successful payment.
+  - The amount of tokens is calculated based on the current pre-sale price and the payment amount.
+
+**Referral System:**
+- **Referral ID:** TON wallet ID used as referral ID.
+- **Referral Rewards:**
+  - 1-5 invited users: 5 tokens per user
+  - 6-10 invited users: 7 tokens per user
+  - More than 10 invited users: 10 tokens per user
+  - Every 50 users: 100 tokens
+- **Referral Process:**
+  - New users connect their TON wallet with a referral ID.
+  - The referral ID receives tokens based on the progressive table.
+  - The referral count for the particular ID increases with each new user.
+
+## Technical Specifications
+
+**Frontend:**
+- **Framework:** Vue.js
+- **Components:**
+  - Wallet Connection Component
+  - Payment Processing Component
+  - Token Transfer Component
+  - Referral System Component
+
+**Backend:**
+- **Server Side:** If needed, use AWS Lambda with Serverless Framework.
+- **Smart Contracts:**
+  - Develop smart contracts for the DrugNcoin token on the TON blockchain.
+  - Contracts to handle token distribution, referral rewards, and pre-sale rounds.
+
+**Payment Integration:**
+- **PayPal API:** For handling payments in USD.
+- **Adyen API:** For card payments and native bank payments.
+
+**Deployment:**
+- **AWS:** Use AWS services for hosting and backend functions.
+- **Serverless Framework:** To manage and deploy AWS Lambda functions.
+
+## Smart Contract Requirements
+
+**Token Contract:**
+- **Supply Management:** Handle the total supply of 100 billion tokens.
+- **Team Reserve Allocation:** Allocate 1 billion tokens to the team.
+- **Token Distribution:** Manage token transfers during pre-sale and referral rewards.
+
+**Referral Contract:**
+- **Referral Tracking:** Track referrals using TON wallet IDs.
+- **Reward Distribution:** Automatically distribute tokens based on the progressive reward table.
+- **Referral Counting:** Increment referral counts for each successful referral.
+
+## Development Milestones
+
+1. **Project Planning:** Detailed planning and requirement gathering.
+2. **Smart Contract Development:** 
+   - Develop and test smart contracts for token and referral system.
+3. **Frontend Development:** 
+   - Design and develop the website using Vue.js.
+   - Integrate TON wallet, PayPal API, and Adyen API.
+4. **Backend Development (if needed):**
+   - Develop backend functions using AWS Lambda and Serverless Framework.
+5. **Testing:**
+   - Thorough testing of smart contracts, payment integrations, and referral system.
+6. **Deployment:**
+   - Deploy the website and smart contracts.
+7. **Pre-Sale Launch:**
+   - Launch pre-sale rounds as per the schedule.
+
+## Conclusion
+
+This design document outlines the comprehensive plan for developing the DrugNcoin project on the TON blockchain. It includes the tokenomics, pre-sale details, website requirements, technical specifications, and development milestones. By following this document, the development team can create a functional and successful mem-coin project.

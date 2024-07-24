@@ -5,7 +5,7 @@ Generate a high quality design document that can be used by gpt-engineer to desi
 I develop "DrugNcoin" mem-coin using TON blockchain. Develop for me tokenomics (maximum amount of tokens - 100 billion). Reserve 1 billion of tokens for my team (i will own these tokens).
 I need website. Simple website with options to pre-sale tokens in 3 rounds. first round price: 0.15 cents for token (ends at 10 August 2024); second round price: 0.2 cents (end at 30 August 2024); third round price: 0.3 cents (ends 30 September 2024);
 website should be a standart one like other mem-coin advertisement websites, with tokenomics page, roadmap, and other standart info.
-WebSite must be written in Vue.js (or React. Please choose what have better integration with TON wallet/blockchain. if support is same, then prefer Vue).
+WebSite must be written in Vue.js (or React. Please choose what have better integration with TON wallet/blockchain. if support is same, then prefer Vue. Make choice for me before generating this document. And use this choice, when you generate design document).
 Website must support to connect TON wallet. Wallet id identifies user in my system.
 As payment system I want to use paypal api and adyen (for card payments and native bank payments.
 User can make payment only, when TON wallet is connected. System transfers corresponding amount of tokens to his TON wallet, when payment is done (payment is only in USD). amount of tokens depends on pre-sale price, and of course on amount of user payment. divide payment on current token pre-sale price.
