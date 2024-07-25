@@ -1,0 +1,458 @@
+
+2024-07-25T16:43:03.032830
+================================ System Message ================================
+
+You will get information about a codebase that is currently on disk in the current folder.
+The user will ask you to write a script that runs the code in a specific way.
+You will answer with code blocks that include all the necessary terminal commands.
+Do not install globally. Do not use sudo.
+Do not explain the code, just give the commands.
+Do not use placeholders, use example values (like . for a folder argument) if necessary.
+
+
+================================ Human Message =================================
+
+
+        Make a unix script that
+        a) installs dependencies
+        b) runs all necessary parts of the codebase (in parallel if necessary)
+        
+Information about the codebase:
+
+```
+File: contracts/DrugNcoin.sol
+1 // SPDX-License-Identifier: MIT
+2 pragma solidity ^0.8.0;
+3 
+4 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+5 import "@openzeppelin/contracts/access/Ownable.sol";
+6 
+7 contract DrugNcoin is ERC20, Ownable {
+8     uint256 public constant TOTAL_SUPPLY = 100000000000 * 10**18;
+9     uint256 public constant TEAM_RESERVE = 10000000000 * 10**18;
+10 
+11     constructor() ERC20("DrugNcoin", "DNC") {
+12         _mint(msg.sender, TEAM_RESERVE);
+13         _mint(address(this), TOTAL_SUPPLY - TEAM_RESERVE);
+14     }
+15 
+16     function distributeTokens(address to, uint256 amount) external onlyOwner {
+17         _transfer(address(this), to, amount);
+18     }
+19 }
+
+File: contracts/ReferralSystem.sol
+1 // SPDX-License-Identifier: MIT
+2 pragma solidity ^0.8.0;
+3 
+4 import "./DrugNcoin.sol";
+5 
+6 contract ReferralSystem {
+7     DrugNcoin public token;
+8     mapping(address => uint256) public referralCount;
+9     mapping(address => uint256) public referralRewards;
+10 
+11     constructor(address tokenAddress) {
+12         token = DrugNcoin(tokenAddress);
+13     }
+14 
+15     function addReferral(address referrer) external {
+16         referralCount[referrer]++;
+17         uint256 reward = calculateReward(referralCount[referrer]);
+18         referralRewards[referrer] += reward;
+19         token.distributeTokens(referrer, reward);
+20     }
+21 
+22     function calculateReward(uint256 count) internal pure returns (uint256) {
+23         if (count <= 5) {
+24             return 5 * 10**18;
+25         } else if (count <= 10) {
+26             return 7 * 10**18;
+27         } else if (count % 50 == 0) {
+28             return 100 * 10**18;
+29         } else {
+30             return 10 * 10**18;
+31         }
+32     }
+33 }
+
+File: package.json
+1 {
+2   "name": "drugncoin",
+3   "version": "1.0.0",
+4   "description": "DrugNcoin Project",
+5   "main": "index.js",
+6   "scripts": {
+7     "serve": "vue-cli-service serve",
+8     "build": "vue-cli-service build",
+9     "lint": "vue-cli-service lint"
+10   },
+11   "dependencies": {
+12     "vue": "^3.0.0",
+13     "vue-router": "^4.0.0",
+14     "axios": "^0.21.1",
+15     "web3": "^1.3.5"
+16   },
+17   "devDependencies": {
+18     "@vue/cli-service": "^4.5.0"
+19   }
+20 }
+
+File: src/main.js
+1 import { createApp } from 'vue';
+2 import App from './App.vue';
+3 import router from './router';
+4 
+5 createApp(App).use(router).mount('#app');
+
+File: src/router/index.js
+1 import { createRouter, createWebHistory } from 'vue-router';
+2 import HomePage from '../views/HomePage.vue';
+3 import TokenomicsPage from '../views/TokenomicsPage.vue';
+4 import RoadmapPage from '../views/RoadmapPage.vue';
+5 import PreSalePage from '../views/PreSalePage.vue';
+6 import ReferralProgramPage from '../views/ReferralProgramPage.vue';
+7 import InfoPage from '../views/InfoPage.vue';
+8 
+9 const routes = [
+10   { path: '/', name: 'Home', component: HomePage },
+11   { path: '/tokenomics', name: 'Tokenomics', component: TokenomicsPage },
+12   { path: '/roadmap', name: 'Roadmap', component: RoadmapPage },
+13   { path: '/presale', name: 'PreSale', component: PreSalePage },
+14   { path: '/referral', name: 'ReferralProgram', component: ReferralProgramPage },
+15   { path: '/info', name: 'Info', component: InfoPage }
+16 ];
+17 
+18 const router = createRouter({
+19   history: createWebHistory(process.env.BASE_URL),
+20   routes
+21 });
+22 
+23 export default router;
+
+File: src/App.vue
+1 <template>
+2   <div id="app">
+3     <router-view></router-view>
+4   </div>
+5 </template>
+6 
+7 <script>
+8 export default {
+9   name: 'App'
+10 };
+11 </script>
+12 
+13 <style>
+14 /* Add global styles here */
+15 </style>
+
+File: src/views/HomePage.vue
+1 <template>
+2   <div>
+3     <h1>Welcome to DrugNcoin</h1>
+4     <p>Join the revolution with DrugNcoin on the TON Blockchain.</p>
+5   </div>
+6 </template>
+7 
+8 <script>
+9 export default {
+10   name: 'HomePage'
+11 };
+12 </script>
+13 
+14 <style scoped>
+15 /* Add styles specific to HomePage here */
+16 </style>
+
+File: src/views/TokenomicsPage.vue
+1 <template>
+2   <div>
+3     <h1>Tokenomics</h1>
+4     <p>Total Supply: 100 billion tokens</p>
+5     <p>Reserved for Team: 10 billion tokens</p>
+6     <p>Circulating Supply: 90 billion tokens</p>
+7   </div>
+8 </template>
+9 
+10 <script>
+11 export default {
+12   name: 'TokenomicsPage'
+13 };
+14 </script>
+15 
+16 <style scoped>
+17 /* Add styles specific to TokenomicsPage here */
+18 </style>
+
+File: src/views/RoadmapPage.vue
+1 <template>
+2   <div>
+3     <h1>Roadmap</h1>
+4     <p>Details about the project roadmap will be here.</p>
+5   </div>
+6 </template>
+7 
+8 <script>
+9 export default {
+10   name: 'RoadmapPage'
+11 };
+12 </script>
+13 
+14 <style scoped>
+15 /* Add styles specific to RoadmapPage here */
+16 </style>
+
+File: src/views/PreSalePage.vue
+1 <template>
+2   <div>
+3     <h1>Pre-Sale</h1>
+4     <p>Join our pre-sale rounds and get your DrugNcoin tokens.</p>
+5     <wallet-connection></wallet-connection>
+6     <payment-processing></payment-processing>
+7   </div>
+8 </template>
+9 
+10 <script>
+11 import WalletConnection from '../components/WalletConnection.vue';
+12 import PaymentProcessing from '../components/PaymentProcessing.vue';
+13 
+14 export default {
+15   name: 'PreSalePage',
+16   components: {
+17     WalletConnection,
+18     PaymentProcessing
+19   }
+20 };
+21 </script>
+22 
+23 <style scoped>
+24 /* Add styles specific to PreSalePage here */
+25 </style>
+
+File: src/views/ReferralProgramPage.vue
+1 <template>
+2   <div>
+3     <h1>Referral Program</h1>
+4     <p>Invite friends and earn DrugNcoin tokens.</p>
+5     <referral-system></referral-system>
+6   </div>
+7 </template>
+8 
+9 <script>
+10 import ReferralSystem from '../components/ReferralSystem.vue';
+11 
+12 export default {
+13   name: 'ReferralProgramPage',
+14   components: {
+15     ReferralSystem
+16   }
+17 };
+18 </script>
+19 
+20 <style scoped>
+21 /* Add styles specific to ReferralProgramPage here */
+22 </style>
+
+File: src/views/InfoPage.vue
+1 <template>
+2   <div>
+3     <h1>Information</h1>
+4     <p>FAQ, Contact, and other information will be here.</p>
+5   </div>
+6 </template>
+7 
+8 <script>
+9 export default {
+10   name: 'InfoPage'
+11 };
+12 </script>
+13 
+14 <style scoped>
+15 /* Add styles specific to InfoPage here */
+16 </style>
+
+File: src/components/WalletConnection.vue
+1 <template>
+2   <div>
+3     <button @click="connectWallet">Connect TON Wallet</button>
+4     <p v-if="walletAddress">Connected: {{ walletAddress }}</p>
+5   </div>
+6 </template>
+7 
+8 <script>
+9 import Web3 from 'web3';
+10 
+11 export default {
+12   name: 'WalletConnection',
+13   data() {
+14     return {
+15       walletAddress: null
+16     };
+17   },
+18   methods: {
+19     async connectWallet() {
+20       if (window.ethereum) {
+21         const web3 = new Web3(window.ethereum);
+22         try {
+23           await window.ethereum.enable();
+24           const accounts = await web3.eth.getAccounts();
+25           this.walletAddress = accounts[0];
+26         } catch (error) {
+27           console.error("User denied account access");
+28         }
+29       } else {
+30         console.error("No Ethereum provider detected");
+31       }
+32     }
+33   }
+34 };
+35 </script>
+36 
+37 <style scoped>
+38 /* Add styles specific to WalletConnection here */
+39 </style>
+
+File: src/components/PaymentProcessing.vue
+1 <template>
+2   <div>
+3     <h2>Payment Processing</h2>
+4     <form @submit.prevent="processPayment">
+5       <label for="amount">Amount (USD):</label>
+6       <input type="number" v-model="amount" required />
+7       <button type="submit">Pay</button>
+8     </form>
+9   </div>
+10 </template>
+11 
+12 <script>
+13 import axios from 'axios';
+14 
+15 export default {
+16   name: 'PaymentProcessing',
+17   data() {
+18     return {
+19       amount: 0
+20     };
+21   },
+22   methods: {
+23     async processPayment() {
+24       try {
+25         const response = await axios.post('/api/payment', { amount: this.amount });
+26         console.log('Payment successful:', response.data);
+27       } catch (error) {
+28         console.error('Payment failed:', error);
+29       }
+30     }
+31   }
+32 };
+33 </script>
+34 
+35 <style scoped>
+36 /* Add styles specific to PaymentProcessing here */
+37 </style>
+
+File: src/components/ReferralSystem.vue
+1 <template>
+2   <div>
+3     <h2>Referral System</h2>
+4     <form @submit.prevent="submitReferral">
+5       <label for="referralId">Referral ID:</label>
+6       <input type="text" v-model="referralId" required />
+7       <button type="submit">Submit</button>
+8     </form>
+9   </div>
+10 </template>
+11 
+12 <script>
+13 import axios from 'axios';
+14 
+15 export default {
+16   name: 'ReferralSystem',
+17   data() {
+18     return {
+19       referralId: ''
+20     };
+21   },
+22   methods: {
+23     async submitReferral() {
+24       try {
+25         const response = await axios.post('/api/referral', { referralId: this.referralId });
+26         console.log('Referral submitted:', response.data);
+27       } catch (error) {
+28         console.error('Referral submission failed:', error);
+29       }
+30     }
+31   }
+32 };
+33 </script>
+34 
+35 <style scoped>
+36 /* Add styles specific to ReferralSystem here */
+37 </style>
+
+File: serverless.yml
+1 service: drugncoin-backend
+2 
+3 provider:
+4   name: aws
+5   runtime: nodejs14.x
+6   region: us-east-1
+7 
+8 functions:
+9   payment:
+10     handler: handler.payment
+11     events:
+12       - http:
+13           path: payment
+14           method: post
+15   referral:
+16     handler: handler.referral
+17     events:
+18       - http:
+19           path: referral
+20           method: post
+21 
+22 plugins:
+23   - serverless-offline
+
+File: handler.js
+1 const axios = require('axios');
+2 
+3 module.exports.payment = async (event) => {
+4   const { amount } = JSON.parse(event.body);
+5 
+6   // Implement PayPal and Adyen payment processing here
+7   // For simplicity, we assume payment is always successful
+8 
+9   return {
+10     statusCode: 200,
+11     body: JSON.stringify({ message: 'Payment successful', amount }),
+12   };
+13 };
+14 
+15 module.exports.referral = async (event) => {
+16   const { referralId } = JSON.parse(event.body);
+17 
+18   // Implement referral logic here
+19   // For simplicity, we assume referral is always successful
+20 
+21   return {
+22     statusCode: 200,
+23     body: JSON.stringify({ message: 'Referral submitted', referralId }),
+24   };
+25 };
+
+```
+
+================================== Ai Message ==================================
+
+```sh
+#!/bin/bash
+
+# Install dependencies
+npm install
+
+# Run the frontend and backend in parallel
+npx concurrently "npm run serve" "npx serverless offline"
+```

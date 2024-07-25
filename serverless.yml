@@ -1,0 +1,23 @@
+service: drugncoin-backend
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: us-east-1
+
+functions:
+  payment:
+    handler: handler.payment
+    events:
+      - http:
+          path: payment
+          method: post
+  referral:
+    handler: handler.referral
+    events:
+      - http:
+          path: referral
+          method: post
+
+plugins:
+  - serverless-offline
