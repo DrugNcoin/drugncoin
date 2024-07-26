@@ -10,8 +10,6 @@ import TokenomicsPage from "../views/TokenomicsPage.vue"
 import InfoPage from "../views/InfoPage.vue"
 import OurGoalsPage from "../views/OurGoalsPage.vue"
 
-console.log(`${CONFIG.VITE_FALLBACK_LOCALE}  - default`)
-
 const router = createRouter({
   history: createWebHashHistory(CONFIG.VITE_BASE_URL),
   routes: [
