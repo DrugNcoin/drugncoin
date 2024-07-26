@@ -1,43 +1,44 @@
 <template>
-  <select @change="switchLanguage">
-    <option
-      v-for="sLocale in supportedLocales"
-      :key="`locale-${sLocale}`"
-      :value="sLocale"
-      :selected="locale === sLocale"
-    >
+  <select @change="switchLanguage" :value="locale">
+    <option v-for="sLocale in supportedLocales" :key="`locale-${sLocale}`" :value="sLocale">
       {{ t(`locale.${sLocale}`) }}
     </option>
   </select>
 </template>
 
 <script>
-  import { useI18n } from 'vue-i18n'
-  import { useRouter } from "vue-router"
-  import Tr from "@/i18n/translation"
+import { useI18n } from 'vue-i18n'
+import { useRouter, useRoute } from "vue-router"
+import Tr from "@/i18n/translation"
 
-  export default {
-    setup() {
-      const { t, locale } = useI18n()
+export default {
+  setup() {
+    const { t, locale } = useI18n()
+    const supportedLocales = Tr.supportedLocales
+    const router = useRouter()
+    const route = useRoute()
 
-      const supportedLocales = Tr.supportedLocales
-
-      const router = useRouter()
-
-      const switchLanguage = async (event) => {
-        const newLocale = event.target.value
-
+    // Watch for route changes to update the locale
+    router.beforeEach(async (to, from, next) => {
+      const newLocale = to.params.locale
+      if (newLocale && newLocale !== locale.value) {
         await Tr.switchLanguage(newLocale)
-
-        try {
-          await router.push({ params: { locale: newLocale } })
-        } catch(e) {
-          console.log(e)
-          router.push("/")
-        }
       }
+      next()
+    })
 
-      return { t, locale, supportedLocales, switchLanguage }
+    const switchLanguage = async (event) => {
+      const newLocale = event.target.value
+
+      try {
+        await router.push({ params: { locale: newLocale } })
+      } catch (e) {
+        console.log(e)
+        await router.push("/")
+      }
     }
+
+    return { t, locale, supportedLocales, switchLanguage }
   }
+}
 </script>
