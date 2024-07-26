@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <main>
         <section>
             <h1>{{ $t('our_goals.title') }}</h1>
             <p>{{ $t('our_goals.introduction') }}</p>
@@ -24,7 +24,7 @@
             <h2>{{ $t('our_goals.foundation.title') }}</h2>
             <p>{{ $t('our_goals.foundation.body') }}</p>
         </section>
-    </div>
+    </main>
 </template>
 
 <script>
@@ -34,5 +34,13 @@ export default {
 </script>
 
 <style scoped>
-/* Add your styles here */
+main {
+    padding-top: 2rem
+}
+
+@media (min-width: 1024px) {
+    main {
+        padding: 5rem 0 5rem 0
+    }
+}
 </style>

@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <main>
     <h1>Referral Program</h1>
     <p>Invite friends and earn DrugNcoin tokens.</p>
     <referral-system></referral-system>
-  </div>
+  </main>
 </template>
 
 <script>
@@ -18,5 +18,13 @@ export default {
 </script>
 
 <style scoped>
-/* Add styles specific to ReferralProgramPage here */
+main {
+  padding-top: 2rem
+}
+
+@media (min-width: 1024px) {
+  main {
+    padding: 5rem 0 5rem 0
+  }
+}
 </style>
