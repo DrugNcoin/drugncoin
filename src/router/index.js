@@ -1,23 +1,50 @@
-import { createRouter, createWebHistory } from 'vue-router';
-import HomePage from '../views/HomePage.vue';
-import TokenomicsPage from '../views/TokenomicsPage.vue';
-import RoadmapPage from '../views/RoadmapPage.vue';
-import PreSalePage from '../views/PreSalePage.vue';
-import ReferralProgramPage from '../views/ReferralProgramPage.vue';
-import InfoPage from '../views/InfoPage.vue';
+import { createRouter, createWebHistory, RouterView } from 'vue-router'
+import Tr from "@/i18n/translation"
+import CONFIG from "@/config"
 
-const routes = [
-  { path: '/', name: 'Home', component: HomePage },
-  { path: '/tokenomics', name: 'Tokenomics', component: TokenomicsPage },
-  { path: '/roadmap', name: 'Roadmap', component: RoadmapPage },
-  { path: '/presale', name: 'PreSale', component: PreSalePage },
-  { path: '/referral', name: 'ReferralProgram', component: ReferralProgramPage },
-  { path: '/info', name: 'Info', component: InfoPage }
-];
+console.log(`${CONFIG.VITE_FALLBACK_LOCALE}  - default`)
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
-  routes
-});
+  history: createWebHistory(CONFIG.VITE_BASE_URL),
+  routes: [
+    {
+      path: "/:locale?",
+      component: RouterView,
+      beforeEnter: Tr.routeMiddleware,
+      children: [
+        {
+          path: '',
+          name: 'home',
+          component: () => import('../views/HomePage.vue')
+        },
+        {
+          path: 'presale',
+          name: 'presale',
+          component: () => import('../views/PreSalePage.vue')
+        },
+        {
+          path: 'referral',
+          name: 'referral',
+          component: () => import('../views/ReferralProgramPage.vue')
+        },
+        {
+          path: 'roadmap',
+          name: 'roadmap',
+          component: () => import('../views/RoadmapPage.vue')
+        },
+        {
+          path: 'tokenomics',
+          name: 'tokenomics',
+          component: () => import('../views/TokenomicsPage.vue')
+        },
+        {
+          path: 'info',
+          name: 'info',
+          component: () => import('../views/InfoPage.vue')
+        }
+      ]
+    }
+  ]
+})
 
-export default router;
+export default router

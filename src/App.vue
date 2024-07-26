@@ -1,15 +1,8 @@
-<template>
-  <div id="app">
-    <router-view></router-view>
-  </div>
-</template>
-
-<script>
-export default {
-  name: 'App'
-};
+<script setup>
+import Nav from "@/components/Nav.vue";
 </script>
 
-<style>
-/* Add global styles here */
-</style>
+<template>
+  <Nav></Nav>
+  <RouterView />
+</template>
