@@ -1,8 +1,11 @@
+<script setup>
+import TheWelcome from '../components/TheWelcome.vue'
+</script>
+
 <template>
-  <div>
-    <h1>Welcome to DrugNcoin</h1>
-    <p>Join the revolution with DrugNcoin on the TON Blockchain.</p>
-  </div>
+  <main>
+    <TheWelcome />
+  </main>
 </template>
 
 <script>
