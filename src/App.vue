@@ -5,13 +5,13 @@ import Nav from "@/components/Nav.vue";
 
 <template>
   <header>
-    
+
 
     <div class="wrapper">
-      
+
       <HelloWorld msg="You did it!" />
       <img alt="Vue logo" class="logo" src="@/assets/logo.png" width="100%" />
-      <Nav/>
+      <Nav />
     </div>
   </header>
 
@@ -27,6 +27,8 @@ header {
 .logo {
   display: block;
   margin: 0 auto 2rem;
+  width: 250px;
+  height: 250px;
 }
 
 @media (min-width: 1024px) {
@@ -38,6 +40,8 @@ header {
 
   .logo {
     margin: 0 2rem 0 0;
+    width: 100%;
+    height: auto;
   }
 
   header .wrapper {
