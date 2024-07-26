@@ -2,13 +2,6 @@ import { createRouter, createWebHashHistory, RouterView } from 'vue-router'
 import Tr from "@/i18n/translation"
 import CONFIG from "@/config"
 
-import HomePage from "../views/HomePage.vue"
-import PreSalePage from "../views/PreSalePage.vue"
-import ReferralProgramPage from "../views/ReferralProgramPage.vue"
-import RoadmapPage from "../views/RoadmapPage.vue"
-import TokenomicsPage from "../views/TokenomicsPage.vue"
-import InfoPage from "../views/InfoPage.vue"
-
 console.log(`${CONFIG.VITE_FALLBACK_LOCALE}  - default`)
 
 const router = createRouter({
@@ -22,32 +15,32 @@ const router = createRouter({
         {
           path: '',
           name: 'home',
-          component: HomePage
+          component: () => import('../views/HomePage.vue')
         },
         {
           path: 'presale',
           name: 'presale',
-          component: PreSalePage
+          component: () => import('../views/PreSalePage.vue')
         },
         {
           path: 'referral',
           name: 'referral',
-          component: ReferralProgramPage
+          component: () => import('../views/ReferralProgramPage.vue')
         },
         {
           path: 'roadmap',
           name: 'roadmap',
-          component: RoadmapPage
+          component: () => import('../views/RoadmapPage.vue')
         },
         {
           path: 'tokenomics',
           name: 'tokenomics',
-          component: TokenomicsPage
+          component: () => import('../views/TokenomicsPage.vue')
         },
         {
           path: 'about',
           name: 'about',
-          component: InfoPage
+          component: () => import('../views/InfoPage.vue')
         }
       ]
     }
