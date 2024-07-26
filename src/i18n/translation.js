@@ -27,11 +27,11 @@ const Trans = {
   },
 
   async loadLocaleMessages(locale) {
-    if(!i18n.global.availableLocales.includes(locale)) {
+    if (!i18n.global.availableLocales.includes(locale)) {
       const messages = await import(`@/i18n/locales/${locale}.json`)
       i18n.global.setLocaleMessage(locale, messages.default)
     }
-    
+
     return nextTick()
   },
 
@@ -53,7 +53,7 @@ const Trans = {
   getPersistedLocale() {
     const persistedLocale = localStorage.getItem("user-locale")
 
-    if(Trans.isLocaleSupported(persistedLocale)) {
+    if (Trans.isLocaleSupported(persistedLocale)) {
       return persistedLocale
     } else {
       return null
@@ -62,7 +62,7 @@ const Trans = {
 
   guessDefaultLocale() {
     const userPersistedLocale = Trans.getPersistedLocale()
-    if(userPersistedLocale) {
+    if (userPersistedLocale) {
       return userPersistedLocale
     }
 
@@ -75,14 +75,14 @@ const Trans = {
     if (Trans.isLocaleSupported(userPreferredLocale.localeNoRegion)) {
       return userPreferredLocale.localeNoRegion
     }
-    
+
     return Trans.defaultLocale
   },
 
   async routeMiddleware(to, _from, next) {
     const paramLocale = to.params.locale
 
-    if(!Trans.isLocaleSupported(paramLocale)) {
+    if (!Trans.isLocaleSupported(paramLocale)) {
       return next(Trans.guessDefaultLocale())
     }
 

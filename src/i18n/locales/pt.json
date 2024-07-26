@@ -1,0 +1,196 @@
+{
+  "locale": {
+    "bg": "Български",
+    "cs": "Čeština",
+    "de": "Deutsch",
+    "en": "English",
+    "es": "Español",
+    "et": "Eesti",
+    "fa": "فارسی",
+    "fi": "Suomi",
+    "fr": "Français",
+    "he": "עברית",
+    "it": "Italiano",
+    "lt": "Lietuvių",
+    "lv": "Latviešu",
+    "no": "Norsk",
+    "pl": "Polski",
+    "pt": "Português",
+    "ru": "Русский",
+    "sv": "Svenska",
+    "ua": "Українська"
+  },
+  "nav": {
+    "home": "Início",
+    "goals": "Nossos Objetivos",
+    "presale": "Pré-venda",
+    "referral": "Programa de Indicação",
+    "roadmap": "Roteiro",
+    "tokenomics": "Tokenômica",
+    "about": "Sobre"
+  },
+  "hello": {
+    "title": "Bem-vindo ao DrugNcoin!",
+    "body": "Junte-se à revolução com o DrugNcoin no Blockchain TON."
+  },
+  "home": {
+    "welcome": {
+      "title": "Bem-vindo ao DrugNcoin!",
+      "body": "Revolucionando o mundo das criptomoedas com inovação e comunidade"
+    },
+    "about": {
+      "title": "Sobre o DrugNcoin",
+      "body": "DrugNcoin é um projeto inovador na Blockchain TON, projetado para levar o melhor das criptomoedas aos entusiastas e investidores. Com um foco claro na tokenômica, transparência e engajamento dos usuários, o DrugNcoin visa criar um ecossistema próspero que recompensa sua comunidade."
+    },
+    "why": {
+      "title": "Por que DrugNcoin?",
+      "reason1": {
+        "title": "1. Fundação Sólida:",
+        "item1": "Construído na segura e escalável Blockchain TON.",
+        "item2": "Suportado por uma infraestrutura robusta de contratos inteligentes."
+      },
+      "reason2": {
+        "title": "2. Tokenômica Transparente:",
+        "item1": "Oferta Total: 100 bilhões de tokens.",
+        "item2": "Reserva da Equipe: 10 bilhões de tokens.",
+        "item3": "Oferta Circulante: 90 bilhões de tokens."
+      },
+      "reason3": {
+        "title": "3. Oportunidades Empolgantes de Pré-venda:",
+        "item1": "Múltiplas rodadas de pré-venda com preços de tokens crescentes, oferecendo vantagens significativas aos primeiros investidores."
+      },
+      "reason4": {
+        "title": "4. Programa de Indicação Recompensador:",
+        "item1": "Ganhe tokens convidando outros a se juntarem à comunidade DrugNcoin.",
+        "item2": "Sistema de recompensas progressivo baseado no número de indicações."
+      }
+    },
+    "token_details": {
+      "title": "Detalhes do Token",
+      "token_name": {
+        "label": "Nome do Token:",
+        "value": "DrugNcoin"
+      },
+      "total_supply": {
+        "label": "Oferta Total:",
+        "value": "100 bilhões de tokens"
+      },
+      "team_reserve": {
+        "label": "Reserva da Equipe:",
+        "value": "10 bilhões de tokens"
+      },
+      "circulating_supply": {
+        "label": "Oferta Circulante:",
+        "value": "90 bilhões de tokens"
+      },
+      "pre_sale_rounds": {
+        "label": "Rodadas de Pré-venda:",
+        "round1": {
+          "title": "Primeira Rodada:",
+          "price": "Preço: $0.0015 por token",
+          "end_date": "Data de Término: 10 de agosto de 2024"
+        },
+        "round2": {
+          "title": "Segunda Rodada:",
+          "price": "Preço: $0.002 por token",
+          "end_date": "Data de Término: 30 de agosto de 2024"
+        },
+        "round3": {
+          "title": "Terceira Rodada:",
+          "price": "Preço: $0.003 por token",
+          "end_date": "Data de Término: 30 de setembro de 2024"
+        }
+      }
+    },
+    "join": {
+      "title": "Junte-se à Comunidade DrugNcoin",
+      "steps": {
+        "get_started": "Comece:",
+        "step1": "Conecte sua Carteira TON.",
+        "step2": "Participe da pré-venda.",
+        "step3": "Ganhe recompensas através do nosso programa de indicação."
+      }
+    },
+    "stay_connected": {
+      "title": "Fique Conectado:",
+      "social_media": "Siga-nos nas redes sociais para as últimas atualizações.",
+      "community_discussions": "Participe de nossas discussões comunitárias no Telegram e Discord."
+    },
+    "contact": {
+      "title": "Contate-nos:",
+      "body": "Para consultas, entre em contato com nossa equipe de suporte em [support at drugncoin.com](mailto:support at drugncoin.com)."
+    },
+    "footer": {
+      "body": "DrugNcoin - Inovando o Futuro das Criptomoedas"
+    }
+  },
+  "our_goals": {
+    "title": "Nossos Objetivos",
+    "introduction": "Na DrugNcoin, acreditamos visionariamente que a adoção em massa das criptomoedas não pode ser plenamente realizada sem abordar uma questão social crítica: a legalização das drogas. Reconhecemos o papel proeminente que as criptomoedas desempenham no mercado negro, particularmente nas transações de drogas ilegais. Esta associação é uma barreira significativa para a aceitação e integração generalizada das criptomoedas nos sistemas financeiros convencionais.",
+    "vision": {
+      "title": "Nossa Visão",
+      "body": "Visualizamos um mundo onde as sombras do mercado negro se dissipam com a luz da legitimidade. Assim como o amanhecer rompe a noite mais escura, a legalização e regulamentação das drogas pode anunciar uma nova era para as criptomoedas, transformando-as de uma ferramenta clandestina para um farol de comércio transparente e legal."
+    },
+    "blocker": {
+      "title": "O Obstáculo Principal",
+      "body": "A jornada para a adoção em massa das criptomoedas é dificultada pela sombra persistente do uso ilegal de drogas. Esta associação ilícita lança uma sombra sobre o potencial das moedas digitais, criando desconfiança e resistência entre os órgãos reguladores e o público em geral. Para desbloquear o verdadeiro potencial das criptomoedas, devemos primeiro abordar esta questão fundamental."
+    },
+    "solution": {
+      "title": "Nossa Solução",
+      "body": "Acreditamos que a descriminalização e legalização das drogas representam uma solução de 100% para um dos maiores obstáculos à adoção em massa das criptomoedas. Ao defender e apoiar a legalização das drogas, buscamos remover o estigma e os desafios legais associados ao uso de criptomoedas, pavimentando o caminho para sua aceitação e integração na vida cotidiana."
+    },
+    "foundation": {
+      "title": "Criando uma Fundação",
+      "body": "Nosso objetivo é estabelecer uma fundação dedicada a apoiar os processos de legalização das drogas em países onde isso ainda é uma questão controversa. Através da defesa, educação e apoio financeiro, buscamos influenciar mudanças nas políticas e atitudes sociais, promovendo um ambiente legal propício ao crescimento e aceitação das criptomoedas."
+    }
+  },
+  "roadmap": {
+    "title": "Roteiro",
+    "q3_2024": {
+      "title": "T3 2024",
+      "event1": "Primeira Rodada de Pré-venda: $0.0015 por token (Data de Término: 10 de agosto de 2024)",
+      "event2": "Segunda Rodada de Pré-venda: $0.002 por token (Data de Término: 30 de agosto de 2024)",
+      "event3": "Terceira Rodada de Pré-venda: $0.003 por token (Data de Término: 30 de setembro de 2024)"
+    },
+    "q4_2024": {
+      "title": "T4 2024",
+      "event1": "Distribuição de tokens para os primeiros investidores",
+      "event2": "Campanha de Marketing Inicial para Aumentar a Conscientização"
+    },
+    "q1_2025": {
+      "title": "T1 2025",
+      "event1": "Listagem nas Principais Bolsas de Criptomoedas (Binance, Bybit, Bitget, OKEX)",
+      "event2": "Expansão dos Esforços de Marketing e Engajamento Comunitário"
+    },
+    "q2_2025": {
+      "title": "T2 2025",
+      "event1": "Estabelecimento de Parcerias com Grupos Jurídicos e de Defesa",
+      "event2": "Início de Programas de Apoio à Legalização nos Países Alvo"
+    },
+    "q3_2025": {
+      "title": "T3 2025",
+      "event1": "Lançamento da Campanha Global de Defesa da Legalização das Drogas",
+      "event2": "Hospedagem de Conferências e Workshops Internacionais"
+    }
+  },
+  "about": {
+    "title": "Sobre o DrugNcoin",
+    "introduction": "DrugNcoin foi fundado por um grupo diversificado de profissionais e entusiastas unidos por uma visão comum. Nossa equipe é composta por especialistas de várias áreas, cada um trazendo uma perspectiva única e um conjunto de habilidades. Juntos, estamos dedicados a impulsionar a adoção em massa das criptomoedas através de soluções inovadoras e mudanças sociais.",
+    "founders": {
+      "title": "Nossos Fundadores",
+      "body": "Nossa equipe fundadora é composta por visionários de diferentes origens, cada um com uma profunda paixão pelas criptomoedas e seu potencial para transformar o mundo. Aproveitando nossa expertise coletiva, aspiramos criar um movimento sustentável e impactante."
+    },
+    "expertise": {
+      "title": "Nossa Expertise",
+      "item1": "Tecnologia Blockchain: Nossos especialistas em blockchain garantem a segurança e escalabilidade de nossa plataforma, fazendo do DrugNcoin uma criptomoeda confiável e eficiente.",
+      "item2": "Assuntos Jurídicos e Regulatórios: Nossa equipe jurídica navega pelo complexo panorama das regulamentações de criptomoedas, defendendo políticas que apoiem o uso legal das moedas digitais.",
+      "item3": "Finanças e Economia: Nossos analistas financeiros fornecem insights sobre as tendências do mercado e os impactos econômicos, orientando nossas decisões estratégicas para um crescimento a longo prazo.",
+      "item4": "Marketing e Comunicações: Nossos profissionais de marketing elaboram narrativas convincentes e estratégias de alcance para envolver e expandir nossa comunidade.",
+      "item5": "Saúde Pública e Política: Nossos especialistas em saúde pública compreendem os impactos sociais da legalização das drogas, ajudando-nos a moldar iniciativas que promovam saúde e segurança."
+    },
+    "mission": {
+      "title": "Nossa Missão",
+      "body": "Na DrugNcoin, nossa missão é fomentar a adoção em massa das criptomoedas ao abordar uma de suas maiores barreiras: a associação com transações de drogas ilegais. Ao defender a legalização e regulamentação das drogas, buscamos transformar a narrativa em torno das criptomoedas e pavimentar o caminho para sua integração nos sistemas financeiros convencionais. Acreditamos que, através da educação, defesa e parcerias estratégicas, podemos criar um futuro onde as criptomoedas sejam usadas de maneira transparente e legal, beneficiando a sociedade como um todo."
+    }
+  }
+}

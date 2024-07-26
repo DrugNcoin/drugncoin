@@ -8,6 +8,7 @@ import ReferralProgramPage from "../views/ReferralProgramPage.vue"
 import RoadmapPage from "../views/RoadmapPage.vue"
 import TokenomicsPage from "../views/TokenomicsPage.vue"
 import InfoPage from "../views/InfoPage.vue"
+import OurGoalsPage from "../views/OurGoalsPage.vue"
 
 console.log(`${CONFIG.VITE_FALLBACK_LOCALE}  - default`)
 
@@ -23,6 +24,11 @@ const router = createRouter({
           path: '',
           name: 'home',
           component: HomePage
+        },
+        {
+          path: 'goals',
+          name: 'goals',
+          component: OurGoalsPage
         },
         {
           path: 'presale',

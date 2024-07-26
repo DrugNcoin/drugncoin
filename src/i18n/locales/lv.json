@@ -1,0 +1,196 @@
+{
+  "locale": {
+    "bg": "Български",
+    "cs": "Čeština",
+    "de": "Deutsch",
+    "en": "English",
+    "es": "Español",
+    "et": "Eesti",
+    "fa": "فارسی",
+    "fi": "Suomi",
+    "fr": "Français",
+    "he": "עברית",
+    "it": "Italiano",
+    "lt": "Lietuvių",
+    "lv": "Latviešu",
+    "no": "Norsk",
+    "pl": "Polski",
+    "pt": "Português",
+    "ru": "Русский",
+    "sv": "Svenska",
+    "ua": "Українська"
+  },
+  "nav": {
+    "home": "Sākums",
+    "goals": "Mūsu mērķi",
+    "presale": "Iepriekšpārdošana",
+    "referral": "Ieteikumi",
+    "roadmap": "Ceļvedis",
+    "tokenomics": "Tokenomika",
+    "about": "Par mums"
+  },
+  "hello": {
+    "title": "Laipni lūdzam DrugNcoin!",
+    "body": "Pievienojieties revolūcijai ar DrugNcoin uz TON Blockchain."
+  },
+  "home": {
+    "welcome": {
+      "title": "Laipni lūdzam DrugNcoin!",
+      "body": "Revolūcija kriptovalūtu pasaulē ar inovāciju un kopienu"
+    },
+    "about": {
+      "title": "Par DrugNcoin",
+      "body": "DrugNcoin ir revolucionārs projekts uz TON blokķēdes, kas radīts, lai sniegtu labāko no kriptovalūtas entuziastiem un investoriem. Ar skaidru fokusu uz tokenomiku, caurspīdīgumu un lietotāju iesaisti, DrugNcoin mērķis ir radīt plaukstošu ekosistēmu, kas atlīdzina savu kopienu."
+    },
+    "why": {
+      "title": "Kāpēc DrugNcoin?",
+      "reason1": {
+        "title": "1. Spēcīgs pamats:",
+        "item1": "Izveidots uz drošas un mērogojamas TON blokķēdes.",
+        "item2": "Atbalstīts ar spēcīgu viedlīgumu infrastruktūru."
+      },
+      "reason2": {
+        "title": "2. Caurspīdīga tokenomika:",
+        "item1": "Kopējais piedāvājums: 100 miljardi tokenu.",
+        "item2": "Komandas rezerves: 10 miljardi tokenu.",
+        "item3": "Apgrozībā esošais piedāvājums: 90 miljardi tokenu."
+      },
+      "reason3": {
+        "title": "3. Aizraujošas iepriekšpārdošanas iespējas:",
+        "item1": "Vairāki iepriekšpārdošanas posmi ar pieaugošām tokenu cenām, sniedzot agrīnajiem investoriem ievērojamas priekšrocības."
+      },
+      "reason4": {
+        "title": "4. Atlīdzinoša ieteikumu programma:",
+        "item1": "Pelniet tokenus, aicinot citus pievienoties DrugNcoin kopienai.",
+        "item2": "Progresīva atlīdzību sistēma, balstoties uz ieteikumu skaitu."
+      }
+    },
+    "token_details": {
+      "title": "Tokenu detaļas",
+      "token_name": {
+        "label": "Tokena nosaukums:",
+        "value": "DrugNcoin"
+      },
+      "total_supply": {
+        "label": "Kopējais piedāvājums:",
+        "value": "100 miljardi tokenu"
+      },
+      "team_reserve": {
+        "label": "Komandas rezerves:",
+        "value": "10 miljardi tokenu"
+      },
+      "circulating_supply": {
+        "label": "Apgrozībā esošais piedāvājums:",
+        "value": "90 miljardi tokenu"
+      },
+      "pre_sale_rounds": {
+        "label": "Iepriekšpārdošanas posmi:",
+        "round1": {
+          "title": "Pirmais posms:",
+          "price": "Cena: $0.0015 par tokenu",
+          "end_date": "Beigu datums: 2024. gada 10. augusts"
+        },
+        "round2": {
+          "title": "Otrais posms:",
+          "price": "Cena: $0.002 par tokenu",
+          "end_date": "Beigu datums: 2024. gada 30. augusts"
+        },
+        "round3": {
+          "title": "Trešais posms:",
+          "price": "Cena: $0.003 par tokenu",
+          "end_date": "Beigu datums: 2024. gada 30. septembris"
+        }
+      }
+    },
+    "join": {
+      "title": "Pievienojieties DrugNcoin kopienai",
+      "steps": {
+        "get_started": "Sāciet:",
+        "step1": "Pieslēdziet savu TON maku.",
+        "step2": "Piedalieties iepriekšpārdošanā.",
+        "step3": "Pelniet atlīdzības, izmantojot mūsu ieteikumu programmu."
+      }
+    },
+    "stay_connected": {
+      "title": "Saglabājiet savienojumu:",
+      "social_media": "Sekojiet mums sociālajos medijos, lai saņemtu jaunākos atjauninājumus.",
+      "community_discussions": "Pievienojieties mūsu kopienas diskusijām Telegram un Discord."
+    },
+    "contact": {
+      "title": "Sazinieties ar mums:",
+      "body": "Jautājumu gadījumā, lūdzu, sazinieties ar mūsu atbalsta komandu pa e-pastu [support at drugncoin.com](mailto:support at drugncoin.com)."
+    },
+    "footer": {
+      "body": "DrugNcoin - kriptovalūtu nākotnes inovācija"
+    }
+  },
+  "our_goals": {
+    "title": "Mūsu mērķi",
+    "introduction": "DrugNcoin mēs ticam, ka kriptovalūtas masveida ieviešana nav iespējama, neatrisinot būtisku sabiedrības jautājumu: narkotiku legalizāciju. Mēs atzīstam kriptovalūtu nozīmīgo lomu melnajā tirgū, īpaši nelegālo narkotiku darījumos. Šī saistība ir būtisks šķērslis kriptovalūtu plašai pieņemšanai un integrācijai tradicionālajās finanšu sistēmās.",
+    "vision": {
+      "title": "Mūsu vīzija",
+      "body": "Mēs iztēlojamies pasauli, kur melnā tirgus ēnas izzūd likumības gaismā. Kā rīts šķeļ visdziļāko nakti, tā narkotiku legalizācija un regulācija var aizsākt jaunu ēru kriptovalūtām, pārveidojot tās no pazemes rīka uz caurspīdīgas un likumīgas tirdzniecības bāku."
+    },
+    "blocker": {
+      "title": "Tiešais šķērslis",
+      "body": "Ceļš uz kriptovalūtas masveida ieviešanu ir aizkavēts ar nelegālu narkotiku lietošanas noturīgu ēnu. Šī nelegālā saistība met ēnu uz digitālo valūtu potenciālu, radot neuzticību un pretestību regulējošo iestāžu un sabiedrības vidū. Lai atbrīvotu kriptovalūtu patieso potenciālu, mums vispirms ir jātiek galā ar šo fundamentālo jautājumu."
+    },
+    "solution": {
+      "title": "Mūsu risinājums",
+      "body": "Mēs uzskatām, ka narkotiku dekriminalizācija un legalizācija ir 100% risinājums vienam no lielākajiem šķēršļiem kriptovalūtas masveida ieviešanai. Atbalstot un veicinot narkotiku legalizāciju, mūsu mērķis ir novērst ar kriptovalūtu izmantošanu saistīto stigmu un juridiskos izaicinājumus, paverot ceļu to pieņemšanai un integrācijai ikdienas dzīvē."
+    },
+    "foundation": {
+      "title": "Izveidot fondu",
+      "body": "Mūsu mērķis ir izveidot fondu, kas ir veltīts narkotiku legalizācijas procesu atbalstam valstīs, kur tas joprojām ir strīdīgs jautājums. Ar advokātu darbu, izglītību un finansiālu atbalstu mēs vēlamies ietekmēt politikas izmaiņas un sabiedrības attieksmi, veicinot juridisko vidi, kas veicina kriptovalūtu izaugsmi un pieņemšanu."
+    }
+  },
+  "roadmap": {
+    "title": "Ceļvedis",
+    "q3_2024": {
+      "title": "2024. gada 3. ceturksnis",
+      "event1": "Pirmais iepriekšpārdošanas posms: $0.0015 par tokenu (Beigu datums: 2024. gada 10. augusts)",
+      "event2": "Otrais iepriekšpārdošanas posms: $0.002 par tokenu (Beigu datums: 2024. gada 30. augusts)",
+      "event3": "Trešais iepriekšpārdošanas posms: $0.003 par tokenu (Beigu datums: 2024. gada 30. septembris)"
+    },
+    "q4_2024": {
+      "title": "2024. gada 4. ceturksnis",
+      "event1": "Tokenu izplatīšana agrīnajiem investoriem",
+      "event2": "Sākotnējā mārketinga kampaņa, lai veicinātu informētību"
+    },
+    "q1_2025": {
+      "title": "2025. gada 1. ceturksnis",
+      "event1": "Iekļaušana lielākajās kriptovalūtu biržās (Binance, Bybit, Bitget, OKEX)",
+      "event2": "Paplašināt mārketinga centienus un kopienas iesaisti"
+    },
+    "q2_2025": {
+      "title": "2025. gada 2. ceturksnis",
+      "event1": "Partnerību izveide ar juridiskajām un advokātu grupām",
+      "event2": "Legalizācijas atbalsta programmu uzsākšana mērķa valstīs"
+    },
+    "q3_2025": {
+      "title": "2025. gada 3. ceturksnis",
+      "event1": "Pasaules kampaņas uzsākšana narkotiku legalizācijas veicināšanai",
+      "event2": "Starptautisko konferenču un semināru rīkošana"
+    }
+  },
+  "about": {
+    "title": "Par DrugNcoin",
+    "introduction": "DrugNcoin dibināja daudzveidīga profesionāļu un entuziastu grupa, kurus vieno kopīga vīzija. Mūsu komanda sastāv no dažādu jomu ekspertiem, kuri katrs sniedz unikālu perspektīvu un prasmju komplektu. Kopā mēs esam apņēmušies veicināt kriptovalūtu masveida ieviešanu, izmantojot inovatīvus risinājumus un sabiedriskās izmaiņas.",
+    "founders": {
+      "title": "Mūsu dibinātāji",
+      "body": "Mūsu dibinātāju komanda sastāv no dažādu jomu redzētājiem, kuriem visiem ir dziļa aizrautība par kriptovalūtu un tās potenciālu mainīt pasauli. Izmantojot mūsu kolektīvo pieredzi, mūsu mērķis ir radīt ilgtspējīgu un ietekmīgu kustību."
+    },
+    "expertise": {
+      "title": "Mūsu kompetence",
+      "item1": "Blokķēdes tehnoloģija: Mūsu blokķēdes eksperti nodrošina mūsu platformas drošību un mērogojamību, padarot DrugNcoin par uzticamu un efektīvu kriptovalūtu.",
+      "item2": "Juridiskie un regulatīvie jautājumi: Mūsu juridiskā komanda orientējas sarežģītajā kriptovalūtu regulējumu ainavā, veicinot politiku, kas atbalsta digitālo valūtu likumīgu izmantošanu.",
+      "item3": "Finanses un ekonomika: Mūsu finanšu analītiķi sniedz ieskatu tirgus tendencēs un ekonomiskajās ietekmēs, vadot mūsu stratēģiskos lēmumus ilgtermiņa izaugsmei.",
+      "item4": "Mārketings un komunikācija: Mūsu mārketinga profesionāļi veido pārliecinošus stāstus un stratēģijas, lai iesaistītu un paplašinātu mūsu kopienu.",
+      "item5": "Sabiedrības veselība un politika: Mūsu sabiedrības veselības eksperti izprot narkotiku legalizācijas sociālo ietekmi, palīdzot mums veidot iniciatīvas, kas veicina veselību un drošību."
+    },
+    "mission": {
+      "title": "Mūsu misija",
+      "body": "DrugNcoin misija ir veicināt kriptovalūtu masveida ieviešanu, risinot vienu no tās būtiskākajiem šķēršļiem: saistību ar nelegāliem narkotiku darījumiem. Veicinot narkotiku legalizāciju un regulāciju, mūsu mērķis ir mainīt stāstījumu par kriptovalūtām un atvieglot to integrāciju tradicionālajās finanšu sistēmās. Mēs ticam, ka, izmantojot izglītību, advokātu darbu un stratēģiskas partnerības, mēs varam radīt nākotni, kurā kriptovalūtas tiek izmantotas caurspīdīgi un likumīgi, dodot labumu visai sabiedrībai."
+    }
+  }
+}

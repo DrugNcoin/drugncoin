@@ -1,6 +1,7 @@
 <template>
   <nav>
     <RouterLink :to="Tr.i18nRoute({ name: 'home' })">{{ $t("nav.home") }}</RouterLink>
+    <RouterLink :to="Tr.i18nRoute({ name: 'goals' })">{{ $t("nav.goals") }}</RouterLink>
     <RouterLink :to="Tr.i18nRoute({ name: 'presale' })">{{ $t("nav.presale") }}</RouterLink>
     <RouterLink :to="Tr.i18nRoute({ name: 'referral' })">{{ $t("nav.referral") }}</RouterLink>
     <RouterLink :to="Tr.i18nRoute({ name: 'roadmap' })">{{ $t("nav.roadmap") }}</RouterLink>

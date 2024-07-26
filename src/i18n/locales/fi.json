@@ -1,0 +1,196 @@
+{
+  "locale": {
+    "bg": "Български",
+    "cs": "Čeština",
+    "de": "Deutsch",
+    "en": "English",
+    "es": "Español",
+    "et": "Eesti",
+    "fa": "فارسی",
+    "fi": "Suomi",
+    "fr": "Français",
+    "he": "עברית",
+    "it": "Italiano",
+    "lt": "Lietuvių",
+    "lv": "Latviešu",
+    "no": "Norsk",
+    "pl": "Polski",
+    "pt": "Português",
+    "ru": "Русский",
+    "sv": "Svenska",
+    "ua": "Українська"
+  },
+  "nav": {
+    "home": "Koti",
+    "goals": "Tavoitteemme",
+    "presale": "Ennakkovmyynti",
+    "referral": "Suositteluohjelma",
+    "roadmap": "Tiekartta",
+    "tokenomics": "Tokenomika",
+    "about": "Tietoa"
+  },
+  "hello": {
+    "title": "Tervetuloa DrugNcoin'iin!",
+    "body": "Liity vallankumoukseen DrugNcoin'in kanssa TON Blockchainissa."
+  },
+  "home": {
+    "welcome": {
+      "title": "Tervetuloa DrugNcoin!",
+      "body": "Revolutioidaan kryptomaailmaa innovaatiolla ja yhteisöllisyydellä"
+    },
+    "about": {
+      "title": "Tietoa DrugNcoinista",
+      "body": "DrugNcoin on uraauurtava projekti TON-lohkoketjussa, joka on suunniteltu tuomaan kryptovaluutan parhaat puolet harrastajien ja sijoittajien käsiin. Keskittymällä selkeästi tokenomiikkaan, läpinäkyvyyteen ja käyttäjäosallistumiseen, DrugNcoin pyrkii luomaan kukoistavan ekosysteemin, joka palkitsee yhteisöään."
+    },
+    "why": {
+      "title": "Miksi DrugNcoin?",
+      "reason1": {
+        "title": "1. Vahva Perusta:",
+        "item1": "Rakennettu turvallisen ja laajennettavan TON-lohkoketjun päälle.",
+        "item2": "Tuettu vankalla älykkäiden sopimusten infrastruktuurilla."
+      },
+      "reason2": {
+        "title": "2. Läpinäkyvä Tokenomiikka:",
+        "item1": "Kokonaismäärä: 100 miljardia tokenia.",
+        "item2": "Tiimille varattu: 10 miljardia tokenia.",
+        "item3": "Liikkeessä oleva määrä: 90 miljardia tokenia."
+      },
+      "reason3": {
+        "title": "3. Jännittävät Ennakkovmyyntimahdollisuudet:",
+        "item1": "Useita ennakkovmyyntikierroksia nousevilla tokenhinnoilla, jotka antavat merkittäviä etuja aikaisille sijoittajille."
+      },
+      "reason4": {
+        "title": "4. Palkitseva Suositteluohjelma:",
+        "item1": "Ansaitse tokeneita kutsumalla muita liittymään DrugNcoin-yhteisöön.",
+        "item2": "Progressiivinen palkkiojärjestelmä perustuu suositteluiden määrään."
+      }
+    },
+    "token_details": {
+      "title": "Tokenin Tiedot",
+      "token_name": {
+        "label": "Tokenin Nimi:",
+        "value": "DrugNcoin"
+      },
+      "total_supply": {
+        "label": "Kokonaismäärä:",
+        "value": "100 miljardia tokenia"
+      },
+      "team_reserve": {
+        "label": "Tiimille varattu:",
+        "value": "10 miljardia tokenia"
+      },
+      "circulating_supply": {
+        "label": "Liikkeessä oleva määrä:",
+        "value": "90 miljardia tokenia"
+      },
+      "pre_sale_rounds": {
+        "label": "Ennakkovmyyntikierrokset:",
+        "round1": {
+          "title": "Ensimmäinen Kierros:",
+          "price": "Hinta: $0.0015 per token",
+          "end_date": "Päättymispäivä: 10. elokuuta 2024"
+        },
+        "round2": {
+          "title": "Toinen Kierros:",
+          "price": "Hinta: $0.002 per token",
+          "end_date": "Päättymispäivä: 30. elokuuta 2024"
+        },
+        "round3": {
+          "title": "Kolmas Kierros:",
+          "price": "Hinta: $0.003 per token",
+          "end_date": "Päättymispäivä: 30. syyskuuta 2024"
+        }
+      }
+    },
+    "join": {
+      "title": "Liity DrugNcoin-yhteisöön",
+      "steps": {
+        "get_started": "Aloita:",
+        "step1": "Yhdistä TON-lompakkosi.",
+        "step2": "Osallistu ennakkovmyyntiin.",
+        "step3": "Ansaitse palkkioita suositteluohjelmamme kautta."
+      }
+    },
+    "stay_connected": {
+      "title": "Pysy Yhteydessä:",
+      "social_media": "Seuraa meitä sosiaalisessa mediassa saadaksesi viimeisimmät päivitykset.",
+      "community_discussions": "Liity yhteisökeskusteluihimme Telegramissa ja Discordissa."
+    },
+    "contact": {
+      "title": "Ota Yhteyttä:",
+      "body": "Kysymyksissä ota yhteyttä tukitiimiimme osoitteessa [support at drugncoin.com](mailto:support at drugncoin.com)."
+    },
+    "footer": {
+      "body": "DrugNcoin - Kryptovaluutan Tulevaisuuden Innovointi"
+    }
+  },
+  "our_goals": {
+    "title": "Tavoitteemme",
+    "introduction": "DrugNcoinissa meillä on visio siitä, että kryptovaluutan massiivinen käyttöönotto ei voi täysin toteutua ilman kriittisen yhteiskunnallisen ongelman käsittelyä: huumeiden laillistamista. Tunnistamme kryptovaluuttojen merkittävän roolin mustassa pörssissä, erityisesti laittomien huumekauppojen osalta. Tämä yhteys on merkittävä este kryptovaluuttojen laajalle hyväksymiselle ja integroinnille valtavirran talousjärjestelmiin.",
+    "vision": {
+      "title": "Visiomme",
+      "body": "Kuvittelemme maailman, jossa mustan pörssin varjot hälvenevät laillisuuden valossa. Kuten aamunkoitto hajottaa pimeimmän yön, huumeiden laillistaminen ja sääntely voi ennustaa uuden aikakauden kryptovaluutalle, muuttaen sen maanalaisten kauppojen työkalusta läpinäkyvän ja laillisen kaupan majakaksi."
+    },
+    "blocker": {
+      "title": "Suora Este",
+      "body": "Matka kryptovaluutan massiiviseen käyttöönottoon estyy laittoman huumeidenkäytön jatkuvassa varjossa. Tämä laiton yhteys heittää varjon digitaalisten valuuttojen potentiaalille, luoden epäluottamusta ja vastustusta sääntelyelinten ja yleisön keskuudessa. Avatakseen kryptovaluuttojen todellisen potentiaalin, meidän on ensin käsiteltävä tämä perustavanlaatuinen ongelma."
+    },
+    "solution": {
+      "title": "Ratkaisumme",
+      "body": "Uskomme, että huumeiden dekriminalisointi ja laillistaminen edustavat 100 % ratkaisua yhteen suurimmista esteistä kryptovaluutan massiiviselle käyttöönotolle. Kannattamalla ja tukemalla huumeiden laillistamista, pyrimme poistamaan stigman ja lailliset haasteet, jotka liittyvät kryptovaluuttojen käyttöön, avaten tietä niiden hyväksymiselle ja integroinnille arkipäiväiseen elämään."
+    },
+    "foundation": {
+      "title": "Perustan Luominen",
+      "body": "Tavoitteenamme on perustaa säätiö, joka tukee huumeiden laillistamisprosesseja maissa, joissa tämä on edelleen kiistanalainen kysymys. Edunvalvonnan, koulutuksen ja taloudellisen tuen kautta pyrimme vaikuttamaan politiikan muutoksiin ja yhteiskunnallisiin asenteisiin, edistäen oikeudellista ympäristöä, joka tukee kryptovaluuttojen kasvua ja hyväksyntää."
+    }
+  },
+  "roadmap": {
+    "title": "Tiekartta",
+    "q3_2024": {
+      "title": "Q3 2024",
+      "event1": "Ensimmäinen Ennakkovmyyntikierros: $0.0015 per token (Päättymispäivä: 10. elokuuta 2024)",
+      "event2": "Toinen Ennakkovmyyntikierros: $0.002 per token (Päättymispäivä: 30. elokuuta 2024)",
+      "event3": "Kolmas Ennakkovmyyntikierros: $0.003 per token (Päättymispäivä: 30. syyskuuta 2024)"
+    },
+    "q4_2024": {
+      "title": "Q4 2024",
+      "event1": "Tokenien jakelu aikaisille sijoittajille",
+      "event2": "Alkuperäinen markkinointikampanja tietoisuuden lisäämiseksi"
+    },
+    "q1_2025": {
+      "title": "Q1 2025",
+      "event1": "Listautuminen Suuriin Kryptovaluuttapörsseihin (Binance, Bybit, Bitget, OKEX)",
+      "event2": "Markkinointiponnistelujen ja yhteisön sitoutumisen laajentaminen"
+    },
+    "q2_2025": {
+      "title": "Q2 2025",
+      "event1": "Kumppanuuksien luominen oikeudellisten ja edunvalvontaryhmien kanssa",
+      "event2": "Laillistamista tukevien ohjelmien käynnistäminen kohdennetuissa maissa"
+    },
+    "q3_2025": {
+      "title": "Q3 2025",
+      "event1": "Kansainvälisen Huumeiden Laillistamista Kannattavan Kampanjan Käynnistäminen",
+      "event2": "Kansainvälisten Konferenssien ja Työpajojen Järjestäminen"
+    }
+  },
+  "about": {
+    "title": "Tietoa DrugNcoinista",
+    "introduction": "DrugNcoin perustettiin erilaisista ammattilaisista ja harrastajista koostuvan ryhmän toimesta, jota yhdistää yhteinen visio. Tiimimme koostuu asiantuntijoista eri aloilta, joista jokainen tuo mukanaan ainutlaatuisen näkökulman ja taitojoukon. Yhdessä olemme omistautuneet edistämään kryptovaluutan massiivista käyttöönottoa innovatiivisten ratkaisujen ja yhteiskunnallisen muutoksen avulla.",
+    "founders": {
+      "title": "Perustajamme",
+      "body": "Perustajatiimimme koostuu eri taustoista tulevista visionääreistä, joilla kaikilla on syvä intohimo kryptovaluuttoihin ja niiden potentiaaliin muuttaa maailmaa. Hyödyntämällä yhteistä asiantuntemustamme pyrimme luomaan kestävän ja vaikuttavan liikkeen."
+    },
+    "expertise": {
+      "title": "Asiantuntemuksemme",
+      "item1": "Blockchain-teknologia: Blockchain-asiantuntijamme varmistavat alustamme turvallisuuden ja laajennettavuuden, tehden DrugNcoinista luotettavan ja tehokkaan kryptovaluutan.",
+      "item2": "Oikeudelliset ja Sääntelyasiat: Lakitiimimme navigoi kryptovaluuttojen monimutkaisessa sääntelyympäristössä, puolustaen politiikkoja, jotka tukevat digitaalisten valuuttojen laillista käyttöä.",
+      "item3": "Rahoitus ja Talous: Rahoitusanalyytikkomme tarjoavat näkemyksiä markkinatrendeistä ja taloudellisista vaikutuksista, ohjaten strategisia päätöksiämme pitkän aikavälin kasvua varten.",
+      "item4": "Markkinointi ja Viestintä: Markkinointiasiantuntijamme laativat vakuuttavia tarinoita ja strategioita yhteisömme sitouttamiseksi ja kasvattamiseksi.",
+      "item5": "Julkinen Terveys ja Politiikka: Julkisen terveyden asiantuntijamme ymmärtävät huumeiden laillistamisen yhteiskunnalliset vaikutukset, auttaen meitä muotoilemaan aloitteita, jotka edistävät terveyttä ja turvallisuutta."
+    },
+    "mission": {
+      "title": "Tehtävämme",
+      "body": "DrugNcoinissa tehtävämme on edistää kryptovaluutan massiivista käyttöönottoa käsittelemällä yhtä sen merkittävimmistä esteistä: yhteyttä laittomiin huumekauppoihin. Kannattamalla huumeiden laillistamista ja sääntelyä pyrimme muuttamaan kryptovaluuttojen ympärillä olevaa narratiivia ja tasoittamaan tietä niiden integroimiseksi valtavirran talousjärjestelmiin. Uskomme, että koulutuksen, edunvalvonnan ja strategisten kumppanuuksien kautta voimme luoda tulevaisuuden, jossa kryptovaluuttoja käytetään läpinäkyvästi ja laillisesti, hyödyttäen koko yhteiskuntaa."
+    }
+  }
+}

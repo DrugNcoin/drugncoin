@@ -1,0 +1,196 @@
+{
+  "locale": {
+    "bg": "Български",
+    "cs": "Čeština",
+    "de": "Deutsch",
+    "en": "English",
+    "es": "Español",
+    "et": "Eesti",
+    "fa": "فارسی",
+    "fi": "Suomi",
+    "fr": "Français",
+    "he": "עברית",
+    "it": "Italiano",
+    "lt": "Lietuvių",
+    "lv": "Latviešu",
+    "no": "Norsk",
+    "pl": "Polski",
+    "pt": "Português",
+    "ru": "Русский",
+    "sv": "Svenska",
+    "ua": "Українська"
+  },
+  "nav": {
+    "home": "Strona główna",
+    "goals": "Nasze cele",
+    "presale": "Przedsprzedaż",
+    "referral": "Program poleceń",
+    "roadmap": "Mapa drogowa",
+    "tokenomics": "Tokenomika",
+    "about": "O nas"
+  },
+  "hello": {
+    "title": "Witamy w DrugNcoin!",
+    "body": "Dołącz do rewolucji z DrugNcoin na TON Blockchain."
+  },
+  "home": {
+    "welcome": {
+      "title": "Witamy w DrugNcoin!",
+      "body": "Rewolucjonizujemy świat kryptowalut poprzez innowacje i społeczność"
+    },
+    "about": {
+      "title": "O DrugNcoin",
+      "body": "DrugNcoin to przełomowy projekt na Blockchainie TON, zaprojektowany, aby dostarczyć najlepsze rozwiązania kryptowalutowe entuzjastom i inwestorom. Skupiając się na tokenomice, przejrzystości i zaangażowaniu użytkowników, DrugNcoin dąży do stworzenia kwitnącego ekosystemu nagradzającego swoją społeczność."
+    },
+    "why": {
+      "title": "Dlaczego DrugNcoin?",
+      "reason1": {
+        "title": "1. Solidne fundamenty:",
+        "item1": "Zbudowany na bezpiecznym i skalowalnym Blockchainie TON.",
+        "item2": "Wspierany przez solidną infrastrukturę inteligentnych kontraktów."
+      },
+      "reason2": {
+        "title": "2. Przejrzysta tokenomika:",
+        "item1": "Całkowita podaż: 100 miliardów tokenów.",
+        "item2": "Rezerwa zespołu: 10 miliardów tokenów.",
+        "item3": "Cyrkulująca podaż: 90 miliardów tokenów."
+      },
+      "reason3": {
+        "title": "3. Ekscytujące możliwości przedsprzedaży:",
+        "item1": "Wiele rund przedsprzedaży z rosnącymi cenami tokenów, dających znaczące korzyści wczesnym inwestorom."
+      },
+      "reason4": {
+        "title": "4. Nagradzający program poleceń:",
+        "item1": "Zarabiaj tokeny zapraszając innych do dołączenia do społeczności DrugNcoin.",
+        "item2": "Progresywny system nagród oparty na liczbie poleceń."
+      }
+    },
+    "token_details": {
+      "title": "Szczegóły tokena",
+      "token_name": {
+        "label": "Nazwa tokena:",
+        "value": "DrugNcoin"
+      },
+      "total_supply": {
+        "label": "Całkowita podaż:",
+        "value": "100 miliardów tokenów"
+      },
+      "team_reserve": {
+        "label": "Rezerwa zespołu:",
+        "value": "10 miliardów tokenów"
+      },
+      "circulating_supply": {
+        "label": "Cyrkulująca podaż:",
+        "value": "90 miliardów tokenów"
+      },
+      "pre_sale_rounds": {
+        "label": "Rundy przedsprzedaży:",
+        "round1": {
+          "title": "Pierwsza runda:",
+          "price": "Cena: $0.0015 za token",
+          "end_date": "Data zakończenia: 10 sierpnia 2024"
+        },
+        "round2": {
+          "title": "Druga runda:",
+          "price": "Cena: $0.002 za token",
+          "end_date": "Data zakończenia: 30 sierpnia 2024"
+        },
+        "round3": {
+          "title": "Trzecia runda:",
+          "price": "Cena: $0.003 za token",
+          "end_date": "Data zakończenia: 30 września 2024"
+        }
+      }
+    },
+    "join": {
+      "title": "Dołącz do społeczności DrugNcoin",
+      "steps": {
+        "get_started": "Zacznij:",
+        "step1": "Podłącz swoją portmonetkę TON.",
+        "step2": "Weź udział w przedsprzedaży.",
+        "step3": "Zarabiaj nagrody przez nasz program poleceń."
+      }
+    },
+    "stay_connected": {
+      "title": "Pozostań w kontakcie:",
+      "social_media": "Śledź nas w mediach społecznościowych, aby być na bieżąco z najnowszymi aktualizacjami.",
+      "community_discussions": "Dołącz do naszych dyskusji społecznościowych na Telegramie i Discordzie."
+    },
+    "contact": {
+      "title": "Skontaktuj się z nami:",
+      "body": "W przypadku pytań, prosimy o kontakt z naszym zespołem wsparcia na adres [support at drugncoin.com](mailto:support at drugncoin.com)."
+    },
+    "footer": {
+      "body": "DrugNcoin - Innowacja przyszłości kryptowalut"
+    }
+  },
+  "our_goals": {
+    "title": "Nasze cele",
+    "introduction": "W DrugNcoin mamy wizjonerskie przekonanie, że masowe przyjęcie kryptowalut nie może zostać w pełni zrealizowane bez rozwiązania kluczowego problemu społecznego: legalizacji narkotyków. Uznajemy znaczącą rolę, jaką kryptowaluty odgrywają na czarnym rynku, zwłaszcza w transakcjach dotyczących nielegalnych narkotyków. To powiązanie stanowi znaczącą barierę dla powszechnego akceptowania i integracji kryptowalut z głównymi systemami finansowymi.",
+    "vision": {
+      "title": "Nasza wizja",
+      "body": "Widzimy świat, w którym cienie czarnego rynku znikają w świetle legalności. Tak jak świt rozjaśnia najciemniejszą noc, tak legalizacja i regulacja narkotyków mogą zwiastować nową erę dla kryptowalut, przekształcając je z narzędzia podziemnego świata w latarnię przejrzystego i legalnego handlu."
+    },
+    "blocker": {
+      "title": "Bezpośrednia przeszkoda",
+      "body": "Droga do masowego przyjęcia kryptowalut jest utrudniona przez nieustanny cień nielegalnego używania narkotyków. To nielegalne powiązanie rzuca cień na potencjał walut cyfrowych, tworząc nieufność i opór wśród organów regulacyjnych i ogółu społeczeństwa. Aby odblokować pełny potencjał kryptowalut, musimy najpierw rozwiązać ten fundamentalny problem."
+    },
+    "solution": {
+      "title": "Nasze rozwiązanie",
+      "body": "Wierzymy, że dekryminalizacja i legalizacja narkotyków stanowią 100% rozwiązanie jednej z największych przeszkód na drodze do masowego przyjęcia kryptowalut. Poprzez wspieranie i promowanie legalizacji narkotyków, dążymy do usunięcia stygmatyzacji i przeszkód prawnych związanych z używaniem kryptowalut, torując drogę do ich akceptacji i integracji w codziennym życiu."
+    },
+    "foundation": {
+      "title": "Tworzenie fundacji",
+      "body": "Naszym celem jest ustanowienie fundacji wspierającej procesy legalizacji narkotyków w krajach, gdzie jest to wciąż kontrowersyjny temat. Poprzez rzecznictwo, edukację i wsparcie finansowe dążymy do wpływania na zmiany polityczne i społeczne postawy, tworząc środowisko prawne sprzyjające rozwojowi i akceptacji kryptowalut."
+    }
+  },
+  "roadmap": {
+    "title": "Mapa drogowa",
+    "q3_2024": {
+      "title": "III kwartał 2024",
+      "event1": "Pierwsza runda przedsprzedaży: $0.0015 za token (Data zakończenia: 10 sierpnia 2024)",
+      "event2": "Druga runda przedsprzedaży: $0.002 za token (Data zakończenia: 30 sierpnia 2024)",
+      "event3": "Trzecia runda przedsprzedaży: $0.003 za token (Data zakończenia: 30 września 2024)"
+    },
+    "q4_2024": {
+      "title": "IV kwartał 2024",
+      "event1": "Dystrybucja tokenów dla wczesnych inwestorów",
+      "event2": "Początkowa kampania marketingowa zwiększająca świadomość"
+    },
+    "q1_2025": {
+      "title": "I kwartał 2025",
+      "event1": "Notowanie na głównych giełdach kryptowalut (Binance, Bybit, Bitget, OKEX)",
+      "event2": "Rozwój działań marketingowych i zaangażowania społeczności"
+    },
+    "q2_2025": {
+      "title": "II kwartał 2025",
+      "event1": "Nawiązywanie partnerstw z grupami prawniczymi i rzeczniczymi",
+      "event2": "Inicjowanie programów wsparcia legalizacji w krajach docelowych"
+    },
+    "q3_2025": {
+      "title": "III kwartał 2025",
+      "event1": "Uruchomienie globalnej kampanii na rzecz legalizacji narkotyków",
+      "event2": "Organizacja międzynarodowych konferencji i warsztatów"
+    }
+  },
+  "about": {
+    "title": "O DrugNcoin",
+    "introduction": "DrugNcoin został założony przez różnorodną grupę profesjonalistów i entuzjastów, zjednoczonych wspólną wizją. Nasz zespół składa się z ekspertów z różnych dziedzin, z których każdy wnosi unikalną perspektywę i zestaw umiejętności. Razem jesteśmy zaangażowani w promowanie masowego przyjęcia kryptowalut poprzez innowacyjne rozwiązania i zmiany społeczne.",
+    "founders": {
+      "title": "Nasi założyciele",
+      "body": "Nasz zespół założycieli składa się z wizjonerów z różnych środowisk, z głęboką pasją do kryptowalut i ich potencjału do zmiany świata. Wykorzystując nasze zbiorowe doświadczenie, dążymy do stworzenia trwałego i wpływowego ruchu."
+    },
+    "expertise": {
+      "title": "Nasza ekspertyza",
+      "item1": "Technologia blockchain: Nasi eksperci od blockchain zapewniają bezpieczeństwo i skalowalność naszej platformy, czyniąc DrugNcoin niezawodną i efektywną kryptowalutą.",
+      "item2": "Kwestie prawne i regulacyjne: Nasz zespół prawny porusza się w skomplikowanym krajobrazie regulacji kryptowalut, promując polityki wspierające legalne użycie walut cyfrowych.",
+      "item3": "Finanse i ekonomia: Nasi analitycy finansowi dostarczają wglądów w trendy rynkowe i wpływ ekonomiczny, kierując naszymi strategicznymi decyzjami dla długoterminowego wzrostu.",
+      "item4": "Marketing i komunikacja: Nasi profesjonaliści od marketingu tworzą przekonujące narracje i strategie zasięgu, aby zaangażować i rozwijać naszą społeczność.",
+      "item5": "Zdrowie publiczne i polityka: Nasi eksperci od zdrowia publicznego rozumieją społeczne skutki legalizacji narkotyków, pomagając nam kształtować inicjatywy promujące zdrowie i bezpieczeństwo."
+    },
+    "mission": {
+      "title": "Nasza misja",
+      "body": "Naszą misją w DrugNcoin jest promowanie masowego przyjęcia kryptowalut poprzez rozwiązanie jednej z najważniejszych przeszkód: powiązania z nielegalnymi transakcjami narkotykowymi. Poprzez promowanie legalizacji i regulacji narkotyków, dążymy do zmiany narracji wokół kryptowalut i ułatwienia ich integracji z głównymi systemami finansowymi. Wierzymy, że poprzez edukację, rzecznictwo i strategiczne partnerstwa możemy stworzyć przyszłość, w której kryptowaluty są używane w sposób przejrzysty i legalny, przynosząc korzyści całemu społeczeństwu."
+    }
+  }
+}

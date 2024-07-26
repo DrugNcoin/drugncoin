@@ -1,0 +1,196 @@
+{
+  "locale": {
+    "bg": "Български",
+    "cs": "Čeština",
+    "de": "Deutsch",
+    "en": "English",
+    "es": "Español",
+    "et": "Eesti",
+    "fa": "فارسی",
+    "fi": "Suomi",
+    "fr": "Français",
+    "he": "עברית",
+    "it": "Italiano",
+    "lt": "Lietuvių",
+    "lv": "Latviešu",
+    "no": "Norsk",
+    "pl": "Polski",
+    "pt": "Português",
+    "ru": "Русский",
+    "sv": "Svenska",
+    "ua": "Українська"
+  },
+  "nav": {
+    "home": "Domov",
+    "goals": "Naše cíle",
+    "presale": "Předprodej",
+    "referral": "Referral",
+    "roadmap": "Plán",
+    "tokenomics": "Tokenomika",
+    "about": "O nás"
+  },
+  "hello": {
+    "title": "Vítejte v DrugNcoin!",
+    "body": "Připojte se k revoluci s DrugNcoin na TON Blockchain."
+  },
+  "home": {
+    "welcome": {
+      "title": "Vítejte v DrugNcoin!",
+      "body": "Revoluce ve světě kryptoměn díky inovacím a komunitě"
+    },
+    "about": {
+      "title": "O DrugNcoin",
+      "body": "DrugNcoin je průlomový projekt na blockchainu TON, navržený tak, aby přinesl to nejlepší z kryptoměn nadšencům a investorům. Se zřetelným zaměřením na tokenomiku, transparentnost a zapojení uživatelů, DrugNcoin si klade za cíl vytvořit prosperující ekosystém, který odměňuje svou komunitu."
+    },
+    "why": {
+      "title": "Proč DrugNcoin?",
+      "reason1": {
+        "title": "1. Silné základy:",
+        "item1": "Postaveno na bezpečném a škálovatelném blockchainu TON.",
+        "item2": "Podpořeno robustní infrastrukturou inteligentních kontraktů."
+      },
+      "reason2": {
+        "title": "2. Transparentní tokenomika:",
+        "item1": "Celková zásoba: 100 miliard tokenů.",
+        "item2": "Rezerva týmu: 10 miliard tokenů.",
+        "item3": "Cirkulující zásoba: 90 miliard tokenů."
+      },
+      "reason3": {
+        "title": "3. Vzrušující možnosti předprodeje:",
+        "item1": "Více kol předprodeje s rostoucími cenami tokenů, což poskytuje významné výhody raným investorům."
+      },
+      "reason4": {
+        "title": "4. Odměňující referral program:",
+        "item1": "Získávejte tokeny pozváním ostatních do komunity DrugNcoin.",
+        "item2": "Progresivní systém odměn založený na počtu referralů."
+      }
+    },
+    "token_details": {
+      "title": "Detaily tokenu",
+      "token_name": {
+        "label": "Název tokenu:",
+        "value": "DrugNcoin"
+      },
+      "total_supply": {
+        "label": "Celková zásoba:",
+        "value": "100 miliard tokenů"
+      },
+      "team_reserve": {
+        "label": "Rezerva týmu:",
+        "value": "10 miliard tokenů"
+      },
+      "circulating_supply": {
+        "label": "Cirkulující zásoba:",
+        "value": "90 miliard tokenů"
+      },
+      "pre_sale_rounds": {
+        "label": "Kola předprodeje:",
+        "round1": {
+          "title": "První kolo:",
+          "price": "Cena: $0.0015 za token",
+          "end_date": "Datum ukončení: 10. srpna 2024"
+        },
+        "round2": {
+          "title": "Druhé kolo:",
+          "price": "Cena: $0.002 za token",
+          "end_date": "Datum ukončení: 30. srpna 2024"
+        },
+        "round3": {
+          "title": "Třetí kolo:",
+          "price": "Cena: $0.003 za token",
+          "end_date": "Datum ukončení: 30. září 2024"
+        }
+      }
+    },
+    "join": {
+      "title": "Připojte se k komunitě DrugNcoin",
+      "steps": {
+        "get_started": "Začněte:",
+        "step1": "Připojte svou peněženku TON.",
+        "step2": "Zúčastněte se předprodeje.",
+        "step3": "Získávejte odměny prostřednictvím našeho referral programu."
+      }
+    },
+    "stay_connected": {
+      "title": "Zůstaňte ve spojení:",
+      "social_media": "Sledujte nás na sociálních médiích pro nejnovější aktualizace.",
+      "community_discussions": "Připojte se k našim komunitním diskusím na Telegramu a Discordu."
+    },
+    "contact": {
+      "title": "Kontaktujte nás:",
+      "body": "Pro dotazy kontaktujte náš tým podpory na adrese [support at drugncoin.com](mailto:support at drugncoin.com)."
+    },
+    "footer": {
+      "body": "DrugNcoin - Inovace budoucnosti kryptoměn"
+    }
+  },
+  "our_goals": {
+    "title": "Naše cíle",
+    "introduction": "V DrugNcoin máme vizionářské přesvědčení, že masové přijetí kryptoměn nemůže být plně realizováno bez řešení klíčového společenského problému: legalizace drog. Uznáváme významnou roli, kterou kryptoměny hrají na černém trhu, zejména v transakcích s nelegálními drogami. Toto spojení představuje významnou překážku pro široké přijetí a integraci kryptoměn do hlavních finančních systémů.",
+    "vision": {
+      "title": "Naše vize",
+      "body": "Představujeme si svět, kde stíny černého trhu mizí v záři legálnosti. Stejně jako svítání rozjasňuje nejtemnější noc, legalizace a regulace drog může předznamenat novou éru pro kryptoměny, transformující je z nástroje podzemí na maják transparentního a legálního obchodu."
+    },
+    "blocker": {
+      "title": "Přímá překážka",
+      "body": "Cesta k masovému přijetí kryptoměn je ztížena neustálým stínem nelegálního užívání drog. Toto nelegální spojení vrhá stín na potenciál digitálních měn, vytváří nedůvěru a odpor mezi regulačními orgány a širokou veřejností. Abychom odemkli plný potenciál kryptoměn, musíme nejprve vyřešit tento základní problém."
+    },
+    "solution": {
+      "title": "Naše řešení",
+      "body": "Věříme, že dekriminalizace a legalizace drog představuje 100% řešení jedné z největších překážek masového přijetí kryptoměn. Podporou a prosazováním legalizace drog se snažíme odstranit stigma a právní překážky spojené s užíváním kryptoměn, čímž připravíme cestu k jejich přijetí a integraci do každodenního života."
+    },
+    "foundation": {
+      "title": "Vytvoření nadace",
+      "body": "Naším cílem je vytvořit nadaci, která bude podporovat procesy legalizace drog v zemích, kde je to stále kontroverzní téma. Prostřednictvím advokacie, vzdělávání a finanční podpory se snažíme ovlivňovat politické změny a společenské postoje, vytvářet právní prostředí příznivé pro růst a přijetí kryptoměn."
+    }
+  },
+  "roadmap": {
+    "title": "Plán",
+    "q3_2024": {
+      "title": "Q3 2024",
+      "event1": "První kolo předprodeje: $0.0015 za token (Datum ukončení: 10. srpna 2024)",
+      "event2": "Druhé kolo předprodeje: $0.002 za token (Datum ukončení: 30. srpna 2024)",
+      "event3": "Třetí kolo předprodeje: $0.003 za token (Datum ukončení: 30. září 2024)"
+    },
+    "q4_2024": {
+      "title": "Q4 2024",
+      "event1": "Distribuce tokenů pro rané investory",
+      "event2": "Počáteční marketingová kampaň pro zvýšení povědomí"
+    },
+    "q1_2025": {
+      "title": "Q1 2025",
+      "event1": "Zalistování na hlavních kryptoburzách (Binance, Bybit, Bitget, OKEX)",
+      "event2": "Rozšíření marketingových snah a zapojení komunity"
+    },
+    "q2_2025": {
+      "title": "Q2 2025",
+      "event1": "Nastavení partnerství s právními a advokačními skupinami",
+      "event2": "Zahájení podpůrných programů pro legalizaci v cílových zemích"
+    },
+    "q3_2025": {
+      "title": "Q3 2025",
+      "event1": "Zahájení globální kampaně na podporu legalizace drog",
+      "event2": "Pořádání mezinárodních konferencí a workshopů"
+    }
+  },
+  "about": {
+    "title": "O DrugNcoin",
+    "introduction": "DrugNcoin byl založen různorodou skupinou profesionálů a nadšenců, sjednocených společnou vizí. Náš tým tvoří experti z různých oborů, každý přinášející jedinečnou perspektivu a soubor dovedností. Společně jsme odhodláni podporovat masové přijetí kryptoměn prostřednictvím inovativních řešení a společenských změn.",
+    "founders": {
+      "title": "Naši zakladatelé",
+      "body": "Náš zakládající tým tvoří vizionáři z různých prostředí, každý s hlubokou vášní pro kryptoměny a jejich potenciál měnit svět. Využitím našich kolektivních odborných znalostí se snažíme vytvořit udržitelný a vlivný hnutí."
+    },
+    "expertise": {
+      "title": "Naše odbornost",
+      "item1": "Blockchain technologie: Naši experti na blockchain zajišťují bezpečnost a škálovatelnost naší platformy, což činí DrugNcoin spolehlivou a efektivní kryptoměnou.",
+      "item2": "Právní a regulační záležitosti: Náš právní tým se orientuje v komplikované krajině regulací kryptoměn, podporuje politiky, které podporují legální použití digitálních měn.",
+      "item3": "Finance a ekonomika: Naši finanční analytici poskytují vhledy do tržních trendů a ekonomických dopadů, což řídí naše strategická rozhodnutí pro dlouhodobý růst.",
+      "item4": "Marketing a komunikace: Naši marketingoví odborníci vytvářejí přesvědčivé příběhy a strategie pro dosažení a zapojení naší komunity.",
+      "item5": "Veřejné zdraví a politika: Naši odborníci na veřejné zdraví chápou společenské dopady legalizace drog, pomáhají nám formovat iniciativy, které podporují zdraví a bezpečnost."
+    },
+    "mission": {
+      "title": "Naše mise",
+      "body": "Naší misí v DrugNcoin je podporovat masové přijetí kryptoměn tím, že se zaměříme na jednu z nejvýznamnějších překážek: spojení s nelegálními transakcemi s drogami. Prosazováním legalizace a regulace drog se snažíme změnit narativ kolem kryptoměn a usnadnit jejich integraci do hlavních finančních systémů. Věříme, že prostřednictvím vzdělávání, advokacie a strategických partnerství můžeme vytvořit budoucnost, kde jsou kryptoměny používány transparentně a legálně, přinášející prospěch celé společnosti."
+    }
+  }
+}

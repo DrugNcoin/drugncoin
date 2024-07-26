@@ -1,0 +1,196 @@
+{
+  "locale": {
+    "bg": "Български",
+    "cs": "Čeština",
+    "de": "Deutsch",
+    "en": "English",
+    "es": "Español",
+    "et": "Eesti",
+    "fa": "فارسی",
+    "fi": "Suomi",
+    "fr": "Français",
+    "he": "עברית",
+    "it": "Italiano",
+    "lt": "Lietuvių",
+    "lv": "Latviešu",
+    "no": "Norsk",
+    "pl": "Polski",
+    "pt": "Português",
+    "ru": "Русский",
+    "sv": "Svenska",
+    "ua": "Українська"
+  },
+  "nav": {
+    "home": "Pradžia",
+    "goals": "Mūsų tikslai",
+    "presale": "Išankstinis pardavimas",
+    "referral": "Rekomendacijos",
+    "roadmap": "Kelių žemėlapis",
+    "tokenomics": "Tokenomika",
+    "about": "Apie mus"
+  },
+  "hello": {
+    "title": "Sveiki atvykę į DrugNcoin!",
+    "body": "Prisijunkite prie revoliucijos su DrugNcoin ant TON Blockchain."
+  },
+  "home": {
+    "welcome": {
+      "title": "Sveiki atvykę į DrugNcoin!",
+      "body": "Revoliucionuojame kriptovaliutų pasaulį su inovacijomis ir bendruomene"
+    },
+    "about": {
+      "title": "Apie DrugNcoin",
+      "body": "DrugNcoin yra novatoriškas projektas, sukurtas TON blokų grandinėje, siekiant suteikti geriausią kriptovaliutų patirtį entuziastams ir investuotojams. Su aiškiu fokusavimu į tokenomiką, skaidrumą ir naudotojų įsitraukimą, DrugNcoin siekia sukurti klestinčią ekosistemą, kuri atlygina savo bendruomenei."
+    },
+    "why": {
+      "title": "Kodėl DrugNcoin?",
+      "reason1": {
+        "title": "1. Stiprus pagrindas:",
+        "item1": "Sukurtas ant saugios ir skalabilios TON blokų grandinės.",
+        "item2": "Palaikomas stiprios išmaniosios sutarties infrastruktūros."
+      },
+      "reason2": {
+        "title": "2. Skaidri tokenomika:",
+        "item1": "Bendras tiekimas: 100 milijardų tokenų.",
+        "item2": "Komandos rezervas: 10 milijardų tokenų.",
+        "item3": "Apytikslis tiekimas: 90 milijardų tokenų."
+      },
+      "reason3": {
+        "title": "3. Įdomios išankstinio pardavimo galimybės:",
+        "item1": "Keletas išankstinio pardavimo etapų su didėjančiomis tokenų kainomis, suteikiančiomis ankstyviems investuotojams reikšmingų pranašumų."
+      },
+      "reason4": {
+        "title": "4. Apdovanojimų programa:",
+        "item1": "Uždirbkite tokenus, kviesdami kitus prisijungti prie DrugNcoin bendruomenės.",
+        "item2": "Progresyvi apdovanojimų sistema, grindžiama rekomendacijų skaičiumi."
+      }
+    },
+    "token_details": {
+      "title": "Tokenų detalės",
+      "token_name": {
+        "label": "Tokeno pavadinimas:",
+        "value": "DrugNcoin"
+      },
+      "total_supply": {
+        "label": "Bendras tiekimas:",
+        "value": "100 milijardų tokenų"
+      },
+      "team_reserve": {
+        "label": "Komandos rezervas:",
+        "value": "10 milijardų tokenų"
+      },
+      "circulating_supply": {
+        "label": "Apytikslis tiekimas:",
+        "value": "90 milijardų tokenų"
+      },
+      "pre_sale_rounds": {
+        "label": "Išankstinio pardavimo etapai:",
+        "round1": {
+          "title": "Pirmas etapas:",
+          "price": "Kaina: $0.0015 už tokeną",
+          "end_date": "Pabaigos data: 2024 m. rugpjūčio 10 d."
+        },
+        "round2": {
+          "title": "Antras etapas:",
+          "price": "Kaina: $0.002 už tokeną",
+          "end_date": "Pabaigos data: 2024 m. rugpjūčio 30 d."
+        },
+        "round3": {
+          "title": "Trečias etapas:",
+          "price": "Kaina: $0.003 už tokeną",
+          "end_date": "Pabaigos data: 2024 m. rugsėjo 30 d."
+        }
+      }
+    },
+    "join": {
+      "title": "Prisijunkite prie DrugNcoin bendruomenės",
+      "steps": {
+        "get_started": "Pradėkite:",
+        "step1": "Prijunkite savo TON piniginę.",
+        "step2": "Dalyvaukite išankstiniame pardavime.",
+        "step3": "Uždirbkite apdovanojimus per mūsų rekomendacijų programą."
+      }
+    },
+    "stay_connected": {
+      "title": "Palaikykite ryšį:",
+      "social_media": "Sekite mus socialiniuose tinkluose, kad gautumėte naujausius atnaujinimus.",
+      "community_discussions": "Prisijunkite prie mūsų bendruomenės diskusijų Telegram ir Discord."
+    },
+    "contact": {
+      "title": "Susisiekite su mumis:",
+      "body": "Klausimams, prašome susisiekti su mūsų palaikymo komanda el. paštu [support at drugncoin.com](mailto:support at drugncoin.com)."
+    },
+    "footer": {
+      "body": "DrugNcoin - kriptovaliutų ateities inovacija"
+    }
+  },
+  "our_goals": {
+    "title": "Mūsų tikslai",
+    "introduction": "DrugNcoin mes laikome viziją, kad kriptovaliutų masinis įsisavinimas nėra įmanomas, neišsprendus svarbaus visuomenės klausimo: narkotikų legalizacijos. Pripažįstame reikšmingą kriptovaliutų vaidmenį juodojoje rinkoje, ypač nelegalių narkotikų sandoriuose. Šis ryšys yra reikšminga kliūtis plačiam kriptovaliutų priėmimui ir integracijai į pagrindines finansų sistemas.",
+    "vision": {
+      "title": "Mūsų vizija",
+      "body": "Mes matome pasaulį, kuriame juodosios rinkos šešėliai ištirpsta teisėtumo šviesoje. Kaip aušra pralaužia tamsiausią naktį, taip narkotikų legalizacija ir reguliavimas gali atverti naują erą kriptovaliutoms, paverčiant jas iš pogrindžio įrankio į skaidrios ir teisėtos prekybos švyturį."
+    },
+    "blocker": {
+      "title": "Tiesioginė kliūtis",
+      "body": "Kelionė į kriptovaliutų masinį įsisavinimą yra sutrukdyta nuolatinio nelegalių narkotikų vartojimo šešėlio. Šis nelegalus ryšys meta šešėlį ant skaitmeninių valiutų potencialo, sukuriant nepasitikėjimą ir pasipriešinimą tarp reguliavimo institucijų ir visuomenės. Norint išlaisvinti tikrąjį kriptovaliutų potencialą, pirmiausia turime išspręsti šį pagrindinį klausimą."
+    },
+    "solution": {
+      "title": "Mūsų sprendimas",
+      "body": "Manome, kad narkotikų dekriminalizavimas ir legalizavimas yra 100% sprendimas vienai iš didžiausių kliūčių kriptovaliutų masiniam įsisavinimui. Remdami ir skatindami narkotikų legalizavimą, siekiame pašalinti su kriptovaliutų naudojimu susijusią stigmą ir teisines kliūtis, atverdami kelią jų priėmimui ir integracijai į kasdienį gyvenimą."
+    },
+    "foundation": {
+      "title": "Sukurti fondą",
+      "body": "Mūsų tikslas yra įsteigti fondą, skirtą narkotikų legalizavimo procesų rėmimui šalyse, kuriose tai tebėra prieštaringas klausimas. Per advokatūrą, švietimą ir finansinę paramą siekiame paveikti politikos pokyčius ir visuomenės požiūrį, skatindami teisinę aplinką, kuri skatina kriptovaliutų augimą ir priėmimą."
+    }
+  },
+  "roadmap": {
+    "title": "Kelių žemėlapis",
+    "q3_2024": {
+      "title": "2024 m. 3 ketvirtis",
+      "event1": "Pirmas išankstinio pardavimo etapas: $0.0015 už tokeną (Pabaigos data: 2024 m. rugpjūčio 10 d.)",
+      "event2": "Antras išankstinio pardavimo etapas: $0.002 už tokeną (Pabaigos data: 2024 m. rugpjūčio 30 d.)",
+      "event3": "Trečias išankstinio pardavimo etapas: $0.003 už tokeną (Pabaigos data: 2024 m. rugsėjo 30 d.)"
+    },
+    "q4_2024": {
+      "title": "2024 m. 4 ketvirtis",
+      "event1": "Tokenų paskirstymas ankstyviesiems investuotojams",
+      "event2": "Pradinė rinkodaros kampanija siekiant didinti informuotumą"
+    },
+    "q1_2025": {
+      "title": "2025 m. 1 ketvirtis",
+      "event1": "Įtraukimas į pagrindines kriptovaliutų biržas (Binance, Bybit, Bitget, OKEX)",
+      "event2": "Rinkodaros pastangų ir bendruomenės įsitraukimo plėtra"
+    },
+    "q2_2025": {
+      "title": "2025 m. 2 ketvirtis",
+      "event1": "Partnerystės su teisinėmis ir advokatų grupėmis užmezgimas",
+      "event2": "Legalizavimo paramos programų pradėjimas tikslinėse šalyse"
+    },
+    "q3_2025": {
+      "title": "2025 m. 3 ketvirtis",
+      "event1": "Pasaulinės kampanijos narkotikų legalizacijos skatinimui pradžia",
+      "event2": "Tarptautinių konferencijų ir seminarų organizavimas"
+    }
+  },
+  "about": {
+    "title": "Apie DrugNcoin",
+    "introduction": "DrugNcoin įkūrė įvairių sričių profesionalų ir entuziastų grupė, vienijama bendros vizijos. Mūsų komanda susideda iš įvairių sričių ekspertų, kurie kiekvienas teikia unikalią perspektyvą ir įgūdžių rinkinį. Kartu mes esame pasiryžę skatinti kriptovaliutų masinį įsisavinimą, naudodamiesi novatoriškais sprendimais ir visuomeniniais pokyčiais.",
+    "founders": {
+      "title": "Mūsų įkūrėjai",
+      "body": "Mūsų įkūrėjų komanda susideda iš įvairių sričių vizionierių, turinčių gilią aistrą kriptovaliutoms ir jų potencialui keisti pasaulį. Naudodamiesi mūsų kolektyvine patirtimi, siekiame sukurti tvarią ir įtakingą judėjimą."
+    },
+    "expertise": {
+      "title": "Mūsų ekspertizė",
+      "item1": "Blokų grandinės technologija: Mūsų blokų grandinės ekspertai užtikrina mūsų platformos saugumą ir mastelį, paversdami DrugNcoin patikima ir efektyvia kriptovaliuta.",
+      "item2": "Teisiniai ir reguliavimo klausimai: Mūsų teisinė komanda orientuojasi sudėtingoje kriptovaliutų reguliavimo aplinkoje, skatindama politiką, palaikančią skaitmeninių valiutų teisėtą naudojimą.",
+      "item3": "Finansai ir ekonomika: Mūsų finansų analitikai teikia įžvalgas apie rinkos tendencijas ir ekonominį poveikį, vadovaujant mūsų strateginiams sprendimams ilgalaikei augimui.",
+      "item4": "Rinkodara ir komunikacija: Mūsų rinkodaros profesionalai kuria įtikinamus pasakojimus ir strategijas, siekdami įtraukti ir išplėsti mūsų bendruomenę.",
+      "item5": "Visuomenės sveikata ir politika: Mūsų visuomenės sveikatos ekspertai supranta narkotikų legalizacijos socialinį poveikį, padėdami mums formuoti iniciatyvas, skatinančias sveikatą ir saugumą."
+    },
+    "mission": {
+      "title": "Mūsų misija",
+      "body": "DrugNcoin misija yra skatinti kriptovaliutų masinį įsisavinimą, sprendžiant vieną iš pagrindinių kliūčių: ryšį su nelegaliais narkotikų sandoriais. Skatindami narkotikų legalizaciją ir reguliavimą, siekiame pakeisti pasakojimą apie kriptovaliutas ir palengvinti jų integraciją į pagrindines finansų sistemas. Tikime, kad per švietimą, advokatūrą ir strategines partnerystes galime sukurti ateitį, kurioje kriptovaliutos naudojamos skaidriai ir teisėtai, teikiant naudą visai visuomenei."
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "locale": {
+    "bg": "Български",
+    "cs": "Čeština",
+    "de": "Deutsch",
+    "en": "English",
+    "es": "Español",
+    "et": "Eesti",
+    "fa": "فارسی",
+    "fi": "Suomi",
+    "fr": "Français",
+    "he": "עברית",
+    "it": "Italiano",
+    "lt": "Lietuvių",
+    "lv": "Latviešu",
+    "no": "Norsk",
+    "pl": "Polski",
+    "pt": "Português",
+    "ru": "Русский",
+    "sv": "Svenska",
+    "ua": "Українська"
+  },
+  "nav": {
+    "home": "Hem",
+    "goals": "Våra Mål",
+    "presale": "Försäljning",
+    "referral": "Rekommendation",
+    "roadmap": "Vägkarta",
+    "tokenomics": "Tokenomik",
+    "about": "Om"
+  },
+  "hello": {
+    "title": "Välkommen till DrugNcoin!",
+    "body": "Gå med i revolutionen med DrugNcoin på TON Blockchain."
+  },
+  "home": {
+    "welcome": {
+      "title": "Välkommen till DrugNcoin!",
+      "body": "Revolutionerar kryptovärlden med innovation och gemenskap"
+    },
+    "about": {
+      "title": "Om DrugNcoin",
+      "body": "DrugNcoin är ett banbrytande projekt på TON-blockkedjan, utformat för att föra det bästa av kryptovaluta till entusiaster och investerare. Med ett tydligt fokus på tokenomik, transparens och användarengagemang strävar DrugNcoin efter att skapa ett blomstrande ekosystem som belönar sin gemenskap."
+    },
+    "why": {
+      "title": "Varför DrugNcoin?",
+      "reason1": {
+        "title": "1. Stark Grund:",
+        "item1": "Byggd på den säkra och skalbara TON-blockkedjan.",
+        "item2": "Stöds av en robust infrastruktur för smarta kontrakt."
+      },
+      "reason2": {
+        "title": "2. Transparent Tokenomik:",
+        "item1": "Totalt Utbud: 100 miljarder token.",
+        "item2": "Teamreserv: 10 miljarder token.",
+        "item3": "Cirkulerande Utbud: 90 miljarder token."
+      },
+      "reason3": {
+        "title": "3. Spännande Försäljningsmöjligheter:",
+        "item1": "Flera försäljningsomgångar med stigande tokenpriser, vilket ger tidiga investerare betydande fördelar."
+      },
+      "reason4": {
+        "title": "4. Belönande Rekommendationsprogram:",
+        "item1": "Tjäna token genom att bjuda in andra att gå med i DrugNcoin-gemenskapen.",
+        "item2": "Progressivt belöningssystem baserat på antalet rekommendationer."
+      }
+    },
+    "token_details": {
+      "title": "Token Detaljer",
+      "token_name": {
+        "label": "Token Namn:",
+        "value": "DrugNcoin"
+      },
+      "total_supply": {
+        "label": "Totalt Utbud:",
+        "value": "100 miljarder token"
+      },
+      "team_reserve": {
+        "label": "Teamreserv:",
+        "value": "10 miljarder token"
+      },
+      "circulating_supply": {
+        "label": "Cirkulerande Utbud:",
+        "value": "90 miljarder token"
+      },
+      "pre_sale_rounds": {
+        "label": "Försäljningsomgångar:",
+        "round1": {
+          "title": "Första Omgången:",
+          "price": "Pris: $0.0015 per token",
+          "end_date": "Slutdatum: 10 augusti 2024"
+        },
+        "round2": {
+          "title": "Andra Omgången:",
+          "price": "Pris: $0.002 per token",
+          "end_date": "Slutdatum: 30 augusti 2024"
+        },
+        "round3": {
+          "title": "Tredje Omgången:",
+          "price": "Pris: $0.003 per token",
+          "end_date": "Slutdatum: 30 september 2024"
+        }
+      }
+    },
+    "join": {
+      "title": "Gå med i DrugNcoin-gemenskapen",
+      "steps": {
+        "get_started": "Kom igång:",
+        "step1": "Anslut din TON-plånbok.",
+        "step2": "Deltag i försäljningen.",
+        "step3": "Tjäna belöningar genom vårt rekommendationsprogram."
+      }
+    },
+    "stay_connected": {
+      "title": "Håll dig uppkopplad:",
+      "social_media": "Följ oss på sociala medier för de senaste uppdateringarna.",
+      "community_discussions": "Gå med i våra gemenskapsdiskussioner på Telegram och Discord."
+    },
+    "contact": {
+      "title": "Kontakta oss:",
+      "body": "För frågor, kontakta vårt supportteam på [support at drugncoin.com](mailto:support at drugncoin.com)."
+    },
+    "footer": {
+      "body": "DrugNcoin - Innovativ framtid för kryptovalutor"
+    }
+  },
+  "our_goals": {
+    "title": "Våra Mål",
+    "introduction": "På DrugNcoin har vi en visionär tro på att massanvändningen av kryptovaluta inte kan uppnås fullt ut utan att hantera en kritisk samhällsfråga: legaliseringen av droger. Vi erkänner kryptovalutors framträdande roll på svarta marknaden, särskilt vid illegala drogtransaktioner. Denna association är en betydande barriär för bred acceptans och integration av kryptovalutor i de vanliga finansiella systemen.",
+    "vision": {
+      "title": "Vår Vision",
+      "body": "Vi föreställer oss en värld där skuggorna av svarta marknaden skingras av laglighetens ljus. Precis som gryningen bryter den mörkaste natten, kan legaliseringen och regleringen av droger förebåda en ny era för kryptovalutor, och förvandla dem från ett verktyg för underjordisk handel till en fyr för transparent och laglig handel."
+    },
+    "blocker": {
+      "title": "Den Stora Hindret",
+      "body": "Resan till massanvändning av kryptovaluta hindras av den ihållande skuggan av illegal droganvändning. Denna olagliga association kastar en skugga över de digitala valutornas potential, och skapar misstro och motstånd bland regulatoriska organ och allmänheten. För att låsa upp kryptovalutornas sanna potential, måste vi först hantera detta grundläggande problem."
+    },
+    "solution": {
+      "title": "Vår Lösning",
+      "body": "Vi tror att avkriminalisering och legalisering av droger representerar en 100 % lösning på ett av de största hindren för massanvändning av kryptovaluta. Genom att förespråka och stödja legalisering av droger, syftar vi till att ta bort stigmat och de juridiska utmaningarna som är förknippade med användningen av kryptovalutor, och bana väg för deras acceptans och integration i vardagen."
+    },
+    "foundation": {
+      "title": "Skapa en Stiftelse",
+      "body": "Vårt mål är att etablera en stiftelse dedikerad till att stödja legaliseringsprocesserna i länder där detta fortfarande är en omstridd fråga. Genom förespråkande, utbildning och finansiellt stöd, strävar vi efter att påverka policyförändringar och samhällsattityder, och främja en juridisk miljö som gynnar kryptovalutors tillväxt och acceptans."
+    }
+  },
+  "roadmap": {
+    "title": "Vägkarta",
+    "q3_2024": {
+      "title": "Q3 2024",
+      "event1": "Första Försäljningsomgången: $0.0015 per token (Slutdatum: 10 augusti 2024)",
+      "event2": "Andra Försäljningsomgången: $0.002 per token (Slutdatum: 30 augusti 2024)",
+      "event3": "Tredje Försäljningsomgången: $0.003 per token (Slutdatum: 30 september 2024)"
+    },
+    "q4_2024": {
+      "title": "Q4 2024",
+      "event1": "Token Distribution till tidiga investerare",
+      "event2": "Initial marknadsföringskampanj för att öka medvetenheten"
+    },
+    "q1_2025": {
+      "title": "Q1 2025",
+      "event1": "Listning på stora kryptobörser (Binance, Bybit, Bitget, OKEX)",
+      "event2": "Utöka marknadsföringsinsatser och samhällsengagemang"
+    },
+    "q2_2025": {
+      "title": "Q2 2025",
+      "event1": "Etablera partnerskap med juridiska och förespråkargrupper",
+      "event2": "Starta legaliseringsstödsprogram i utvalda länder"
+    },
+    "q3_2025": {
+      "title": "Q3 2025",
+      "event1": "Lansera global kampanj för förespråkande av legalisering av droger",
+      "event2": "Värd för internationella konferenser och workshops"
+    }
+  },
+  "about": {
+    "title": "Om DrugNcoin",
+    "introduction": "DrugNcoin grundades av en mångsidig grupp av yrkesverksamma och entusiaster förenade av en gemensam vision. Vårt team består av experter från olika områden, var och en med ett unikt perspektiv och färdighetsuppsättning. Tillsammans är vi dedikerade till att driva massanvändningen av kryptovaluta genom innovativa lösningar och samhällsförändring.",
+    "founders": {
+      "title": "Våra Grundare",
+      "body": "Vårt grundarteam består av visionärer från olika bakgrunder, alla med en djup passion för kryptovalutor och deras potential att förändra världen. Genom att utnyttja vår gemensamma expertis strävar vi efter att skapa en hållbar och påverkande rörelse."
+    },
+    "expertise": {
+      "title": "Vår Expertis",
+      "item1": "Blockkedjeteknik: Våra blockkedjeexperter säkerställer vår plattforms säkerhet och skalbarhet, vilket gör DrugNcoin till en pålitlig och effektiv kryptovaluta.",
+      "item2": "Juridiska och Regulatoriska Frågor: Vårt juridiska team navigerar det komplexa landskapet av kryptovalutaregleringar, och förespråkar för policies som stödjer laglig användning av digitala valutor.",
+      "item3": "Finans och Ekonomi: Våra finansanalytiker tillhandahåller insikter om marknadstrender och ekonomiska effekter, och vägleder våra strategiska beslut för långsiktig tillväxt.",
+      "item4": "Marknadsföring och Kommunikation: Våra marknadsföringsproffs skapar övertygande berättelser och strategier för att engagera och växa vår gemenskap.",
+      "item5": "Folkhälsa och Politik: Våra folkhälsoexperter förstår de samhälleliga effekterna av legalisering av droger, och hjälper oss att forma initiativ som främjar hälsa och säkerhet."
+    },
+    "mission": {
+      "title": "Vårt Uppdrag",
+      "body": "På DrugNcoin är vårt uppdrag att främja massanvändning av kryptovaluta genom att hantera ett av dess mest betydande hinder: kopplingen till illegala drogtransaktioner. Genom att förespråka legalisering och reglering av droger strävar vi efter att förändra narrativet kring kryptovalutor och bana väg för deras integration i de vanliga finansiella systemen. Vi tror att genom utbildning, förespråkande och strategiska partnerskap kan vi skapa en framtid där kryptovalutor används transparent och lagligt, vilket gynnar samhället som helhet."
+    }
+  }
+}

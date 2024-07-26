@@ -9,8 +9,8 @@ defineProps({
 
 <template>
   <div class="greetings">
-    <h1 class="green">Welcome to DrugNcoin!</h1>
-    <h3>Join the revolution with DrugNcoin on the TON Blockchain.</h3>
+    <h1 class="green">{{ $t("hello.title") }}</h1>
+    <h3>{{ $t("hello.body") }}</h3>
   </div>
 </template>
 

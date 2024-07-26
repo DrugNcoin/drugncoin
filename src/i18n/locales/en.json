@@ -1,23 +1,196 @@
 {
   "locale": {
+    "bg": "Български",
+    "cs": "Čeština",
+    "de": "Deutsch",
     "en": "English",
-    "ru": "Russian"
+    "es": "Español",
+    "et": "Eesti",
+    "fa": "فارسی",
+    "fi": "Suomi",
+    "fr": "Français",
+    "he": "עברית",
+    "it": "Italiano",
+    "lt": "Lietuvių",
+    "lv": "Latviešu",
+    "no": "Norsk",
+    "pl": "Polski",
+    "pt": "Português",
+    "ru": "Русский",
+    "sv": "Svenska",
+    "ua": "Українська"
   },
   "nav": {
     "home": "Home",
+    "goals": "Our Goals",
     "presale": "Pre-sale",
     "referral": "Referral",
     "roadmap": "Roadmap",
     "tokenomics": "Tokenomics",
     "about": "About"
   },
+  "hello": {
+    "title": "Welcome to DrugNcoin!",
+    "body": "Join the revolution with DrugNcoin on the TON Blockchain."
+  },
   "home": {
-    "header": "Welcome to the Vue 3 I18n tutorial!",
-    "created_by": "This tutorial was brought to you by {company}.",
-    "num_visits": "This page hasn't been visited :( | This page has been visited {n} time | This page has been visited {n} times"
+    "welcome": {
+      "title": "Welcome to DrugNcoin!",
+      "body": "Revolutionizing the Crypto World with Innovation and Community"
+    },
+    "about": {
+      "title": "About DrugNcoin",
+      "body": "DrugNcoin is a groundbreaking project on the TON Blockchain, designed to bring the best of cryptocurrency to the fingertips of enthusiasts and investors. With a clear focus on tokenomics, transparency, and user engagement, DrugNcoin aims to create a thriving ecosystem that rewards its community."
+    },
+    "why": {
+      "title": "Why DrugNcoin?",
+      "reason1": {
+        "title": "1. Strong Foundation:",
+        "item1": "Built on the secure and scalable TON Blockchain.",
+        "item2": "Supported by a robust smart contract infrastructure."
+      },
+      "reason2": {
+        "title": "2. Transparent Tokenomics:",
+        "item1": "Total Supply: 100 billion tokens.",
+        "item2": "Team Reserve: 10 billion tokens.",
+        "item3": "Circulating Supply: 90 billion tokens."
+      },
+      "reason3": {
+        "title": "3. Exciting Pre-Sale Opportunities:",
+        "item1": "Multiple pre-sale rounds with increasing token prices, giving early investors significant advantages."
+      },
+      "reason4": {
+        "title": "4. Rewarding Referral Program:",
+        "item1": "Earn tokens by inviting others to join the DrugNcoin community.",
+        "item2": "Progressive rewards system based on the number of referrals."
+      }
+    },
+    "token_details": {
+      "title": "Token Details",
+      "token_name": {
+        "label": "Token Name:",
+        "value": "DrugNcoin"
+      },
+      "total_supply": {
+        "label": "Total Supply:",
+        "value": "100 billion tokens"
+      },
+      "team_reserve": {
+        "label": "Reserved for Team:",
+        "value": "10 billion tokens"
+      },
+      "circulating_supply": {
+        "label": "Circulating Supply:",
+        "value": "90 billion tokens"
+      },
+      "pre_sale_rounds": {
+        "label": "Pre-Sale Rounds:",
+        "round1": {
+          "title": "First Round:",
+          "price": "Price: $0.0015 per token",
+          "end_date": "End Date: 10 August 2024"
+        },
+        "round2": {
+          "title": "Second Round:",
+          "price": "Price: $0.002 per token",
+          "end_date": "End Date: 30 August 2024"
+        },
+        "round3": {
+          "title": "Third Round:",
+          "price": "Price: $0.003 per token",
+          "end_date": "End Date: 30 September 2024"
+        }
+      }
+    },
+    "join": {
+      "title": "Join the DrugNcoin Community",
+      "steps": {
+        "get_started": "Get Started:",
+        "step1": "Connect your TON Wallet.",
+        "step2": "Participate in the pre-sale.",
+        "step3": "Earn rewards through our referral program."
+      }
+    },
+    "stay_connected": {
+      "title": "Stay Connected:",
+      "social_media": "Follow us on social media for the latest updates.",
+      "community_discussions": "Join our community discussions on Telegram and Discord."
+    },
+    "contact": {
+      "title": "Contact Us:",
+      "body": "For inquiries, reach out to our support team at [support at drugncoin.com](mailto:support at drugncoin.com)."
+    },
+    "footer": {
+      "body": "DrugNcoin - Innovating the Future of Cryptocurrency"
+    }
+  },
+  "our_goals": {
+    "title": "Our Goals",
+    "introduction": "At DrugNcoin, we hold a visionary belief that the mass adoption of cryptocurrency cannot be fully realized without addressing a critical societal issue: the legalization of drugs. We acknowledge the prominent role that cryptocurrencies play in the black market, particularly for illegal drug transactions. This association is a significant barrier to widespread acceptance and integration of cryptocurrencies into mainstream financial systems.",
+    "vision": {
+      "title": "Our Vision",
+      "body": "We envision a world where the shadows of the black market are dissipated by the light of legitimacy. Just as dawn breaks the darkest night, the legalization and regulation of drugs can herald a new era for cryptocurrency, transforming it from a tool of the underground to a beacon of transparent and lawful commerce."
+    },
+    "blocker": {
+      "title": "The Straight Blocker",
+      "body": "The journey to mass adoption of cryptocurrency is hindered by the persistent shadow of illegal drug use. This illicit association casts a pall over the potential of digital currencies, creating mistrust and resistance among regulatory bodies and the general public. To unlock the true potential of cryptocurrencies, we must first address this fundamental issue."
+    },
+    "solution": {
+      "title": "Our Solution",
+      "body": "We believe that the decriminalization and legalization of drugs represent a 100% solution to one of the biggest obstacles to the mass adoption of cryptocurrency. By advocating for and supporting drug legalization, we aim to remove the stigma and legal challenges associated with the use of cryptocurrencies, paving the way for their acceptance and integration into everyday life."
+    },
+    "foundation": {
+      "title": "Creating a Foundation",
+      "body": "Our goal is to establish a foundation dedicated to supporting the processes of drug legalization in countries where this remains a contentious issue. Through advocacy, education, and financial support, we aim to influence policy changes and societal attitudes, fostering a legal environment conducive to the growth and acceptance of cryptocurrencies."
+    }
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "q3_2024": {
+      "title": "Q3 2024",
+      "event1": "First Round Pre-Sale: $0.0015 per token (End Date: 10 August 2024)",
+      "event2": "Second Round Pre-Sale: $0.002 per token (End Date: 30 August 2024)",
+      "event3": "Third Round Pre-Sale: $0.003 per token (End Date: 30 September 2024)"
+    },
+    "q4_2024": {
+      "title": "Q4 2024",
+      "event1": "Token Distribution to Early Investors",
+      "event2": "Initial Marketing Campaign to Raise Awareness"
+    },
+    "q1_2025": {
+      "title": "Q1 2025",
+      "event1": "Listing on Major Crypto Exchanges (Binance, Bybit, Bitget, OKEX)",
+      "event2": "Expand Marketing Efforts and Community Engagement"
+    },
+    "q2_2025": {
+      "title": "Q2 2025",
+      "event1": "Establish Partnerships with Legal and Advocacy Groups",
+      "event2": "Initiate Legalization Support Programs in Target Countries"
+    },
+    "q3_2025": {
+      "title": "Q3 2025",
+      "event1": "Launch Global Campaign for Drug Legalization Advocacy",
+      "event2": "Host International Conferences and Workshops"
+    }
   },
   "about": {
-    "header": "About us",
-    "donations": "Donations raised: {donations}"
+    "title": "About DrugNcoin",
+    "introduction": "DrugNcoin was founded by a diverse group of professionals and enthusiasts united by a common vision. Our team comprises experts from various fields, each bringing a unique perspective and set of skills to the table. Together, we are dedicated to driving the mass adoption of cryptocurrency through innovative solutions and societal change.",
+    "founders": {
+      "title": "Our Founders",
+      "body": "Our founding team is composed of visionaries from different backgrounds, each with a deep passion for cryptocurrency and its potential to transform the world. By leveraging our collective expertise, we aim to create a sustainable and impactful movement."
+    },
+    "expertise": {
+      "title": "Our Expertise",
+      "item1": "Blockchain Technology: Our blockchain experts ensure the security and scalability of our platform, making DrugNcoin a reliable and efficient cryptocurrency.",
+      "item2": "Legal and Regulatory Affairs: Our legal team navigates the complex landscape of cryptocurrency regulations, advocating for policies that support the legal use of digital currencies.",
+      "item3": "Finance and Economics: Our financial analysts provide insights into market trends and economic impacts, guiding our strategic decisions for long-term growth.",
+      "item4": "Marketing and Communications: Our marketing professionals craft compelling narratives and outreach strategies to engage and grow our community.",
+      "item5": "Public Health and Policy: Our public health experts understand the societal impacts of drug legalization, helping us shape initiatives that promote health and safety."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "body": "At DrugNcoin, our mission is to foster the mass adoption of cryptocurrency by addressing one of its most significant barriers: the association with illegal drug transactions. By advocating for the legalization and regulation of drugs, we aim to transform the narrative around cryptocurrencies and pave the way for their integration into mainstream financial systems. We believe that through education, advocacy, and strategic partnerships, we can create a future where cryptocurrencies are used transparently and lawfully, benefiting society as a whole."
+    }
   }
 }
