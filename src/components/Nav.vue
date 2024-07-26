@@ -17,7 +17,7 @@
         <RouterLink :to="Tr.i18nRoute({ name: 'tokenomics' })">{{ $t("nav.tokenomics") }}</RouterLink>
       </li>
       <li>
-        <RouterLink :to="Tr.i18nRoute({ name: 'info' })">{{ $t("nav.info") }}</RouterLink>
+        <RouterLink :to="Tr.i18nRoute({ name: 'about' })">{{ $t("nav.about") }}</RouterLink>
       </li>
     </ul>
   </nav>

@@ -38,8 +38,8 @@ const router = createRouter({
           component: () => import('../views/TokenomicsPage.vue')
         },
         {
-          path: 'info',
-          name: 'info',
+          path: 'about',
+          name: 'about',
           component: () => import('../views/InfoPage.vue')
         }
       ]

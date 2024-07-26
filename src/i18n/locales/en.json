@@ -5,6 +5,10 @@
   },
   "nav": {
     "home": "Home",
+    "presale": "Pre-sale",
+    "referral": "Referral",
+    "roadmap": "Roadmap",
+    "tokenomics": "Tokenomics",
     "about": "About"
   },
   "home": {
