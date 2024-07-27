@@ -32,7 +32,8 @@ h3 {
 
 .greetings h1,
 .greetings h3 {
-  text-align: center;
+  text-align: left;
+  margin-left: 2rem;
 }
 
 @media (min-width: 1024px) {
@@ -47,6 +48,7 @@ h3 {
   .greetings h1,
   .greetings h3 {
     text-align: center;
+    margin-left: 0;
   }
 }
 </style>
