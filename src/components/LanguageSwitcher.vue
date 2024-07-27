@@ -8,7 +8,7 @@
 
 <script>
 import { useI18n } from 'vue-i18n'
-import { useRouter, useRoute } from "vue-router"
+import { useRouter } from "vue-router"
 import Tr from "@/i18n/translation"
 
 export default {
@@ -16,7 +16,6 @@ export default {
     const { t, locale } = useI18n()
     const supportedLocales = Tr.supportedLocales
     const router = useRouter()
-    const route = useRoute()
 
     // Watch for route changes to update the locale
     router.beforeEach(async (to, from, next) => {
