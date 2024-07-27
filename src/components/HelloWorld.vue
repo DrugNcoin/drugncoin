@@ -19,7 +19,7 @@
   align-content: center;
 
   img {
-    width: 35%;
+    width: 40%;
   }
 }
 
@@ -41,7 +41,7 @@ h3 {
 }
 
 .greetings {
-  width: 65%;
+  width: 60%;
 }
 
 @media (min-width: 1024px) {
