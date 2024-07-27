@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <img alt="Vue logo" class="logo" src="@/assets/logo-mobile.webp" width="200" />
+    <img alt="Vue logo" class="logo" src="@/assets/logo-mobile.webp" width="150" />
 
     <div class="greetings">
       <h1 class="green">{{ $t("hello.title") }}</h1>
@@ -21,19 +21,19 @@
 
 h1 {
   font-weight: bolder;
-  font-size: 2.6rem;
+  font-size: 1.5rem;
   position: relative;
   top: -10px;
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .greetings h1,
 .greetings h3 {
   text-align: left;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 @media (min-width: 1024px) {
@@ -43,6 +43,14 @@ h3 {
     img {
       display: none;
     }
+  }
+
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
   }
 
   .greetings h1,
