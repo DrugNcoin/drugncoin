@@ -1,20 +1,23 @@
-<script setup>
-defineProps({
-  msg: {
-    type: String,
-    required: true
-  }
-})
-</script>
-
 <template>
-  <div class="greetings">
-    <h1 class="green">{{ $t("hello.title") }}</h1>
-    <h3>{{ $t("hello.body") }}</h3>
+  <div class="hello">
+    <img alt="Vue logo" class="logo" src="@/assets/logo-mobile.webp" width="200" />
+
+    <div class="greetings">
+      <h1 class="green">{{ $t("hello.title") }}</h1>
+      <h3>{{ $t("hello.body") }}</h3>
+    </div>
   </div>
 </template>
 
 <style scoped>
+.hello {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
 h1 {
   font-weight: 500;
   font-size: 2.6rem;
@@ -32,6 +35,13 @@ h3 {
 }
 
 @media (min-width: 1024px) {
+  .hello {
+    display: initial;
+
+    img {
+      display: none;
+    }
+  }
 
   .greetings h1,
   .greetings h3 {

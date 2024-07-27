@@ -77,6 +77,7 @@ export default {
 
 <style scoped>
 nav {
+  margin-top: var(--section-top-margin);
   display: flex;
   justify-content: center;
   flex-direction: row;

@@ -25,12 +25,12 @@ export default {
 
 <style scoped>
 main {
-  padding-top: 2rem
+  padding-top: var(--section-top-margin)
 }
 
 @media (min-width: 1024px) {
   main {
-    padding: 5rem 0 5rem 0
+    padding: 0
   }
 }
 </style>

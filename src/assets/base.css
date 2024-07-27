@@ -56,6 +56,11 @@
   }
 } */
 
+/* semantic layout variables for this project */
+:root {
+  --section-top-margin: 2rem;
+}
+
 *,
 *::before,
 *::after {
