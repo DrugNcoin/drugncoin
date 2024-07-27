@@ -1,34 +1,27 @@
 <template>
   <div>
-    <button @click="connectWallet">Connect TON Wallet</button>
-    <p v-if="walletAddress">Connected: {{ walletAddress }}</p>
+    <TonConnectButton />
+    <div>User-friendly address: {{ userFriendlyAddress }}</div>
+    <div>Raw address: {{ rawAddress }}</div>
   </div>
 </template>
 
 <script>
-import Web3 from 'web3'
+import { TonConnectButton } from '@townsquarelabs/ui-vue'
+import { useTonAddress } from '@townsquarelabs/ui-vue'
 
 export default {
   name: 'WalletConnection',
-  data() {
-    return {
-      walletAddress: null
-    }
+  components: {
+    TonConnectButton
   },
-  methods: {
-    async connectWallet() {
-      if (window.ethereum) {
-        const web3 = new Web3(window.ethereum)
-        try {
-          await window.ethereum.enable()
-          const accounts = await web3.eth.getAccounts()
-          this.walletAddress = accounts[0]
-        } catch (error) {
-          console.error('User denied account access: ' + error)
-        }
-      } else {
-        console.error('No Ethereum provider detected')
-      }
+  setup() {
+    const userFriendlyAddress = useTonAddress();
+    const rawAddress = useTonAddress(false);
+
+    return {
+      userFriendlyAddress,
+      rawAddress
     }
   }
 }

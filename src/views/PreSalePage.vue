@@ -7,9 +7,6 @@
           <p>Join our pre-sale rounds and get your DrugNcoin tokens.</p>
           <wallet-connection></wallet-connection>
           <payment-processing></payment-processing>
-
-          <span>My App with Vue UI</span>
-          <TonConnectButton />
         </section>
       </main>
     </FadeInComponent>
@@ -20,7 +17,7 @@
 import WalletConnection from '../components/WalletConnection.vue'
 import PaymentProcessing from '../components/PaymentProcessing.vue'
 import FadeInComponent from '../components/FadeInComponent.vue'
-import { TonConnectUIProvider, TonConnectButton } from '@townsquarelabs/ui-vue'
+import { TonConnectUIProvider } from '@townsquarelabs/ui-vue'
 
 export default {
   name: 'PreSalePage',
@@ -28,7 +25,6 @@ export default {
     WalletConnection,
     PaymentProcessing,
     TonConnectUIProvider,
-    TonConnectButton,
     FadeInComponent
   },
   setup() {
