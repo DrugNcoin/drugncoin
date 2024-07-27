@@ -25,7 +25,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    min-width: 300px;
+    min-width: 175px;
     margin-top: 1rem;
   }
 }
