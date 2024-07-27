@@ -1,8 +1,4 @@
 {
-    "cSpell.words": [
-        "tokenomics",
-        "Tokenomics",
-        "Токеномика"
-    ],
-    "BracketHighlighter.enableExtension": false
+  "cSpell.words": ["Ncoin", "tokenomics", "Tokenomics", "Токеномика"],
+  "BracketHighlighter.enableExtension": false
 }

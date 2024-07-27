@@ -1,4 +1,4 @@
-# Welcome to DrugNcoin!
+# Welcome to DrugNcoin
 
 **Revolutionizing the Crypto World with Innovation and Community**
 
