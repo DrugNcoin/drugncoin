@@ -97,7 +97,7 @@ button {
   font-family: "Source Code Pro";
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 3vw;
   color: var(--text-color);
 
   background-color: var(--btn-color);
@@ -198,6 +198,10 @@ button::before {
 @media (min-width: 1024px) {
   nav {
     justify-content: center;
+  }
+
+  button {
+    font-size: 18px;
   }
 }
 </style>
