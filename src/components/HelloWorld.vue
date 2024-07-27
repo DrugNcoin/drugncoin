@@ -51,6 +51,7 @@ h1 {
     .greetings {
       display: block;
       text-align: center;
+      margin-top: 0rem;
     }
 
     img {
@@ -60,6 +61,7 @@ h1 {
 
   h1 {
     font-size: 2.6rem;
+    top: 0;
   }
 
   h3 {

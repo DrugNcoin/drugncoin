@@ -23,8 +23,6 @@ a,
 .green {
   text-decoration: none;
   color: var(--btn-color);
-  transition: 0.4s;
-  padding: 3px;
 }
 
 section h1,
@@ -39,6 +37,17 @@ section h2 {
 
 section h2 {
   margin-top: 1rem;
+}
+
+section p, footer p {
+  padding: 0 1rem;
+}
+
+footer {
+  margin-top: 2rem;
+  p {
+    font-weight: bold;
+  }
 }
 
 @media (hover: hover) {
