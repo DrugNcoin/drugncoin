@@ -1,10 +1,16 @@
+<script setup>
+import FadeInComponent from '../components/FadeInComponent.vue'
+</script>
+
 <template>
-  <main>
-    <h1>Pre-Sale</h1>
-    <p>Join our pre-sale rounds and get your DrugNcoin tokens.</p>
-    <wallet-connection></wallet-connection>
-    <payment-processing></payment-processing>
-  </main>
+  <FadeInComponent>
+    <main>
+      <h1>Pre-Sale</h1>
+      <p>Join our pre-sale rounds and get your DrugNcoin tokens.</p>
+      <wallet-connection></wallet-connection>
+      <payment-processing></payment-processing>
+    </main>
+  </FadeInComponent>
 </template>
 
 <script>

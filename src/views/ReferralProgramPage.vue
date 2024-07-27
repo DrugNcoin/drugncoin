@@ -1,9 +1,15 @@
+<script setup>
+import FadeInComponent from '../components/FadeInComponent.vue'
+</script>
+
 <template>
-  <main>
-    <h1>Referral Program</h1>
-    <p>Invite friends and earn DrugNcoin tokens.</p>
-    <referral-system></referral-system>
-  </main>
+  <FadeInComponent>
+    <main>
+      <h1>Referral Program</h1>
+      <p>Invite friends and earn DrugNcoin tokens.</p>
+      <referral-system></referral-system>
+    </main>
+  </FadeInComponent>
 </template>
 
 <script>

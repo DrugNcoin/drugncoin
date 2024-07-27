@@ -1,15 +1,21 @@
+<script setup>
+import FadeInComponent from '../components/FadeInComponent.vue'
+</script>
+
 <template>
-  <main>
-    <section>
-      <h1>{{ $t('roadmap.title') }}</h1>
-      <div v-for="(quarter, index) in quarters" :key="index">
-        <h2>{{ quarter.title }}</h2>
-        <ul>
-          <li v-for="(event, index) in quarter.events" :key="index">{{ event }}</li>
-        </ul>
-      </div>
-    </section>
-  </main>
+  <FadeInComponent>
+    <main>
+      <section>
+        <h1>{{ $t('roadmap.title') }}</h1>
+        <div v-for="(quarter, index) in quarters" :key="index">
+          <h2>{{ quarter.title }}</h2>
+          <ul>
+            <li v-for="(event, index) in quarter.events" :key="index">{{ event }}</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </FadeInComponent>
 </template>
 
 <script>
