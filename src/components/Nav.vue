@@ -36,16 +36,12 @@
       </button>
     </RouterLink>
   </nav>
-
-  <LanguageSwitcher></LanguageSwitcher>
 </template>
 
 <script>
-import LanguageSwitcher from "@/components/LanguageSwitcher.vue";
 import Tr from "@/i18n/translation";
 
 export default {
-  components: { LanguageSwitcher },
   setup() {
     return { Tr };
   },
@@ -97,7 +93,7 @@ button {
   font-family: "Source Code Pro";
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 3vw;
+  font-size: 1.1rem;
   color: var(--text-color);
 
   background-color: var(--btn-color);

@@ -4,49 +4,54 @@
 
     <div class="greetings">
       <h1 class="green">{{ $t("hello.title") }}</h1>
-      <h3>{{ $t("hello.body") }}</h3>
+      <p>{{ $t("hello.body") }}</p>
     </div>
   </div>
 </template>
 
 <style scoped>
 .hello {
-  display: flex;
-  justify-content: flex-start;
-
-  flex-direction: row;
-  align-items: center;
-  align-content: center;
+  display: grid;
+  grid-template-columns: 125px auto;
 
   img {
-    width: 40%;
+    min-width: 125px;
+    width: 125px;
+    margin-left: -6px;
+  }
+
+  .greetings {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-width: 300px;
+    margin-top: 1rem;
   }
 }
 
 h1 {
   font-weight: bolder;
-  font-size: 5vw;
+  font-size: 1.5rem;
   position: relative;
   top: -10px;
-}
-
-h3 {
-  font-size: 2.5vw;
 }
 
 .greetings h1,
 .greetings h3 {
   text-align: left;
-  margin-left: 1rem;
 }
 
-.greetings {
-  width: 60%;
-}
 
 @media (min-width: 1024px) {
   .hello {
+    display: flex;
     justify-content: center;
+
+    .greetings {
+      display: block;
+      text-align: center;
+    }
 
     img {
       display: none;
@@ -64,11 +69,8 @@ h3 {
   .greetings h1,
   .greetings h3 {
     text-align: center;
-    margin-left: 0;
   }
 
-  .greetings {
-    width: initial;
-  }
+
 }
 </style>

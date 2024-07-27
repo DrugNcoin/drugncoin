@@ -1,9 +1,13 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import Nav from "@/components/Nav.vue";
+import LanguageSwitcher from "@/components/LanguageSwitcher.vue";
 </script>
 
 <template>
+  <div class="full-size-column">
+    <LanguageSwitcher></LanguageSwitcher>
+  </div>
   <header>
     <div class="wrapper">
       <HelloWorld />
@@ -18,7 +22,6 @@ import Nav from "@/components/Nav.vue";
 <style scoped>
 header {
   line-height: 1.5;
-  overflow: hidden;
 }
 
 .logo {
@@ -43,6 +46,7 @@ header {
     display: flex;
     place-items: flex-start;
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
 </style>

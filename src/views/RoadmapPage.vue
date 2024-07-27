@@ -7,6 +7,7 @@ import FadeInComponent from '../components/FadeInComponent.vue'
     <main>
       <section>
         <h1>{{ $t('roadmap.title') }}</h1>
+        <p>{{ $t('roadmap.body') }}</p>
         <div v-for="(quarter, index) in quarters" :key="index">
           <h2>{{ quarter.title }}</h2>
           <ul>
