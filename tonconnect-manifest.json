@@ -1,18 +1,5 @@
 {
-  "name": "DrugNcoin",
-  "description": "A revolutionary dApp on the TON Blockchain.",
   "url": "https://drugncoin.github.io/drugncoin/",
-  "icons": [
-    {
-      "src": "https://drugncoin.github.io/drugncoin/icon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "https://drugncoin.github.io/drugncoin/icon-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ],
-  "manifest_version": 1
+  "name": "DrugNcoin",
+  "iconUrl": "https://drugncoin.github.io/drugncoin/icon-512x512.png"
 }
