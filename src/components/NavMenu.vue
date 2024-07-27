@@ -2,73 +2,87 @@
   <nav>
     <RouterLink :to="Tr.i18nRoute({ name: 'home' })" v-slot="{ navigate }" custom>
       <button :style="home_btn_title" @click="navigate">
-        <div class="left"></div>{{ $t("nav.home") }}<div class="right"></div>
+        <div class="left"></div>
+        {{ $t('nav.home') }}
+        <div class="right"></div>
       </button>
     </RouterLink>
     <RouterLink :to="Tr.i18nRoute({ name: 'goals' })" v-slot="{ navigate }" custom>
       <button :style="goals_btn_title" @click="navigate">
-        <div class="left"></div>{{ $t("nav.goals") }}<div class="right"></div>
+        <div class="left"></div>
+        {{ $t('nav.goals') }}
+        <div class="right"></div>
       </button>
     </RouterLink>
     <RouterLink :to="Tr.i18nRoute({ name: 'presale' })" v-slot="{ navigate }" custom>
       <button :style="presale_btn_title" @click="navigate">
-        <div class="left"></div>{{ $t("nav.presale") }}<div class="right"></div>
+        <div class="left"></div>
+        {{ $t('nav.presale') }}
+        <div class="right"></div>
       </button>
     </RouterLink>
     <RouterLink :to="Tr.i18nRoute({ name: 'referral' })" v-slot="{ navigate }" custom>
       <button :style="referral_btn_title" @click="navigate">
-        <div class="left"></div>{{ $t("nav.referral") }}<div class="right"></div>
+        <div class="left"></div>
+        {{ $t('nav.referral') }}
+        <div class="right"></div>
       </button>
     </RouterLink>
     <RouterLink :to="Tr.i18nRoute({ name: 'roadmap' })" v-slot="{ navigate }" custom>
       <button :style="roadmap_btn_title" @click="navigate">
-        <div class="left"></div>{{ $t("nav.roadmap") }}<div class="right"></div>
+        <div class="left"></div>
+        {{ $t('nav.roadmap') }}
+        <div class="right"></div>
       </button>
     </RouterLink>
     <RouterLink :to="Tr.i18nRoute({ name: 'tokenomics' })" v-slot="{ navigate }" custom>
       <button :style="tokenomics_btn_title" @click="navigate">
-        <div class="left"></div>{{ $t("nav.tokenomics") }}<div class="right"></div>
+        <div class="left"></div>
+        {{ $t('nav.tokenomics') }}
+        <div class="right"></div>
       </button>
     </RouterLink>
     <RouterLink :to="Tr.i18nRoute({ name: 'about' })" v-slot="{ navigate }" custom>
       <button :style="about_btn_title" @click="navigate">
-        <div class="left"></div>{{ $t("nav.about") }}<div class="right"></div>
+        <div class="left"></div>
+        {{ $t('nav.about') }}
+        <div class="right"></div>
       </button>
     </RouterLink>
   </nav>
 </template>
 
 <script>
-import Tr from "@/i18n/translation";
+import Tr from '@/i18n/translation'
 
 export default {
   setup() {
-    return { Tr };
+    return { Tr }
   },
   computed: {
     home_btn_title() {
-      return `--content: '${this.$t("nav.home")}';`;
+      return `--content: '${this.$t('nav.home')}';`
     },
     goals_btn_title() {
-      return `--content: '${this.$t("nav.goals")}';`;
+      return `--content: '${this.$t('nav.goals')}';`
     },
     presale_btn_title() {
-      return `--content: '${this.$t("nav.presale")}';`;
+      return `--content: '${this.$t('nav.presale')}';`
     },
     referral_btn_title() {
-      return `--content: '${this.$t("nav.referral")}';`;
+      return `--content: '${this.$t('nav.referral')}';`
     },
     roadmap_btn_title() {
-      return `--content: '${this.$t("nav.roadmap")}';`;
+      return `--content: '${this.$t('nav.roadmap')}';`
     },
     tokenomics_btn_title() {
-      return `--content: '${this.$t("nav.tokenomics")}';`;
+      return `--content: '${this.$t('nav.tokenomics')}';`
     },
     about_btn_title() {
-      return `--content: '${this.$t("nav.about")}';`;
+      return `--content: '${this.$t('nav.about')}';`
     }
   }
-};
+}
 </script>
 
 <style scoped>
@@ -90,7 +104,7 @@ button {
   background: none;
   cursor: pointer;
 
-  font-family: "Source Code Pro";
+  font-family: 'Source Code Pro';
   font-weight: 900;
   text-transform: uppercase;
   font-size: 1.1rem;
@@ -146,31 +160,51 @@ button::after {
 
   background-color: var(--bg-color);
   color: transparent;
-  transition: transform .4s ease-out;
-  transform: translate(0, -90%) rotate(0deg)
+  transition: transform 0.4s ease-out;
+  transform: translate(0, -90%) rotate(0deg);
 }
 
 button:hover .right::after {
-  transform: translate(0, -47%) rotate(0deg)
+  transform: translate(0, -47%) rotate(0deg);
 }
 
 button .right:hover::after {
-  transform: translate(0, -50%) rotate(-7deg)
+  transform: translate(0, -50%) rotate(-7deg);
 }
 
-button .left:hover~.right::after {
-  transform: translate(0, -50%) rotate(7deg)
+button .left:hover ~ .right::after {
+  transform: translate(0, -50%) rotate(7deg);
 }
 
 /* bubbles */
 button::before {
   content: '';
   pointer-events: none;
-  opacity: .6;
-  background:
-    radial-gradient(circle at 20% 35%, transparent 0, transparent 2px, var(--text-color) 3px, var(--text-color) 4px, transparent 4px),
-    radial-gradient(circle at 75% 44%, transparent 0, transparent 2px, var(--text-color) 3px, var(--text-color) 4px, transparent 4px),
-    radial-gradient(circle at 46% 52%, transparent 0, transparent 4px, var(--text-color) 5px, var(--text-color) 6px, transparent 6px);
+  opacity: 0.6;
+  background: radial-gradient(
+      circle at 20% 35%,
+      transparent 0,
+      transparent 2px,
+      var(--text-color) 3px,
+      var(--text-color) 4px,
+      transparent 4px
+    ),
+    radial-gradient(
+      circle at 75% 44%,
+      transparent 0,
+      transparent 2px,
+      var(--text-color) 3px,
+      var(--text-color) 4px,
+      transparent 4px
+    ),
+    radial-gradient(
+      circle at 46% 52%,
+      transparent 0,
+      transparent 4px,
+      var(--text-color) 5px,
+      var(--text-color) 6px,
+      transparent 6px
+    );
 
   width: 100%;
   height: 300%;
@@ -189,7 +223,6 @@ button::before {
     transform: translate(0, -66.666%);
   }
 }
-
 
 @media (min-width: 1024px) {
   nav {

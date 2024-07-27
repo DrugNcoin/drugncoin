@@ -10,26 +10,26 @@
 </template>
 
 <script>
-import axios from 'axios';
+import axios from 'axios'
 
 export default {
   name: 'ReferralSystem',
   data() {
     return {
       referralId: ''
-    };
+    }
   },
   methods: {
     async submitReferral() {
       try {
-        const response = await axios.post('/api/referral', { referralId: this.referralId });
-        console.log('Referral submitted:', response.data);
+        const response = await axios.post('/api/referral', { referralId: this.referralId })
+        console.log('Referral submitted:', response.data)
       } catch (error) {
-        console.error('Referral submission failed:', error);
+        console.error('Referral submission failed:', error)
       }
     }
   }
-};
+}
 </script>
 
 <style scoped>

@@ -1,6 +1,6 @@
 import { createRouter, createWebHashHistory, RouterView } from 'vue-router'
-import Tr from "@/i18n/translation"
-import CONFIG from "@/config"
+import Tr from '@/i18n/translation'
+import CONFIG from '@/config'
 
 console.log(`${CONFIG.VITE_FALLBACK_LOCALE}  - default`)
 
@@ -8,7 +8,7 @@ const router = createRouter({
   history: createWebHashHistory(CONFIG.VITE_BASE_URL),
   routes: [
     {
-      path: "/:locale?",
+      path: '/:locale?',
       component: RouterView,
       beforeEnter: Tr.routeMiddleware,
       children: [

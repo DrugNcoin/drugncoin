@@ -1,6 +1,6 @@
-import i18n from "@/i18n"
-import { nextTick } from "vue"
-import CONFIG from "@/config"
+import i18n from '@/i18n'
+import { nextTick } from 'vue'
+import CONFIG from '@/config'
 
 const Trans = {
   get defaultLocale() {
@@ -8,7 +8,7 @@ const Trans = {
   },
 
   get supportedLocales() {
-    return CONFIG.VITE_SUPPORTED_LOCALES.split(",")
+    return CONFIG.VITE_SUPPORTED_LOCALES.split(',')
   },
 
   get currentLocale() {
@@ -22,8 +22,8 @@ const Trans = {
   async switchLanguage(newLocale) {
     await Trans.loadLocaleMessages(newLocale)
     Trans.currentLocale = newLocale
-    document.querySelector("html").setAttribute("lang", newLocale)
-    localStorage.setItem("user-locale", newLocale)
+    document.querySelector('html').setAttribute('lang', newLocale)
+    localStorage.setItem('user-locale', newLocale)
   },
 
   async loadLocaleMessages(locale) {
@@ -40,9 +40,7 @@ const Trans = {
   },
 
   getUserLocale() {
-    const locale = window.navigator.language ||
-      window.navigator.userLanguage ||
-      Trans.defaultLocale
+    const locale = window.navigator.language || window.navigator.userLanguage || Trans.defaultLocale
 
     return {
       locale: locale,
@@ -51,7 +49,7 @@ const Trans = {
   },
 
   getPersistedLocale() {
-    const persistedLocale = localStorage.getItem("user-locale")
+    const persistedLocale = localStorage.getItem('user-locale')
 
     if (Trans.isLocaleSupported(persistedLocale)) {
       return persistedLocale

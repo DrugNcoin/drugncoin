@@ -15,24 +15,24 @@ import FadeInComponent from '../components/FadeInComponent.vue'
 </template>
 
 <script>
-import ReferralSystem from '../components/ReferralSystem.vue';
+import ReferralSystem from '../components/ReferralSystem.vue'
 
 export default {
   name: 'ReferralProgramPage',
   components: {
     ReferralSystem
   }
-};
+}
 </script>
 
 <style scoped>
 main {
-  padding-top: var(--section-top-margin)
+  padding-top: var(--section-top-margin);
 }
 
 @media (min-width: 1024px) {
   main {
-    padding: 0
+    padding: 0;
   }
 }
 </style>

@@ -1,20 +1,20 @@
 import { createRouter, createWebHashHistory, RouterView } from 'vue-router'
-import Tr from "@/i18n/translation"
-import CONFIG from "@/config"
+import Tr from '@/i18n/translation'
+import CONFIG from '@/config'
 
-import HomePage from "../views/HomePage.vue"
-import PreSalePage from "../views/PreSalePage.vue"
-import ReferralProgramPage from "../views/ReferralProgramPage.vue"
-import RoadmapPage from "../views/RoadmapPage.vue"
-import TokenomicsPage from "../views/TokenomicsPage.vue"
-import InfoPage from "../views/InfoPage.vue"
-import OurGoalsPage from "../views/OurGoalsPage.vue"
+import HomePage from '../views/HomePage.vue'
+import PreSalePage from '../views/PreSalePage.vue'
+import ReferralProgramPage from '../views/ReferralProgramPage.vue'
+import RoadmapPage from '../views/RoadmapPage.vue'
+import TokenomicsPage from '../views/TokenomicsPage.vue'
+import InfoPage from '../views/InfoPage.vue'
+import OurGoalsPage from '../views/OurGoalsPage.vue'
 
 const router = createRouter({
   history: createWebHashHistory(CONFIG.VITE_BASE_URL),
   routes: [
     {
-      path: "/:locale?",
+      path: '/:locale?',
       component: RouterView,
       beforeEnter: Tr.routeMiddleware,
       children: [

@@ -1,5 +1,5 @@
-@import "./base.css";
-@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:200,900");
+@import './base.css';
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200,900');
 
 #app {
   max-width: 1280px;
@@ -39,7 +39,8 @@ section h2 {
   margin-top: 1rem;
 }
 
-section p, footer p {
+section p,
+footer p {
   padding: 0 1rem;
 }
 

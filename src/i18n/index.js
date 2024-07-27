@@ -1,9 +1,9 @@
-import { createI18n } from "vue-i18n"
-import pluralRules from "./rules/pluralization"
-import numberFormats from "./rules/numbers.js"
-import datetimeFormats from "./rules/datetime.js"
-import en from "./locales/en.json"
-import CONFIG from "@/config"
+import { createI18n } from 'vue-i18n'
+import pluralRules from './rules/pluralization'
+import numberFormats from './rules/numbers.js'
+import datetimeFormats from './rules/datetime.js'
+import en from './locales/en.json'
+import CONFIG from '@/config'
 
 // const messages = {
 //   en: {

@@ -1,7 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import Nav from "@/components/NavMenu.vue";
-import LanguageSwitcher from "@/components/LanguageSwitcher.vue";
+import Nav from '@/components/NavMenu.vue'
+import LanguageSwitcher from '@/components/LanguageSwitcher.vue'
 </script>
 
 <template>

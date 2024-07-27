@@ -1,7 +1,7 @@
 <template>
-<div class="fadeInUp-animation">
-<slot></slot>
-</div>
+  <div class="fadeInUp-animation">
+    <slot></slot>
+  </div>
 </template>
 
 <style scoped>

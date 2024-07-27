@@ -10,26 +10,26 @@
 </template>
 
 <script>
-import axios from 'axios';
+import axios from 'axios'
 
 export default {
   name: 'PaymentProcessing',
   data() {
     return {
       amount: 0
-    };
+    }
   },
   methods: {
     async processPayment() {
       try {
-        const response = await axios.post('/api/payment', { amount: this.amount });
-        console.log('Payment successful:', response.data);
+        const response = await axios.post('/api/payment', { amount: this.amount })
+        console.log('Payment successful:', response.data)
       } catch (error) {
-        console.error('Payment failed:', error);
+        console.error('Payment failed:', error)
       }
     }
   }
-};
+}
 </script>
 
 <style scoped>

@@ -26,52 +26,35 @@ const { t } = useI18n()
 const quarters = computed(() => [
   {
     title: t('roadmap.q3_2024.title'),
-    events: [
-      t('roadmap.q3_2024.event1'),
-      t('roadmap.q3_2024.event2'),
-      t('roadmap.q3_2024.event3')
-    ]
+    events: [t('roadmap.q3_2024.event1'), t('roadmap.q3_2024.event2'), t('roadmap.q3_2024.event3')]
   },
   {
     title: t('roadmap.q4_2024.title'),
-    events: [
-      t('roadmap.q4_2024.event1'),
-      t('roadmap.q4_2024.event2')
-    ]
+    events: [t('roadmap.q4_2024.event1'), t('roadmap.q4_2024.event2')]
   },
   {
     title: t('roadmap.q1_2025.title'),
-    events: [
-      t('roadmap.q1_2025.event1'),
-      t('roadmap.q1_2025.event2')
-    ]
+    events: [t('roadmap.q1_2025.event1'), t('roadmap.q1_2025.event2')]
   },
   {
     title: t('roadmap.q2_2025.title'),
-    events: [
-      t('roadmap.q2_2025.event1'),
-      t('roadmap.q2_2025.event2')
-    ]
+    events: [t('roadmap.q2_2025.event1'), t('roadmap.q2_2025.event2')]
   },
   {
     title: t('roadmap.q3_2025.title'),
-    events: [
-      t('roadmap.q3_2025.event1'),
-      t('roadmap.q3_2025.event2')
-    ]
+    events: [t('roadmap.q3_2025.event1'), t('roadmap.q3_2025.event2')]
   }
 ])
-
 </script>
 
 <style scoped>
 main {
-  padding-top: var(--section-top-margin)
+  padding-top: var(--section-top-margin);
 }
 
 @media (min-width: 1024px) {
   main {
-    padding: 0
+    padding: 0;
   }
 }
 </style>

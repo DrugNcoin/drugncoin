@@ -18,17 +18,17 @@ import FadeInComponent from '../components/FadeInComponent.vue'
 <script>
 export default {
   name: 'TokenomicsPage'
-};
+}
 </script>
 
 <style scoped>
 main {
-  padding-top: var(--section-top-margin)
+  padding-top: var(--section-top-margin);
 }
 
 @media (min-width: 1024px) {
   main {
-    padding: 0
+    padding: 0;
   }
 }
 </style>

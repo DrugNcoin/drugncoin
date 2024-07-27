@@ -16,8 +16,8 @@ import FadeInComponent from '../components/FadeInComponent.vue'
 </template>
 
 <script>
-import WalletConnection from '../components/WalletConnection.vue';
-import PaymentProcessing from '../components/PaymentProcessing.vue';
+import WalletConnection from '../components/WalletConnection.vue'
+import PaymentProcessing from '../components/PaymentProcessing.vue'
 
 export default {
   name: 'PreSalePage',
@@ -25,17 +25,17 @@ export default {
     WalletConnection,
     PaymentProcessing
   }
-};
+}
 </script>
 
 <style scoped>
 main {
-  padding-top: var(--section-top-margin)
+  padding-top: var(--section-top-margin);
 }
 
 @media (min-width: 1024px) {
   main {
-    padding: 0
+    padding: 0;
   }
 }
 </style>

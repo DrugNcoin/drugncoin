@@ -1,14 +1,14 @@
 export default {
   en: {
     currencyFormat: {
-      style: "currency",
-      currency: "USD"
+      style: 'currency',
+      currency: 'USD'
     }
   },
   ru: {
     currencyFormat: {
-      style: "currency",
-      currency: "RUB"
+      style: 'currency',
+      currency: 'RUB'
     }
   }
 }

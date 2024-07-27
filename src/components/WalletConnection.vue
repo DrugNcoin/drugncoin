@@ -6,32 +6,32 @@
 </template>
 
 <script>
-import Web3 from 'web3';
+import Web3 from 'web3'
 
 export default {
   name: 'WalletConnection',
   data() {
     return {
       walletAddress: null
-    };
+    }
   },
   methods: {
     async connectWallet() {
       if (window.ethereum) {
-        const web3 = new Web3(window.ethereum);
+        const web3 = new Web3(window.ethereum)
         try {
-          await window.ethereum.enable();
-          const accounts = await web3.eth.getAccounts();
-          this.walletAddress = accounts[0];
+          await window.ethereum.enable()
+          const accounts = await web3.eth.getAccounts()
+          this.walletAddress = accounts[0]
         } catch (error) {
-          console.error("User denied account access: " + error);
+          console.error('User denied account access: ' + error)
         }
       } else {
-        console.error("No Ethereum provider detected");
+        console.error('No Ethereum provider detected')
       }
     }
   }
-};
+}
 </script>
 
 <style scoped>

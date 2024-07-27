@@ -1,20 +1,28 @@
 export default {
   en: {
     shortFormat: {
-      dateStyle: "short"
+      dateStyle: 'short'
     },
     longFormat: {
-      year: 'numeric', month: 'short', day: 'numeric',
-      weekday: 'short', hour: 'numeric', minute: 'numeric'
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric',
+      weekday: 'short',
+      hour: 'numeric',
+      minute: 'numeric'
     }
   },
   ru: {
     shortFormat: {
-      dateStyle: "short"
+      dateStyle: 'short'
     },
     longFormat: {
-      year: 'numeric', month: 'short', day: 'numeric',
-      weekday: 'short', hour: 'numeric', minute: 'numeric'
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric',
+      weekday: 'short',
+      hour: 'numeric',
+      minute: 'numeric'
     }
   }
 }

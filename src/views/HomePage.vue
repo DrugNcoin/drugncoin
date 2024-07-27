@@ -7,7 +7,9 @@ import FadeInComponent from '../components/FadeInComponent.vue'
     <main>
       <section>
         <h1>{{ $t('home.welcome.title') }}</h1>
-        <p><strong>{{ $t('home.welcome.body') }}</strong></p>
+        <p>
+          <strong>{{ $t('home.welcome.body') }}</strong>
+        </p>
       </section>
 
       <section>
@@ -18,28 +20,42 @@ import FadeInComponent from '../components/FadeInComponent.vue'
       <section>
         <h2>{{ $t('home.why.title') }}</h2>
         <div>
-          <p><strong>{{ $t('home.why.reason1.title') }}</strong></p>
+          <p>
+            <strong>{{ $t('home.why.reason1.title') }}</strong>
+          </p>
           <ul>
             <li>{{ $t('home.why.reason1.item1') }}</li>
             <li>{{ $t('home.why.reason1.item2') }}</li>
           </ul>
         </div>
         <div>
-          <p><strong>{{ $t('home.why.reason2.title') }}</strong></p>
+          <p>
+            <strong>{{ $t('home.why.reason2.title') }}</strong>
+          </p>
           <ul>
-            <li><strong>{{ $t('home.why.reason2.item1') }}</strong></li>
-            <li><strong>{{ $t('home.why.reason2.item2') }}</strong></li>
-            <li><strong>{{ $t('home.why.reason2.item3') }}</strong></li>
+            <li>
+              <strong>{{ $t('home.why.reason2.item1') }}</strong>
+            </li>
+            <li>
+              <strong>{{ $t('home.why.reason2.item2') }}</strong>
+            </li>
+            <li>
+              <strong>{{ $t('home.why.reason2.item3') }}</strong>
+            </li>
           </ul>
         </div>
         <div>
-          <p><strong>{{ $t('home.why.reason3.title') }}</strong></p>
+          <p>
+            <strong>{{ $t('home.why.reason3.title') }}</strong>
+          </p>
           <ul>
             <li>{{ $t('home.why.reason3.item1') }}</li>
           </ul>
         </div>
         <div>
-          <p><strong>{{ $t('home.why.reason4.title') }}</strong></p>
+          <p>
+            <strong>{{ $t('home.why.reason4.title') }}</strong>
+          </p>
           <ul>
             <li>{{ $t('home.why.reason4.item1') }}</li>
             <li>{{ $t('home.why.reason4.item2') }}</li>
@@ -51,25 +67,26 @@ import FadeInComponent from '../components/FadeInComponent.vue'
         <h2>{{ $t('home.token_details.title') }}</h2>
         <ul>
           <li>
-            <strong>{{ $t('home.token_details.token_name.label') }}</strong> {{
-              $t('home.token_details.token_name.value')
-            }}
+            <strong>{{ $t('home.token_details.token_name.label') }}</strong>
+            {{ $t('home.token_details.token_name.value') }}
           </li>
           <li>
-            <strong>{{ $t('home.token_details.total_supply.label') }}</strong> {{
-              $t('home.token_details.total_supply.value') }}
+            <strong>{{ $t('home.token_details.total_supply.label') }}</strong>
+            {{ $t('home.token_details.total_supply.value') }}
           </li>
           <li>
-            <strong>{{ $t('home.token_details.team_reserve.label') }}</strong> {{
-              $t('home.token_details.team_reserve.value') }}
+            <strong>{{ $t('home.token_details.team_reserve.label') }}</strong>
+            {{ $t('home.token_details.team_reserve.value') }}
           </li>
           <li>
-            <strong>{{ $t('home.token_details.circulating_supply.label') }}</strong> {{
-              $t('home.token_details.circulating_supply.value') }}
+            <strong>{{ $t('home.token_details.circulating_supply.label') }}</strong>
+            {{ $t('home.token_details.circulating_supply.value') }}
           </li>
         </ul>
         <div>
-          <p><strong>{{ $t('home.token_details.pre_sale_rounds.label') }}</strong></p>
+          <p>
+            <strong>{{ $t('home.token_details.pre_sale_rounds.label') }}</strong>
+          </p>
           <ul>
             <li>
               <strong>{{ $t('home.token_details.pre_sale_rounds.round1.title') }}</strong>
@@ -98,7 +115,9 @@ import FadeInComponent from '../components/FadeInComponent.vue'
 
       <section>
         <h2>{{ $t('home.join.title') }}</h2>
-        <p><strong>{{ $t('home.join.steps.get_started') }}</strong></p>
+        <p>
+          <strong>{{ $t('home.join.steps.get_started') }}</strong>
+        </p>
         <ol>
           <li>{{ $t('home.join.steps.step1') }}</li>
           <li>{{ $t('home.join.steps.step2') }}</li>
@@ -126,21 +145,20 @@ import FadeInComponent from '../components/FadeInComponent.vue'
   </FadeInComponent>
 </template>
 
-
 <script>
 export default {
   name: 'HomePage'
-};
+}
 </script>
 
 <style scoped>
 main {
-  padding-top: var(--section-top-margin)
+  padding-top: var(--section-top-margin);
 }
 
 @media (min-width: 1024px) {
   main {
-    padding: 0
+    padding: 0;
   }
 }
 </style>

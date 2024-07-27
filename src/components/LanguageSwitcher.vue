@@ -8,8 +8,8 @@
 
 <script>
 import { useI18n } from 'vue-i18n'
-import { useRouter } from "vue-router"
-import Tr from "@/i18n/translation"
+import { useRouter } from 'vue-router'
+import Tr from '@/i18n/translation'
 
 export default {
   setup() {
@@ -33,7 +33,7 @@ export default {
         await router.push({ params: { locale: newLocale } })
       } catch (e) {
         console.log(e)
-        await router.push("/")
+        await router.push('/')
       }
     }
 

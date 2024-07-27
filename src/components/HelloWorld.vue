@@ -3,8 +3,8 @@
     <img alt="Vue logo" class="logo" src="@/assets/logo-mobile.webp" />
 
     <div class="greetings">
-      <h1 class="green">{{ $t("hello.title") }}</h1>
-      <p>{{ $t("hello.body") }}</p>
+      <h1 class="green">{{ $t('hello.title') }}</h1>
+      <p>{{ $t('hello.body') }}</p>
     </div>
   </div>
 </template>
@@ -42,7 +42,6 @@ h1 {
   text-align: left;
 }
 
-
 @media (min-width: 1024px) {
   .hello {
     display: flex;
@@ -72,7 +71,5 @@ h1 {
   .greetings h3 {
     text-align: center;
   }
-
-
 }
 </style>
