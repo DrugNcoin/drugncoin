@@ -5,10 +5,12 @@ import FadeInComponent from '../components/FadeInComponent.vue'
 <template>
   <FadeInComponent>
     <main>
-      <h1>Pre-Sale</h1>
-      <p>Join our pre-sale rounds and get your DrugNcoin tokens.</p>
-      <wallet-connection></wallet-connection>
-      <payment-processing></payment-processing>
+      <section>
+        <h1>Pre-Sale</h1>
+        <p>Join our pre-sale rounds and get your DrugNcoin tokens.</p>
+        <wallet-connection></wallet-connection>
+        <payment-processing></payment-processing>
+      </section>
     </main>
   </FadeInComponent>
 </template>

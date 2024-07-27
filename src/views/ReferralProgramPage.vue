@@ -5,9 +5,11 @@ import FadeInComponent from '../components/FadeInComponent.vue'
 <template>
   <FadeInComponent>
     <main>
-      <h1>Referral Program</h1>
-      <p>Invite friends and earn DrugNcoin tokens.</p>
-      <referral-system></referral-system>
+      <section>
+        <h1>Referral Program</h1>
+        <p>Invite friends and earn DrugNcoin tokens.</p>
+        <referral-system></referral-system>
+      </section>
     </main>
   </FadeInComponent>
 </template>

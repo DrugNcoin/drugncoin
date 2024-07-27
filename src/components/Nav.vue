@@ -79,7 +79,7 @@ export default {
 nav {
   margin-top: var(--section-top-margin);
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: row;
   align-items: center;
   align-content: center;
@@ -195,5 +195,9 @@ button::before {
 }
 
 
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+  nav {
+    justify-content: center;
+  }
+}
 </style>
