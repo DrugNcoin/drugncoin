@@ -1,7 +1,3 @@
-<script setup>
-import FadeInComponent from '../components/FadeInComponent.vue'
-</script>
-
 <template>
   <FadeInComponent>
     <main>
@@ -19,52 +15,53 @@ import FadeInComponent from '../components/FadeInComponent.vue'
   </FadeInComponent>
 </template>
 
-<script>
-export default {
-  name: 'RoadmapPage',
-  data() {
-    return {
-      quarters: [
-        {
-          title: this.$t('roadmap.q3_2024.title'),
-          events: [
-            this.$t('roadmap.q3_2024.event1'),
-            this.$t('roadmap.q3_2024.event2'),
-            this.$t('roadmap.q3_2024.event3')
-          ]
-        },
-        {
-          title: this.$t('roadmap.q4_2024.title'),
-          events: [
-            this.$t('roadmap.q4_2024.event1'),
-            this.$t('roadmap.q4_2024.event2')
-          ]
-        },
-        {
-          title: this.$t('roadmap.q1_2025.title'),
-          events: [
-            this.$t('roadmap.q1_2025.event1'),
-            this.$t('roadmap.q1_2025.event2')
-          ]
-        },
-        {
-          title: this.$t('roadmap.q2_2025.title'),
-          events: [
-            this.$t('roadmap.q2_2025.event1'),
-            this.$t('roadmap.q2_2025.event2')
-          ]
-        },
-        {
-          title: this.$t('roadmap.q3_2025.title'),
-          events: [
-            this.$t('roadmap.q3_2025.event1'),
-            this.$t('roadmap.q3_2025.event2')
-          ]
-        }
-      ]
-    };
+<script setup>
+import FadeInComponent from '../components/FadeInComponent.vue'
+
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
+
+const quarters = computed(() => [
+  {
+    title: t('roadmap.q3_2024.title'),
+    events: [
+      t('roadmap.q3_2024.event1'),
+      t('roadmap.q3_2024.event2'),
+      t('roadmap.q3_2024.event3')
+    ]
+  },
+  {
+    title: t('roadmap.q4_2024.title'),
+    events: [
+      t('roadmap.q4_2024.event1'),
+      t('roadmap.q4_2024.event2')
+    ]
+  },
+  {
+    title: t('roadmap.q1_2025.title'),
+    events: [
+      t('roadmap.q1_2025.event1'),
+      t('roadmap.q1_2025.event2')
+    ]
+  },
+  {
+    title: t('roadmap.q2_2025.title'),
+    events: [
+      t('roadmap.q2_2025.event1'),
+      t('roadmap.q2_2025.event2')
+    ]
+  },
+  {
+    title: t('roadmap.q3_2025.title'),
+    events: [
+      t('roadmap.q3_2025.event1'),
+      t('roadmap.q3_2025.event2')
+    ]
   }
-};
+])
+
 </script>
 
 <style scoped>
