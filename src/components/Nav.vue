@@ -76,6 +76,15 @@ export default {
 </script>
 
 <style scoped>
+nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
 button {
   margin: 0 1rem 1rem;
   position: relative;
