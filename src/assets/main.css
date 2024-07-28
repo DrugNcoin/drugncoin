@@ -41,7 +41,7 @@ section h2 {
 
 section p,
 footer p {
-  padding: 0 0.5rem;
+  padding: 0 var(--content-section-content-padding-desktop);
 }
 
 footer {
@@ -75,6 +75,6 @@ footer {
 
   section p,
   footer p {
-    padding: 0 1rem;
+    padding: 0 var(--content-section-content-padding);
   }
 }

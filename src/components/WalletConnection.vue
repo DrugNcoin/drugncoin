@@ -39,10 +39,10 @@ export default {
   word-wrap: break-word;
 
   .address-wrapper {
-    padding: 0 0.5rem;
+    padding: 0 var(--content-section-content-padding-desktop);
   }
 
-  > div {
+  >div {
     margin-top: 1rem;
   }
 
@@ -54,7 +54,7 @@ export default {
 #ton-connect-button {
   width: 100% !important;
 
-  tc-root > div,
+  tc-root>div,
   tc-root button {
     width: 100% !important;
   }
@@ -63,7 +63,7 @@ export default {
     background-color: #913723;
     justify-content: center;
 
-    > div {
+    >div {
       color: white;
     }
 
@@ -75,7 +75,7 @@ export default {
 
 @media (min-width: 1024px) {
   .wallet-connect-wrapper .address-wrapper {
-    padding: 0 1rem;
+    padding: 0 var(--content-section-content-padding);
   }
 }
 </style>

@@ -61,6 +61,8 @@
 /* semantic layout variables for this project */
 :root {
   --section-top-margin: 2rem;
+  --content-section-content-padding: 1rem;
+  --content-section-content-padding-desktop: 0.5rem;
 }
 
 *,
