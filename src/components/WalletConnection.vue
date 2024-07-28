@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="wallet-connect-wrapper">
     <TonConnectButton />
-    <div>User-friendly address: {{ userFriendlyAddress }}</div>
-    <div>Raw address: {{ rawAddress }}</div>
+    <div><strong>User-friendly address:</strong> {{ userFriendlyAddress }}</div>
+    <div><strong>Raw address:</strong> {{ rawAddress }}</div>
   </div>
 </template>
 
@@ -28,5 +28,21 @@ export default {
 </script>
 
 <style scoped>
-/* Add styles specific to WalletConnection here */
+.wallet-connect-wrapper {
+  word-wrap: break-word;
+  padding: 0 0.5rem;
+
+  > div {
+    margin-top: 1rem;
+  }
+  strong {
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wallet-connect-wrapper {
+    padding: 0 1rem;
+  }
+}
 </style>

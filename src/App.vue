@@ -1,23 +1,44 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import Nav from '@/components/NavMenu.vue'
-import LanguageSwitcher from '@/components/LanguageSwitcher.vue'
-</script>
-
 <template>
-  <div class="full-size-column">
-    <LanguageSwitcher></LanguageSwitcher>
-  </div>
-  <header>
-    <div class="wrapper">
-      <HelloWorld />
-      <img alt="Vue logo" class="logo" src="@/assets/logo.png" />
-      <Nav />
+  <TonConnectUIProvider :options="options" custom>
+    <div class="full-size-column">
+      <LanguageSwitcher></LanguageSwitcher>
     </div>
-  </header>
+    <header>
+      <div class="wrapper">
+        <HelloWorld />
+        <img alt="Vue logo" class="logo" src="@/assets/logo.png" />
+        <NavMenu />
+      </div>
+    </header>
 
-  <RouterView />
+    <RouterView />
+  </TonConnectUIProvider>
 </template>
+
+<script>
+import HelloWorld from './components/HelloWorld.vue'
+import NavMenu from '@/components/NavMenu.vue'
+import LanguageSwitcher from '@/components/LanguageSwitcher.vue'
+import { TonConnectUIProvider } from '@townsquarelabs/ui-vue'
+
+export default {
+  name: 'PreSalePage',
+  components: {
+    HelloWorld,
+    NavMenu,
+    LanguageSwitcher,
+    TonConnectUIProvider
+  },
+  setup() {
+    const options = {
+      manifestUrl: "https://drugncoin.github.io/drugncoin/tonconnect-manifest.json",
+    };
+    return {
+      options
+    }
+  }
+}
+</script>
 
 <style scoped>
 header {
