@@ -1,0 +1,198 @@
+{
+  "locale": {
+    "bg": "Български",
+    "cs": "Čeština",
+    "de": "Deutsch",
+    "en": "English",
+    "es": "Español",
+    "et": "Eesti",
+    "fa": "فارسی",
+    "fi": "Suomi",
+    "fr": "Français",
+    "he": "עברית",
+    "is": "Íslenska",
+    "it": "Italiano",
+    "lt": "Lietuvių",
+    "lv": "Latviešu",
+    "no": "Norsk",
+    "pl": "Polski",
+    "pt": "Português",
+    "ru": "Русский",
+    "sv": "Svenska",
+    "ua": "Українська"
+  },
+  "nav": {
+    "home": "Heim",
+    "goals": "Markmið okkar",
+    "presale": "Forsala",
+    "referral": "Tilvísun",
+    "roadmap": "Vegvísir",
+    "tokenomics": "Tokenomics",
+    "about": "Um okkur"
+  },
+  "hello": {
+    "title": "Velkomin til DrugNcoin!",
+    "body": "Vertu með í byltingunni með DrugNcoin á TON Blockchain."
+  },
+  "home": {
+    "welcome": {
+      "title": "Velkomin til DrugNcoin!",
+      "body": "Bylting í heimi dulritunar með nýsköpun og samfélagi"
+    },
+    "about": {
+      "title": "Um DrugNcoin",
+      "body": "DrugNcoin er byltingarkennt verkefni á TON Blockchain, hannað til að færa bestu dulritunargjöld til áhugamanna og fjárfesta. Með skýra áherslu á tokenomics, gegnsæi og þátttöku notenda stefnir DrugNcoin að því að skapa blómlegt vistkerfi sem umbunar samfélaginu sínu."
+    },
+    "why": {
+      "title": "Af hverju DrugNcoin?",
+      "reason1": {
+        "title": "1. Sterkur Grunnur:",
+        "item1": "Byggt á öruggu og stigstærðu TON Blockchain.",
+        "item2": "Studd af öflugum snjallsamningsinnviðum."
+      },
+      "reason2": {
+        "title": "2. Gegnsæ Tokenomics:",
+        "item1": "Heildarframboð: 100 milljarðar tokena.",
+        "item2": "Varasjóður teymisins: 10 milljarðar tokena.",
+        "item3": "Í umferð: 90 milljarðar tokena."
+      },
+      "reason3": {
+        "title": "3. Spennandi Forsölutækifæri:",
+        "item1": "Margar forsölulotur með hækkandi tokenverði, sem gefa snemma fjárfestum verulegan ávinning."
+      },
+      "reason4": {
+        "title": "4. Umbunarkerfi fyrir tilvísanir:",
+        "item1": "Þénar tokena með því að bjóða öðrum að taka þátt í DrugNcoin samfélaginu.",
+        "item2": "Framsækið umbunarkerfi byggt á fjölda tilvísana."
+      }
+    },
+    "token_details": {
+      "title": "Upplýsingar um Token",
+      "token_name": {
+        "label": "Nafn Token:",
+        "value": "DrugNcoin"
+      },
+      "total_supply": {
+        "label": "Heildarframboð:",
+        "value": "100 milljarðar tokena"
+      },
+      "team_reserve": {
+        "label": "Varasjóður teymisins:",
+        "value": "10 milljarðar tokena"
+      },
+      "circulating_supply": {
+        "label": "Í umferð:",
+        "value": "90 milljarðar tokena"
+      },
+      "pre_sale_rounds": {
+        "label": "Forsölulotur:",
+        "round1": {
+          "title": "Fyrsta lota:",
+          "price": "Verð: $0.0015 per token",
+          "end_date": "Lokadagsetning: 10. ágúst 2024"
+        },
+        "round2": {
+          "title": "Önnur lota:",
+          "price": "Verð: $0.002 per token",
+          "end_date": "Lokadagsetning: 30. ágúst 2024"
+        },
+        "round3": {
+          "title": "Þriðja lota:",
+          "price": "Verð: $0.003 per token",
+          "end_date": "Lokadagsetning: 30. september 2024"
+        }
+      }
+    },
+    "join": {
+      "title": "Taktu þátt í DrugNcoin samfélaginu",
+      "steps": {
+        "get_started": "Byrjaðu:",
+        "step1": "Tengdu TON Wallet.",
+        "step2": "Taktu þátt í forsölu.",
+        "step3": "Þénar umbunir í gegnum tilvísunarkerfið okkar."
+      }
+    },
+    "stay_connected": {
+      "title": "Vertu í sambandi:",
+      "social_media": "Fylgdu okkur á samfélagsmiðlum fyrir nýjustu uppfærslurnar.",
+      "community_discussions": "Taktu þátt í samfélagsumræðum okkar á Telegram og Discord."
+    },
+    "contact": {
+      "title": "Hafðu samband við okkur:",
+      "body": "Fyrir fyrirspurnir, hafðu samband við stuðningsteymið okkar á [support at drugncoin.com](mailto:support at drugncoin.com)."
+    },
+    "footer": {
+      "body": "DrugNcoin - Nýsköpun framtíðar dulritunar"
+    }
+  },
+  "our_goals": {
+    "title": "Markmið okkar",
+    "introduction": "Hjá DrugNcoin trúum við á framtíðarsýn að almenn notkun dulritunar verði ekki fullkomlega náð nema með því að takast á við mikilvægt samfélagsmál: lögleiðingu eiturlyfja. Við viðurkennum mikilvægt hlutverk sem dulritun gegnir á svörtum markaði, sérstaklega fyrir ólögleg viðskipti með eiturlyf. Þetta samband er veruleg hindrun fyrir almenna viðurkenningu og samþættingu dulritunar í almenn fjármálakerfi.",
+    "vision": {
+      "title": "Framtíðarsýn okkar",
+      "body": "Við sjáum fyrir okkur heim þar sem skuggar svarta markaðarins hverfa við ljósi löglegrar notkunar. Rétt eins og dögun brýtur myrkasta nóttina, getur lögleiðing og reglubundin notkun eiturlyfja boðað nýja tíma fyrir dulritun, breytt henni úr verkfæri neðanjarðar í leiðarljós gegnsærrar og lögmætrar viðskipta."
+    },
+    "blocker": {
+      "title": "Beini hindrunin",
+      "body": "Ferðin að almennri notkun dulritunar er hindruð af viðvarandi skugga ólöglegra eiturlyfja. Þetta ólögmæta samband kastar skugga á möguleika stafræns gjaldmiðils, skapar vantraust og mótspyrnu meðal eftirlitsstofnana og almennings. Til að opna raunverulega möguleika dulritunar verðum við fyrst að takast á við þetta grundvallarvandamál."
+    },
+    "solution": {
+      "title": "Lausn okkar",
+      "body": "Við trúum því að afglæpavæðing og lögleiðing eiturlyfja sé 100% lausn á einni stærstu hindrun almennrar notkunar dulritunar. Með því að styðja við og styðja lögleiðingu eiturlyfja, stefnum við að því að fjarlægja stimplun og lagalegar áskoranir sem tengjast notkun dulritunar, leggja grunn að viðurkenningu og samþættingu þeirra í daglegt líf."
+    },
+    "foundation": {
+      "title": "Að skapa grunn",
+      "body": "Markmið okkar er að stofna grunn sem er tileinkaður að styðja við lögleiðingarferli eiturlyfja í löndum þar sem þetta er deilumál. Í gegnum málsvörn, fræðslu og fjárhagslegan stuðning, stefnum við að því að hafa áhrif á stefnumótun og viðhorf samfélagsins, skapa lagalegt umhverfi sem styður vöxt og viðurkenningu dulritunar."
+    }
+  },
+  "roadmap": {
+    "title": "Vegvísir",
+    "body": "Við höfum nú þegar skipulagt stefnu okkar eitt ár fram í tímann.",
+    "q3_2024": {
+      "title": "Þriðji ársfjórðungur 2024",
+      "event1": "Fyrsta lota forsölu: $0.0015 per token (Lokadagsetning: 10. ágúst 2024)",
+      "event2": "Önnur lota forsölu: $0.002 per token (Lokadagsetning: 30. ágúst 2024)",
+      "event3": "Þriðja lota forsölu: $0.003 per token (Lokadagsetning: 30. september 2024)"
+    },
+    "q4_2024": {
+      "title": "Fjórði ársfjórðungur 2024",
+      "event1": "Úthlutun tokena til snemma fjárfesta",
+      "event2": "Fyrsta markaðsherferð til að auka vitund"
+    },
+    "q1_2025": {
+      "title": "Fyrsti ársfjórðungur 2025",
+      "event1": "Listun á helstu dulritunarskiptum (Binance, Bybit, Bitget, OKEX)",
+      "event2": "Aukning markaðsátaks og samfélags þátttöku"
+    },
+    "q2_2025": {
+      "title": "Annar ársfjórðungur 2025",
+      "event1": "Stofnun samstarfa með lög- og málsvörn hópum",
+      "event2": "Hefja lögleiðingarstuðningsáætlanir í markaðslöndum"
+    },
+    "q3_2025": {
+      "title": "Þriðji ársfjórðungur 2025",
+      "event1": "Hefja alþjóðlega herferð fyrir lögleiðingu eiturlyfja",
+      "event2": "Hýsa alþjóðlegar ráðstefnur og vinnustofur"
+    }
+  },
+  "about": {
+    "title": "Um DrugNcoin",
+    "introduction": "DrugNcoin var stofnað af fjölbreyttum hópi fagfólks og áhugamanna sem eru sameinaðir af sameiginlegri framtíðarsýn. Teymið okkar samanstendur af sérfræðingum frá ýmsum sviðum, hver með einstaka sýn og hæfileika. Saman erum við staðráðin í að knýja fram almenna notkun dulritunar með nýsköpunarlausnum og samfélagsbreytingum.",
+    "founders": {
+      "title": "Stofnendur okkar",
+      "body": "Stofnendahópurinn okkar samanstendur af framtíðarsýnum frá ólíkum bakgrunni, hver með djúpa ástríðu fyrir dulritun og möguleikum þess til að breyta heiminum. Með því að nýta sameiginlega sérfræðiþekkingu okkar stefnum við að því að skapa sjálfbæra og áhrifaríka hreyfingu."
+    },
+    "expertise": {
+      "title": "Sérfræðiþekking okkar",
+      "item1": "Blockchain Tækni: Blockchain sérfræðingar okkar tryggja öryggi og stigstærð vettvangs okkar, sem gerir DrugNcoin að áreiðanlegum og skilvirkum dulritunargjaldeyri.",
+      "item2": "Laga- og regluframkvæmdir: Lögfræðiteymi okkar leiðir flókinn landslag reglugerða um dulritun, málsvörn fyrir stefnum sem styðja við löglega notkun stafrænna gjaldmiðla.",
+      "item3": "Fjármál og hagfræði: Fjármálasérfræðingar okkar veita innsýn í markaðsþróun og efnahagsleg áhrif, leiðbeina stefnumótandi ákvörðunum okkar til langtímavöxtar.",
+      "item4": "Markaðssetning og samskipti: Markaðssérfræðingar okkar móta sannfærandi sögur og útbreiðsluáætlanir til að virkja og auka samfélag okkar.",
+      "item5": "Almenn heilsa og stefnumótun: Heilbrigðissérfræðingar okkar skilja samfélagsleg áhrif lögleiðingar eiturlyfja, hjálpa okkur að móta frumkvæði sem stuðla að heilbrigði og öryggi."
+    },
+    "mission": {
+      "title": "Markmið okkar",
+      "body": "Hjá DrugNcoin er markmið okkar að stuðla að almennri notkun dulritunar með því að takast á við eina af stærstu hindrunum þess: tengslin við ólögleg eiturlyfjaviðskipti. Með því að mæla fyrir lögleiðingu og reglubundinni notkun eiturlyfja, stefnum við að því að breyta frásögninni um dulritun og leggja grunn að samþættingu þess í almenn fjármálakerfi. Við trúum því að með fræðslu, málsvörn og stefnumótandi samstarfi getum við skapað framtíð þar sem dulritun er notuð gegnsætt og löglega, til hagsbóta fyrir samfélagið í heild."
+    }
+  }
+}
