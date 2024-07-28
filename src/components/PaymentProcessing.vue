@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h2>Payment Processing</h2>
+    <h2>{{ $t('presale.payment.title') }}</h2>
     <form @submit.prevent="processPayment">
-      <label for="amount">Amount (USD):</label>
+      <label for="amount">{{ $t('presale.payment.amount') }}:</label>
       <input type="number" v-model="amount" required />
-      <button type="submit">Pay</button>
+      <button type="submit">{{ $t('presale.payment.pay') }}</button>
     </form>
   </div>
 </template>

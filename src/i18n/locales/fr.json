@@ -194,5 +194,35 @@
       "title": "Notre Mission",
       "body": "Chez DrugNcoin, notre mission est de favoriser l'adoption massive des cryptomonnaies en abordant l'une de leurs barrières les plus significatives : l'association avec les transactions de drogues illégales. En plaidant pour la légalisation et la régulation des drogues, nous visons à transformer le récit autour des cryptomonnaies et à préparer le terrain pour leur intégration dans les systèmes financiers traditionnels. Nous croyons qu'à travers l'éducation, le plaidoyer et les partenariats stratégiques, nous pouvons créer un avenir où les cryptomonnaies sont utilisées de manière transparente et légale, bénéficiant à la société dans son ensemble."
     }
+  },
+  "presale": {
+    "title": "Prévente",
+    "body": "Rejoignez nos tours de prévente et obtenez vos tokens DrugNcoin.",
+    "connect-wallet": {
+      "title": "Connectez votre portefeuille TON",
+      "user-friendly-address": "Adresse conviviale",
+      "raw-address": "Adresse brute"
+    },
+    "payment": {
+      "title": "Traitement des paiements",
+      "amount": "Montant (USD)"
+    }
+  },
+  "referral": {
+    "title": "Programme de Parrainage",
+    "body": "Invitez des amis et gagnez des tokens DrugNcoin.",
+    "system": {
+      "title": "Système de Parrainage",
+      "referral-id": "ID de Parrainage",
+      "submit": "Soumettre"
+    }
+  },
+  "tokenimics": {
+    "title": "Tokenomique",
+    "total": "Offre Totale",
+    "team-reserved": "Réservé à l'Équipe",
+    "circulating": "Offre Circulante",
+    "billion": "milliards",
+    "tokens": "tokens"
   }
 }

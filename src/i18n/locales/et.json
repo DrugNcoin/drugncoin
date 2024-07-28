@@ -194,5 +194,35 @@
       "title": "Meie Missioon",
       "body": "DrugNcoin'i missioon on edendada krüptovaluuta massilist kasutuselevõttu, käsitledes üht selle kõige olulisemat takistust: seost ebaseaduslike narkootikumide tehingutega. Edendades narkootikumide legaliseerimist ja reguleerimist, on meie eesmärk muuta narratiivi krüptovaluutade ümber ja sillutada tee nende integreerimiseks tavapärastesse finantssüsteemidesse. Usume, et hariduse, advokaatide töö ja strateegiliste partnerluste kaudu saame luua tuleviku, kus krüptovaluutat kasutatakse läbipaistvalt ja seaduslikult, olles kasulik kogu ühiskonnale."
     }
+  },
+  "presale": {
+    "title": "Eelmüük",
+    "body": "Liituge meie eelmüügivoorudega ja hankige oma DrugNcoin tokenid.",
+    "connect-wallet": {
+      "title": "Ühendage oma TON rahakott",
+      "user-friendly-address": "Kasutajasõbralik aadress",
+      "raw-address": "Toores aadress"
+    },
+    "payment": {
+      "title": "Maksete töötlemine",
+      "amount": "Summa (USD)"
+    }
+  },
+  "referral": {
+    "title": "Viiteprogramm",
+    "body": "Kutsuge sõpru ja teenige DrugNcoin tokeneid.",
+    "system": {
+      "title": "Viitesüsteem",
+      "referral-id": "Viite ID",
+      "submit": "Esita"
+    }
+  },
+  "tokenimics": {
+    "title": "Tokenoomika",
+    "total": "Kogupakkumine",
+    "team-reserved": "Meeskonnale reserveeritud",
+    "circulating": "Ringluses olev pakkumine",
+    "billion": "miljardit",
+    "tokens": "tokenit"
   }
 }

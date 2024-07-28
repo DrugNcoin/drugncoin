@@ -6,10 +6,10 @@ import FadeInComponent from '../components/FadeInComponent.vue'
   <FadeInComponent>
     <main>
       <section>
-        <h1>Tokenomics</h1>
-        <p>Total Supply: 100 billion tokens</p>
-        <p>Reserved for Team: 10 billion tokens</p>
-        <p>Circulating Supply: 90 billion tokens</p>
+        <h1>{{ $t('tokenimics.title') }}</h1>
+        <p>{{ $t('tokenimics.total') }}: 100 {{ $t('tokenimics.billion') }} {{ $t('tokenimics.tokens') }}</p>
+        <p>{{ $t('tokenimics.team-reserved') }}: 10 {{ $t('tokenimics.billion') }} {{ $t('tokenimics.tokens') }}</p>
+        <p>{{ $t('tokenimics.circulating') }}: 90 {{ $t('tokenimics.billion') }} {{ $t('tokenimics.tokens') }}</p>
       </section>
     </main>
   </FadeInComponent>

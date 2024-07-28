@@ -194,5 +194,35 @@
       "title": "Markmið okkar",
       "body": "Hjá DrugNcoin er markmið okkar að stuðla að almennri notkun dulritunar með því að takast á við eina af stærstu hindrunum þess: tengslin við ólögleg eiturlyfjaviðskipti. Með því að mæla fyrir lögleiðingu og reglubundinni notkun eiturlyfja, stefnum við að því að breyta frásögninni um dulritun og leggja grunn að samþættingu þess í almenn fjármálakerfi. Við trúum því að með fræðslu, málsvörn og stefnumótandi samstarfi getum við skapað framtíð þar sem dulritun er notuð gegnsætt og löglega, til hagsbóta fyrir samfélagið í heild."
     }
+  },
+  "presale": {
+    "title": "Forkaupssala",
+    "body": "Taktu þátt í forkaupslotum okkar og fáðu DrugNcoin táknin þín.",
+    "connect-wallet": {
+      "title": "Tengdu TON veskið þitt",
+      "user-friendly-address": "Notendavænt heimilisfang",
+      "raw-address": "Hrár heimilisfang"
+    },
+    "payment": {
+      "title": "Greiðsluferli",
+      "amount": "Upphæð (USD)"
+    }
+  },
+  "referral": {
+    "title": "Tilvísunarkerfi",
+    "body": "Bjóðið vinum og fáðu DrugNcoin tákn.",
+    "system": {
+      "title": "Tilvísunarkerfi",
+      "referral-id": "Tilvísunarauðkenni",
+      "submit": "Senda"
+    }
+  },
+  "tokenimics": {
+    "title": "Táknfræði",
+    "total": "Heildarframboð",
+    "team-reserved": "Varðveitt fyrir teymið",
+    "circulating": "Hringrásarframboð",
+    "billion": "milljarðar",
+    "tokens": "tákn"
   }
 }

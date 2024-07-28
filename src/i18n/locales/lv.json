@@ -194,5 +194,35 @@
       "title": "Mūsu misija",
       "body": "DrugNcoin misija ir veicināt kriptovalūtu masveida ieviešanu, risinot vienu no tās būtiskākajiem šķēršļiem: saistību ar nelegāliem narkotiku darījumiem. Veicinot narkotiku legalizāciju un regulāciju, mūsu mērķis ir mainīt stāstījumu par kriptovalūtām un atvieglot to integrāciju tradicionālajās finanšu sistēmās. Mēs ticam, ka, izmantojot izglītību, advokātu darbu un stratēģiskas partnerības, mēs varam radīt nākotni, kurā kriptovalūtas tiek izmantotas caurspīdīgi un likumīgi, dodot labumu visai sabiedrībai."
     }
+  },
+  "presale": {
+    "title": "Iepriekšpārdošana",
+    "body": "Pievienojieties mūsu iepriekšpārdošanas kārtām un saņemiet savus DrugNcoin žetonus.",
+    "connect-wallet": {
+      "title": "Pievienojiet savu TON maku",
+      "user-friendly-address": "Lietotājam draudzīga adrese",
+      "raw-address": "Neapstrādāta adrese"
+    },
+    "payment": {
+      "title": "Maksājumu Apstrāde",
+      "amount": "Summa (USD)"
+    }
+  },
+  "referral": {
+    "title": "Atsauces Programma",
+    "body": "Aiciniet draugus un nopelniet DrugNcoin žetonus.",
+    "system": {
+      "title": "Atsauces Sistēma",
+      "referral-id": "Atsauces ID",
+      "submit": "Iesniegt"
+    }
+  },
+  "tokenimics": {
+    "title": "Žetonika",
+    "total": "Kopējā Piedāvājums",
+    "team-reserved": "Rezervēts Komandai",
+    "circulating": "Aptuveni Piedāvājums",
+    "billion": "miljardi",
+    "tokens": "žetoni"
   }
 }

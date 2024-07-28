@@ -6,8 +6,8 @@ import FadeInComponent from '../components/FadeInComponent.vue'
   <FadeInComponent>
     <main>
       <section>
-        <h1>Referral Program</h1>
-        <p>Invite friends and earn DrugNcoin tokens.</p>
+        <h1>{{ $t('referral.title') }}</h1>
+        <p>{{ $t('referral.body') }}</p>
         <referral-system></referral-system>
       </section>
     </main>

@@ -194,5 +194,36 @@
       "title": "Our Mission",
       "body": "At DrugNcoin, our mission is to foster the mass adoption of cryptocurrency by addressing one of its most significant barriers: the association with illegal drug transactions. By advocating for the legalization and regulation of drugs, we aim to transform the narrative around cryptocurrencies and pave the way for their integration into mainstream financial systems. We believe that through education, advocacy, and strategic partnerships, we can create a future where cryptocurrencies are used transparently and lawfully, benefiting society as a whole."
     }
+  },
+  "presale": {
+    "title": "Pre-Sale",
+    "body": "Join our pre-sale rounds and get your DrugNcoin tokens.",
+    "connect-wallet": {
+      "title": "Connect your TON wallet",
+      "user-friendly-address": "User-friendly address",
+      "raw-address": "Raw address"
+    },
+    "payment": {
+      "title": "Payment Processing",
+      "amount": "Amount (USD)",
+      "pay": "Pay"
+    }
+  },
+  "referral": {
+    "title": "Referral Program",
+    "body": "Invite friends and earn DrugNcoin tokens.",
+    "system": {
+      "title": "Referral System",
+      "referral-id": "Referral ID",
+      "submit": "Submit"
+    }
+  },
+  "tokenimics": {
+    "title": "Tokenomics",
+    "total": "Total Supply",
+    "team-reserved": "Reserved for Team",
+    "circulating": "Circulating Supply",
+    "billion": "billion",
+    "tokens": "tokens"
   }
 }

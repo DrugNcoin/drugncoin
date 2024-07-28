@@ -2,9 +2,9 @@
   <FadeInComponent>
     <main>
       <section>
-        <h1>Pre-Sale</h1>
-        <p>Join our pre-sale rounds and get your DrugNcoin tokens.</p>
-        <h2>Connect your TON wallet</h2>
+        <h1>{{ $t('presale.title') }}</h1>
+        <p>{{ $t('presale.body') }}</p>
+        <h2>{{ $t('presale.connect-wallet.title') }}</h2>
         <wallet-connection></wallet-connection>
         <payment-processing></payment-processing>
       </section>

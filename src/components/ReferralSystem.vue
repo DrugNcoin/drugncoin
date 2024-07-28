@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h2>Referral System</h2>
+    <h2>{{ $t('referral.system.title') }}</h2>
     <form @submit.prevent="submitReferral">
-      <label for="referralId">Referral ID:</label>
+      <label for="referralId">{{ $t('referral.system.referral-id') }}:</label>
       <input type="text" v-model="referralId" required />
-      <button type="submit">Submit</button>
+      <button type="submit">{{ $t('referral.system.submit') }}</button>
     </form>
   </div>
 </template>

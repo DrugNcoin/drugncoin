@@ -194,5 +194,35 @@
       "title": "Vårt Uppdrag",
       "body": "På DrugNcoin är vårt uppdrag att främja massanvändning av kryptovaluta genom att hantera ett av dess mest betydande hinder: kopplingen till illegala drogtransaktioner. Genom att förespråka legalisering och reglering av droger strävar vi efter att förändra narrativet kring kryptovalutor och bana väg för deras integration i de vanliga finansiella systemen. Vi tror att genom utbildning, förespråkande och strategiska partnerskap kan vi skapa en framtid där kryptovalutor används transparent och lagligt, vilket gynnar samhället som helhet."
     }
+  },
+  "presale": {
+    "title": "Försäljning",
+    "body": "Delta i våra försäljningsrundor och få dina DrugNcoin-tokens.",
+    "connect-wallet": {
+      "title": "Anslut din TON-plånbok",
+      "user-friendly-address": "Användarvänlig adress",
+      "raw-address": "Rå adress"
+    },
+    "payment": {
+      "title": "Betalningshantering",
+      "amount": "Belopp (USD)"
+    }
+  },
+  "referral": {
+    "title": "Referensprogram",
+    "body": "Bjud in vänner och tjäna DrugNcoin-tokens.",
+    "system": {
+      "title": "Referenssystem",
+      "referral-id": "Referens-ID",
+      "submit": "Skicka"
+    }
+  },
+  "tokenimics": {
+    "title": "Tokenomik",
+    "total": "Totalt Utbud",
+    "team-reserved": "Reserverat för Teamet",
+    "circulating": "Cirkulerande Utbud",
+    "billion": "miljarder",
+    "tokens": "tokens"
   }
 }

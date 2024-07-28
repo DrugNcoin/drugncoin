@@ -1,8 +1,8 @@
 <template>
   <div class="wallet-connect-wrapper">
     <TonConnectButton />
-    <div><strong>User-friendly address:</strong> {{ userFriendlyAddress }}</div>
-    <div><strong>Raw address:</strong> {{ rawAddress }}</div>
+    <div><strong>{{ $t('presale.connect-wallet.user-friendly-address') }}:</strong> {{ userFriendlyAddress }}</div>
+    <div><strong>{{ $t('presale.connect-wallet.raw-address') }}:</strong> {{ rawAddress }}</div>
   </div>
 </template>
 

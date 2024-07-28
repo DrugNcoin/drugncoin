@@ -194,5 +194,35 @@
       "title": "Tehtävämme",
       "body": "DrugNcoinissa tehtävämme on edistää kryptovaluutan massiivista käyttöönottoa käsittelemällä yhtä sen merkittävimmistä esteistä: yhteyttä laittomiin huumekauppoihin. Kannattamalla huumeiden laillistamista ja sääntelyä pyrimme muuttamaan kryptovaluuttojen ympärillä olevaa narratiivia ja tasoittamaan tietä niiden integroimiseksi valtavirran talousjärjestelmiin. Uskomme, että koulutuksen, edunvalvonnan ja strategisten kumppanuuksien kautta voimme luoda tulevaisuuden, jossa kryptovaluuttoja käytetään läpinäkyvästi ja laillisesti, hyödyttäen koko yhteiskuntaa."
     }
+  },
+  "presale": {
+    "title": "Ennakkomyynti",
+    "body": "Liity ennakkomyyntikierroksiimme ja hanki DrugNcoin-tokenisi.",
+    "connect-wallet": {
+      "title": "Yhdistä TON-lompakkosi",
+      "user-friendly-address": "Käyttäjäystävällinen osoite",
+      "raw-address": "Raaka osoite"
+    },
+    "payment": {
+      "title": "Maksujen käsittely",
+      "amount": "Määrä (USD)"
+    }
+  },
+  "referral": {
+    "title": "Suositteluohjelma",
+    "body": "Kutsu ystäviä ja ansaitse DrugNcoin-tokeneita.",
+    "system": {
+      "title": "Suosittelujärjestelmä",
+      "referral-id": "Suosittelu-ID",
+      "submit": "Lähetä"
+    }
+  },
+  "tokenimics": {
+    "title": "Tokenomiikka",
+    "total": "Kokonaismäärä",
+    "team-reserved": "Tiimille varattu",
+    "circulating": "Liikkeessä oleva määrä",
+    "billion": "miljardia",
+    "tokens": "tokenia"
   }
 }

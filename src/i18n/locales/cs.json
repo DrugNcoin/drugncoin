@@ -194,5 +194,35 @@
       "title": "Naše mise",
       "body": "Naší misí v DrugNcoin je podporovat masové přijetí kryptoměn tím, že se zaměříme na jednu z nejvýznamnějších překážek: spojení s nelegálními transakcemi s drogami. Prosazováním legalizace a regulace drog se snažíme změnit narativ kolem kryptoměn a usnadnit jejich integraci do hlavních finančních systémů. Věříme, že prostřednictvím vzdělávání, advokacie a strategických partnerství můžeme vytvořit budoucnost, kde jsou kryptoměny používány transparentně a legálně, přinášející prospěch celé společnosti."
     }
+  },
+  "presale": {
+    "title": "Předprodej",
+    "body": "Připojte se k našim předprodejním kolům a získejte své DrugNcoin tokeny.",
+    "connect-wallet": {
+      "title": "Připojte svůj TON peněženku",
+      "user-friendly-address": "Uživatelsky přívětivá adresa",
+      "raw-address": "Surová adresa"
+    },
+    "payment": {
+      "title": "Zpracování platby",
+      "amount": "Částka (USD)"
+    }
+  },
+  "referral": {
+    "title": "Referral Program",
+    "body": "Pozvěte přátele a získejte DrugNcoin tokeny.",
+    "system": {
+      "title": "Referral System",
+      "referral-id": "Referral ID",
+      "submit": "Odeslat"
+    }
+  },
+  "tokenimics": {
+    "title": "Tokenomika",
+    "total": "Celková nabídka",
+    "team-reserved": "Rezervováno pro tým",
+    "circulating": "Cirkulující nabídka",
+    "billion": "miliard",
+    "tokens": "tokenů"
   }
 }
