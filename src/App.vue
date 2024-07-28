@@ -31,8 +31,8 @@ export default {
   },
   setup() {
     const options = {
-      manifestUrl: "https://drugncoin.github.io/drugncoin/tonconnect-manifest.json",
-    };
+      manifestUrl: 'https://drugncoin.github.io/drugncoin/tonconnect-manifest.json'
+    }
     return {
       options
     }

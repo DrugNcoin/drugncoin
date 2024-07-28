@@ -39,6 +39,8 @@
   --shadow-color: hsla(210, 40%, 52%, 0.4);
   --btn-color: hsl(108, 100%, 38%);
   --bg-color: #7c0000;
+
+  --content-section-header-color: #9b3737;
 }
 
 /* TODO: make dark style */

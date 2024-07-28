@@ -7,9 +7,18 @@ import FadeInComponent from '../components/FadeInComponent.vue'
     <main>
       <section>
         <h1>{{ $t('tokenimics.title') }}</h1>
-        <p>{{ $t('tokenimics.total') }}: 100 {{ $t('tokenimics.billion') }} {{ $t('tokenimics.tokens') }}</p>
-        <p>{{ $t('tokenimics.team-reserved') }}: 10 {{ $t('tokenimics.billion') }} {{ $t('tokenimics.tokens') }}</p>
-        <p>{{ $t('tokenimics.circulating') }}: 90 {{ $t('tokenimics.billion') }} {{ $t('tokenimics.tokens') }}</p>
+        <p>
+          {{ $t('tokenimics.total') }}: 100 {{ $t('tokenimics.billion') }}
+          {{ $t('tokenimics.tokens') }}
+        </p>
+        <p>
+          {{ $t('tokenimics.team-reserved') }}: 10 {{ $t('tokenimics.billion') }}
+          {{ $t('tokenimics.tokens') }}
+        </p>
+        <p>
+          {{ $t('tokenimics.circulating') }}: 90 {{ $t('tokenimics.billion') }}
+          {{ $t('tokenimics.tokens') }}
+        </p>
       </section>
     </main>
   </FadeInComponent>

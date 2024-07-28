@@ -17,7 +17,6 @@ import WalletConnection from '../components/WalletConnection.vue'
 import PaymentProcessing from '../components/PaymentProcessing.vue'
 import FadeInComponent from '../components/FadeInComponent.vue'
 
-
 export default {
   name: 'PreSalePage',
   components: {
@@ -27,8 +26,8 @@ export default {
   },
   setup() {
     const options = {
-      manifestUrl: "https://drugncoin.github.io/drugncoin/tonconnect-manifest.json",
-    };
+      manifestUrl: 'https://drugncoin.github.io/drugncoin/tonconnect-manifest.json'
+    }
     return {
       options
     }

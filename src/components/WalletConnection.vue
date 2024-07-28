@@ -1,8 +1,15 @@
 <template>
   <div class="wallet-connect-wrapper">
-    <TonConnectButton />
-    <div><strong>{{ $t('presale.connect-wallet.user-friendly-address') }}:</strong> {{ userFriendlyAddress }}</div>
-    <div><strong>{{ $t('presale.connect-wallet.raw-address') }}:</strong> {{ rawAddress }}</div>
+    <TonConnectButton className="ton-connect-wallet-button" />
+    <div class="address-wrapper">
+      <div>
+        <strong>{{ $t('presale.connect-wallet.user-friendly-address') }}:</strong>
+        {{ userFriendlyAddress }}
+      </div>
+      <div>
+        <strong>{{ $t('presale.connect-wallet.raw-address') }}:</strong> {{ rawAddress }}
+      </div>
+    </div>
   </div>
 </template>
 
@@ -16,8 +23,8 @@ export default {
     TonConnectButton
   },
   setup() {
-    const userFriendlyAddress = useTonAddress();
-    const rawAddress = useTonAddress(false);
+    const userFriendlyAddress = useTonAddress()
+    const rawAddress = useTonAddress(false)
 
     return {
       userFriendlyAddress,
@@ -27,21 +34,47 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .wallet-connect-wrapper {
   word-wrap: break-word;
-  padding: 0 0.5rem;
+
+  .address-wrapper {
+    padding: 0 0.5rem;
+  }
 
   > div {
     margin-top: 1rem;
   }
+
   strong {
     font-weight: bold;
   }
 }
 
+#ton-connect-button {
+  width: 100% !important;
+
+  tc-root > div,
+  tc-root button {
+    width: 100% !important;
+  }
+
+  tc-root button {
+    background-color: #913723;
+    justify-content: center;
+
+    > div {
+      color: white;
+    }
+
+    svg path {
+      fill: white !important;
+    }
+  }
+}
+
 @media (min-width: 1024px) {
-  .wallet-connect-wrapper {
+  .wallet-connect-wrapper .address-wrapper {
     padding: 0 1rem;
   }
 }
