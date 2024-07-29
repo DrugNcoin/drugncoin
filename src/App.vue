@@ -22,7 +22,7 @@ import LanguageSwitcher from '@/components/LanguageSwitcher.vue'
 import { TonConnectUIProvider } from '@townsquarelabs/ui-vue'
 
 export default {
-  name: 'PreSalePage',
+  name: 'App',
   components: {
     HelloWorld,
     NavMenu,

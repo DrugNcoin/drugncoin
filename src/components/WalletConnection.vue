@@ -1,7 +1,7 @@
 <template>
   <div class="wallet-connect-wrapper">
-    <TonConnectButton className="ton-connect-wallet-button" />
-    <div class="address-wrapper">
+    <TonConnectButton className="ton-connect-wallet-button" :styles="{}" />
+    <div v-if="wallet" class="address-wrapper">
       <div>
         <strong>{{ $t('presale.connect-wallet.user-friendly-address') }}:</strong>
         {{ userFriendlyAddress }}
@@ -9,6 +9,10 @@
       <div>
         <strong>{{ $t('presale.connect-wallet.raw-address') }}:</strong> {{ rawAddress }}
       </div>
+    </div>
+    <div v-if="wallet" class="address-wrapper">
+      <div><strong>Connected wallet:</strong> {{ wallet.name }}</div>
+      <div><strong>Device:</strong> {{ wallet.device.appName }}</div>
     </div>
   </div>
 </template>
@@ -21,6 +25,12 @@ export default {
   name: 'WalletConnection',
   components: {
     TonConnectButton
+  },
+  props: {
+    wallet: {
+      type: Object,
+      required: false
+    }
   },
   setup() {
     const userFriendlyAddress = useTonAddress()
@@ -39,10 +49,10 @@ export default {
   word-wrap: break-word;
 
   .address-wrapper {
-    padding: 0 var(--content-section-content-padding-desktop);
+    padding: 0 var(--content-section-content-padding-mobile);
   }
 
-  >div {
+  > div {
     margin-top: 1rem;
   }
 
@@ -54,7 +64,7 @@ export default {
 #ton-connect-button {
   width: 100% !important;
 
-  tc-root>div,
+  tc-root > div,
   tc-root button {
     width: 100% !important;
   }
@@ -63,7 +73,7 @@ export default {
     background-color: #913723;
     justify-content: center;
 
-    >div {
+    > div {
       color: white;
     }
 

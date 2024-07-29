@@ -204,9 +204,10 @@
       "raw-address": "Raw address"
     },
     "payment": {
-      "title": "Payment Processing",
+      "title": "Buy DrugNcoins",
       "amount": "Amount (USD)",
-      "pay": "Pay"
+      "pay": "Pay",
+      "buy": "Buy"
     }
   },
   "referral": {

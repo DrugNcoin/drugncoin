@@ -41,7 +41,7 @@ section h2 {
 
 section p,
 footer p {
-  padding: 0 var(--content-section-content-padding-desktop);
+  padding: 0 var(--content-section-content-padding-mobile);
 }
 
 footer {
@@ -49,6 +49,11 @@ footer {
   p {
     font-weight: bold;
   }
+}
+
+.content-section-h-padding {
+  padding-left: var(--content-section-content-padding-mobile);
+  padding-right: var(--content-section-content-padding-mobile);
 }
 
 .fadeInUp-animation {
@@ -76,5 +81,10 @@ footer {
   section p,
   footer p {
     padding: 0 var(--content-section-content-padding);
+  }
+
+  .content-section-h-padding {
+    padding-left: var(--content-section-content-padding);
+    padding-right: var(--content-section-content-padding);
   }
 }
