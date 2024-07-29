@@ -117,6 +117,10 @@ button {
   overflow: hidden;
 }
 
+button:last-child {
+  margin-right: 0;
+}
+
 button:focus {
   outline-color: transparent;
   box-shadow: var(--btn-color) 2px 2px 22px;
@@ -172,7 +176,7 @@ button .right:hover::after {
   transform: translate(0, -50%) rotate(-7deg);
 }
 
-button .left:hover ~ .right::after {
+button .left:hover~.right::after {
   transform: translate(0, -50%) rotate(7deg);
 }
 
@@ -181,30 +185,24 @@ button::before {
   content: '';
   pointer-events: none;
   opacity: 0.6;
-  background: radial-gradient(
-      circle at 20% 35%,
+  background: radial-gradient(circle at 20% 35%,
       transparent 0,
       transparent 2px,
       var(--text-color) 3px,
       var(--text-color) 4px,
-      transparent 4px
-    ),
-    radial-gradient(
-      circle at 75% 44%,
+      transparent 4px),
+    radial-gradient(circle at 75% 44%,
       transparent 0,
       transparent 2px,
       var(--text-color) 3px,
       var(--text-color) 4px,
-      transparent 4px
-    ),
-    radial-gradient(
-      circle at 46% 52%,
+      transparent 4px),
+    radial-gradient(circle at 46% 52%,
       transparent 0,
       transparent 4px,
       var(--text-color) 5px,
       var(--text-color) 6px,
-      transparent 6px
-    );
+      transparent 6px);
 
   width: 100%;
   height: 300%;
