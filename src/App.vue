@@ -1,5 +1,8 @@
 <template>
   <TonConnectUIProvider :options="options" custom>
+    <div class="presale-progress-wrapper">
+      <PreSaleProgressBar />
+    </div>
     <div class="full-size-column">
       <LanguageSwitcher></LanguageSwitcher>
     </div>
@@ -19,6 +22,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import NavMenu from '@/components/NavMenu.vue'
 import LanguageSwitcher from '@/components/LanguageSwitcher.vue'
+import PreSaleProgressBar from '@/components/PreSaleProgressBar.vue'
 import { TonConnectUIProvider } from '@townsquarelabs/ui-vue'
 
 export default {
@@ -27,6 +31,7 @@ export default {
     HelloWorld,
     NavMenu,
     LanguageSwitcher,
+    PreSaleProgressBar,
     TonConnectUIProvider
   },
   setup() {
@@ -47,6 +52,23 @@ header {
 
 .logo {
   display: none;
+}
+
+.presale-progress-wrapper {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  h2 {
+    flex-shrink: 0;
+    white-space: nowrap;
+    margin-right: 2rem;
+  }
+
+  > div {
+    flex-grow: 1;
+  }
 }
 
 @media (min-width: 1024px) {
