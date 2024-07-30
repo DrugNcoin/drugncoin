@@ -73,6 +73,22 @@
   /* font-weight: normal; -- TODO: check if its needed and why? */
 }
 
+* {
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+}
+
 body {
   min-height: 100vh;
   color: var(--color-text);
