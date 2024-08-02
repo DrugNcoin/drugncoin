@@ -1,0 +1,22 @@
+Prepare please high level design document, which I can use for gpt-engineer (and my dev team) to create source code for my project.
+
+---
+Project name: Avarage price calculator
+Technology to use:
+   - server: Serverless framework configured to deploy to AWS Lambda with NodeJS
+   - frontend: VueJS 3
+   - api: GraphQL
+   - database: mongodb
+Description:
+Application for calculating avarage price for cryptocurrent tokens.
+System allows to add entries about token buys and sells (buy/sell, amount of tokens, amount of dollars spent/received, datatime)
+System allows to import information about selected tokens from markets like Binance, ByBit, others (pluggable system): user selects token name and start date. system reads order history and saves it locally in mongodb database (in separate table or field, not mixing it with manual entries).
+user must sync this data manually (clicking on sync button - it will reimport information from binance/bybit/etc).
+
+When create this document please provide for me solution and describe it in details how to calculate avarage price. It must take into consideration price of buying and amount of buying. And also it must take into consideration amount of tokens, that were sold and price of sell.
+Think of the structure of how all information for my system should be presented in the mongo database. Propose solution and describe it.
+For example, if user buys DOT for 10USD per dot on 100USD (10 DOT in total), and then it sells 5 DOT with price 20USD per DOT, it means DOT avarage price now is zero - this token is free now in user portfolio.
+
+End goal is to show to user for each of the token a minimal price, that he must sell this token to be in profit. Token price can go lower then 0, in this case tell user, that this token is free.
+
+Solution document must describe very profession hight quality system, which is extensible and written with best practices in mind.
