@@ -1,0 +1,160 @@
+# High-Level Design Document for Average Price Calculator
+
+## Project Overview
+The Average Price Calculator application is designed to calculate the average price for cryptocurrency tokens. It allows users to add entries for token buys and sells, import transaction data from various cryptocurrency exchanges, and sync this data manually. The system is built using a Serverless framework for deployment to AWS Lambda, NodeJS for the server-side logic, VueJS 3 for the frontend, GraphQL for the API, and MongoDB as the database.
+
+## Technology Stack
+- **Server:** Serverless framework configured to deploy to AWS Lambda with NodeJS
+- **Frontend:** VueJS 3
+- **API:** GraphQL
+- **Database:** MongoDB
+
+## System Components
+1. **Frontend (VueJS 3):**
+   - User Interface for inputting transaction data (buy/sell, amount of tokens, amount of dollars, datetime)
+   - Dashboard to display token information and calculated average prices
+   - Sync button to manually import data from selected exchanges
+
+2. **API (GraphQL):**
+   - API endpoints for CRUD operations on transactions
+   - API endpoints for importing and syncing data from exchanges
+   - API endpoints for calculating and retrieving average prices
+
+3. **Server (NodeJS):**
+   - Business logic for handling transactions and calculating average prices
+   - Integration with exchange APIs for importing transaction data
+
+4. **Database (MongoDB):**
+   - Storage for transaction data
+   - Storage for imported data from exchanges
+
+## Detailed Solution
+
+### Data Model
+#### MongoDB Collections
+1. **Users:**
+   - `userId` (String, Primary Key)
+   - `email` (String)
+   - `password` (String, hashed)
+   - `createdAt` (Date)
+   - `updatedAt` (Date)
+
+2. **Transactions:**
+   - `transactionId` (String, Primary Key)
+   - `userId` (String, Foreign Key)
+   - `type` (String, Enum: 'buy', 'sell')
+   - `token` (String)
+   - `amount` (Number)
+   - `price` (Number)
+   - `datetime` (Date)
+   - `source` (String, Enum: 'manual', 'imported')
+   - `createdAt` (Date)
+   - `updatedAt` (Date)
+
+3. **ImportedData:**
+   - `importId` (String, Primary Key)
+   - `userId` (String, Foreign Key)
+   - `exchange` (String)
+   - `token` (String)
+   - `startDate` (Date)
+   - `data` (Array of Objects: [{ `type`, `amount`, `price`, `datetime` }])
+   - `createdAt` (Date)
+   - `updatedAt` (Date)
+
+### Business Logic
+
+#### Average Price Calculation
+The average price calculation takes into account both buy and sell transactions. The formula to calculate the average price of the remaining tokens is as follows:
+
+1. **Initial State:**
+   - `totalTokens = 0`
+   - `totalSpent = 0`
+
+2. **For each buy transaction:**
+   - `totalTokens += amount`
+   - `totalSpent += amount * price`
+
+3. **For each sell transaction:**
+   - Calculate `sellProceeds = amount * price`
+   - Adjust `totalTokens` and `totalSpent` as follows:
+     - If `totalTokens >= amount`:
+       - `totalSpent -= (amount / totalTokens) * totalSpent`
+       - `totalTokens -= amount`
+     - If `totalTokens < amount`:
+       - All tokens are effectively free (handled in edge case logic)
+
+4. **Edge Case Logic:**
+   - If `totalTokens <= 0`, set `averagePrice = 0` (tokens are free)
+
+5. **Average Price Calculation:**
+   - `averagePrice = totalSpent / totalTokens`
+
+#### Example Calculation:
+- **Buy 10 DOT for $10 each:** 
+  - `totalTokens = 10`
+  - `totalSpent = $100`
+  - `averagePrice = $100 / 10 = $10`
+
+- **Sell 5 DOT for $20 each:** 
+  - `sellProceeds = 5 * $20 = $100`
+  - Adjust `totalSpent` and `totalTokens`:
+    - `totalSpent -= (5 / 10) * $100 = $50`
+    - `totalTokens = 10 - 5 = 5`
+  - `averagePrice = $50 / 5 = $10`
+  - Tokens are free (`averagePrice = 0`)
+
+### API Endpoints (GraphQL)
+1. **User Management:**
+   - `createUser(email: String, password: String): User`
+   - `login(email: String, password: String): AuthPayload`
+   - `updateUser(email: String, password: String): User`
+
+2. **Transaction Management:**
+   - `addTransaction(userId: String, type: String, token: String, amount: Number, price: Number, datetime: Date): Transaction`
+   - `updateTransaction(transactionId: String, type: String, token: String, amount: Number, price: Number, datetime: Date): Transaction`
+   - `deleteTransaction(transactionId: String): Boolean`
+   - `getTransactions(userId: String, token: String): [Transaction]`
+
+3. **Data Import:**
+   - `importData(userId: String, exchange: String, token: String, startDate: Date): ImportStatus`
+   - `syncData(userId: String, exchange: String, token: String): SyncStatus`
+   - `getImportedData(userId: String, token: String): [ImportedData]`
+
+4. **Price Calculation:**
+   - `calculateAveragePrice(userId: String, token: String): AveragePriceResult`
+
+### Frontend Components (VueJS 3)
+1. **Authentication Components:**
+   - LoginForm.vue
+   - RegisterForm.vue
+
+2. **Transaction Components:**
+   - AddTransactionForm.vue
+   - TransactionList.vue
+   - SyncButton.vue
+
+3. **Dashboard Components:**
+   - TokenDashboard.vue
+   - AveragePriceDisplay.vue
+
+### Best Practices
+1. **Modular Architecture:**
+   - Use a modular approach to separate concerns (e.g., authentication, transaction management, data import, price calculation).
+
+2. **Error Handling:**
+   - Implement comprehensive error handling at both the API and frontend levels.
+
+3. **Security:**
+   - Use hashed passwords and secure authentication mechanisms.
+   - Validate and sanitize all inputs.
+
+4. **Performance Optimization:**
+   - Use indexing in MongoDB for fast retrieval of transaction and user data.
+   - Optimize API calls to minimize latency.
+
+5. **Scalability:**
+   - Design the system to handle a large number of transactions and users.
+   - Ensure the Serverless framework is configured for auto-scaling.
+
+## Conclusion
+This high-level design document provides a detailed overview of the Average Price Calculator project. It outlines the system components, data model, business logic, API endpoints, and frontend components. The proposed solution is designed to be extensible, secure, and efficient, following best practices in software development.
